@@ -6,10 +6,11 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-> > Mission Statement  
-> > Our organization seeks to level up on all matters related.
+> Mission Statement: Our organization seeks to level up on all matters
+> related.  
+> – An Organization Run by its Marketing Department
 
-## Background: AI roams the World
+## Background: An AI roams the University
 
 On November 30, 2022, OpenAI released what has become its flagship
 product, [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT), a chatbot
@@ -70,7 +71,8 @@ other tools that it requires a pan-university consultation on an
 AI to ensure a responsible and beneficial integration where it makes
 sense*”?
 
-- Where does it make sense?
+- Where does it make sense? Presumably this is what the Committee on AI
+  will try to answer.
 
 To understand why many organizations, including McMaster University,
 have decided to spend considerable resources considering the adoption
@@ -83,7 +85,7 @@ part of the core mission of the organization)?
 More generally, we must be alert to the fact that technologies are never
 politically neutral: it is important to ask two questions:
 
-- what does a technology do for whom?
+- What does technology X do for whom?
 
 - And what does it do to whom?
 
@@ -151,6 +153,18 @@ of training GenAIs.
 
 ## What do GenAI tools do to students at McMaster?
 
+## Not learning
+
+Words go here.
+
+## Learning the wrong stuff
+
+Words go here.
+
+## Deskilling
+
+Words go here.
+
 ### Persistence of skills (how long will learning to use a chatbot be useful?)
 
 How useful will be AIs in the future? Think of model poisoning, and the
@@ -167,15 +181,25 @@ de-duplication becomes increasingly challenging.
 
     #> `geom_smooth()` using formula = 'y ~ x'
 
-<figure>
-<img src="README_files/figure-gfm/plot-simulated-data-1.png"
-alt="Simple Example of a Regression Model" />
-<figcaption aria-hidden="true">Simple Example of a Regression
-Model</figcaption>
-</figure>
+<div class="figure">
 
-Predict: ![Training data and model output
-compared](README_files/figure-gfm/data-vs-predictions-comparison-1.png)
+<img src="README_files/figure-gfm/plot-simulated-data-1.png" alt="Simple Example of a Regression Model" width="50%" />
+<p class="caption">
+Simple Example of a Regression Model
+</p>
+
+</div>
+
+Predict:
+
+<div class="figure">
+
+<img src="README_files/figure-gfm/data-vs-predictions-comparison-1.png" alt="Training data and model output compared" width="50%" />
+<p class="caption">
+Training data and model output compared
+</p>
+
+</div>
 
     #> # A tibble: 2 × 2
     #>   type          variance
@@ -184,6 +208,8 @@ compared](README_files/figure-gfm/data-vs-predictions-comparison-1.png)
     #> 2 training data     21.3
 
 ## What do GenAIs do for the mega-corporations pushing these tools?
+
+Words go here.
 
 ## What do GenAIs to to everyone else?
 
@@ -214,28 +240,30 @@ Microsoft: Here’s how burning the planet will help to save it.
 <https://blogs.microsoft.com/on-the-issues/2023/11/16/accelerating-sustainability-ai-playbook/>
 (Nakagawa 2023)
 
-ChatGPT consumes substantially more than a search…are the results
-better?
+ChatGPT consumes substantially more energy than a regular web search…are
+the results better?
 (**https://www.brusselstimes.com/1042696/chatgpt-consumes-25-times-more-energy-than-google?**)
 
 Compare the results:
 
 <figure>
-<img src="images/logical-puzzle-web-search.png"
+<img src="images/logical-puzzle-web-search.png" style="width:50.0%"
 alt="A search using Duck Duck Go" />
 <figcaption aria-hidden="true">A search using Duck Duck Go</figcaption>
 </figure>
 
 <figure>
-<img src="images/logical-puzzle-chat-gpt-4.png"
+<img src="images/logical-puzzle-chat-gpt-4.png" style="width:50.0%"
 alt="A conversation with ChatGPT-4" />
 <figcaption aria-hidden="true">A conversation with
 ChatGPT-4</figcaption>
 </figure>
 
+<https://assemblag.es/@hugo/112450401657084750>
+
 <!--
-&#10;<iframe src="https://assemblag.es/@hugo/112450401657084750/embed" width="400" allowfullscreen="allowfullscreen" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
-&#10;https://assemblag.es/@hugo/112450401657084750 -->
+<iframe src="https://assemblag.es/@hugo/112450401657084750/embed" width="400" allowfullscreen="allowfullscreen" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
+ -->
 
 ### Replication of unjust structures of power
 
@@ -290,12 +318,12 @@ replace the open encyclopedia with a home-grown version without all the
 bits that the current regime finds objectionable (Corfield 2023;
 Jankowicz 2023).
 
-> “The first step in liquidating a people,’ said Hubl, ’is to erase its
+> The first step in liquidating a people,’ said Hubl, ’is to erase its
 > memory. Destroy its books, its culture, its history. Then have
 > somebody write new books, manufacture a new culture, invent a new
 > history. Before long the nation will begin to forget what it is and
-> what it was. The world around it will forget even faster.” -― Milan
-> Kundera, The Book of Laughter and Forgetting
+> what it was. The world around it will forget even faster.  
+> -― Milan Kundera, The Book of Laughter and Forgetting
 
 Potential for weaponization of GenAI. **Farfetched (?) idea** Could it
 be that GenAI will be at some point declared a military-grade technology

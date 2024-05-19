@@ -25,10 +25,10 @@ library(ggplot2)
 
 <!-- badges: end -->
 
->> Mission Statement  
->> Our organization seeks to level up on all matters related.
+> Mission Statement: Our organization seeks to level up on all matters related.  
+> -- An Organization Run by its Marketing Department
 
-## Background: AI roams the World
+## Background: An AI roams the University
 
 On November 30, 2022, OpenAI released what has become its flagship product, [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT), a chatbot based on [Large Language Models] that mimics natural language. The launch of the chatbot was an impressive feat of marketing [@cowen_chatgpt_2023], and was rapidly panned as "the best artificial intelligence chatbot ever released to the general public" [@roose_brilliance_2023], and able to generate "impressively detailed" and "human-like" text [@lock_what_2022].
 
@@ -55,13 +55,13 @@ According to the announcement of the AI Committee:
 
 Hammers are powerful tools, sometimes even to conduct research or to teach. Word processors are powerful tools. What makes AI different from other tools that it requires a pan-university consultation on an "_ethical approach to shaping policies and developing new ways of using AI to ensure a responsible and beneficial integration where it makes sense_"?
 
-- Where does it make sense?
+- Where does it make sense? Presumably this is what the Committee on AI will try to answer.
 
 To understand why many organizations, including McMaster University, have decided to spend considerable resources considering the adoption and responsible use of AI, it is essential to have a working understanding of what AI does differently from other tools. We also need to understand what are the goals of the organization. When does it make sense for a university like McMaster to "integrate" AI (pressumably as part of the core mission of the organization)?
 
 More generally, we must be alert to the fact that technologies are never politically neutral: it is important to ask two questions:
 
-- what does a technology do for whom?
+- What does technology X do for whom?
 
 - And what does it do to whom?
 
@@ -115,6 +115,18 @@ Behind all the jargon, neural networks (LLMs are neural networks) are regression
 
 ## What do GenAI tools do to students at McMaster?
 
+## Not learning
+
+Words go here.
+
+## Learning the wrong stuff
+
+Words go here.
+
+## Deskilling
+
+Words go here.
+
 ### Persistence of skills (how long will learning to use a chatbot be useful?)
 
 How useful will be AIs in the future? Think of model poisoning, and the possibility that we are going to see (or may already have seen) Peak ChatGPT.
@@ -141,7 +153,7 @@ mod <- lm(y ~ x,
           data = df)
 ```
 
-```{r plot-simulated-data, fig.cap="Simple Example of a Regression Model"}
+```{r plot-simulated-data, out.width="50%", fig.cap="Simple Example of a Regression Model"}
 ggplot(df,
        aes(x = x,
            y = y)) +
@@ -151,7 +163,7 @@ ggplot(df,
 ```
 
 Predict:
-```{r data-vs-predictions-comparison, fig.cap="Training data and model output compared"}
+```{r data-vs-predictions-comparison, out.width="50%", fig.cap="Training data and model output compared"}
 df_pred <- data.frame(x = b1 * runif(100, 
                                 0, 
                                 10))
@@ -184,6 +196,8 @@ df_pred |>
 
 ## What do GenAIs do for the mega-corporations pushing these tools?
 
+Words go here.
+
 ## What do GenAIs to to everyone else?
 
 ### Use of materials on the web
@@ -202,19 +216,19 @@ https://blogs.microsoft.com/on-the-issues/2024/05/15/microsoft-environmental-sus
 
 https://blogs.microsoft.com/on-the-issues/2023/11/16/accelerating-sustainability-ai-playbook/ [@nakagawa_accelerating_2023]
 
-ChatGPT consumes substantially more than a search...are the results better? [@https://www.brusselstimes.com/1042696/chatgpt-consumes-25-times-more-energy-than-google]
+ChatGPT consumes substantially more energy than a regular web search...are the results better? [@https://www.brusselstimes.com/1042696/chatgpt-consumes-25-times-more-energy-than-google]
 
 Compare the results:
 
-![A search using Duck Duck Go](images/logical-puzzle-web-search.png)
+![A search using Duck Duck Go](images/logical-puzzle-web-search.png){width=50%}
 
-![A conversation with ChatGPT-4](images/logical-puzzle-chat-gpt-4.png)
+![A conversation with ChatGPT-4](images/logical-puzzle-chat-gpt-4.png){width=50%}  
+
+https://assemblag.es/@hugo/112450401657084750
 
 <!--
-
 <iframe src="https://assemblag.es/@hugo/112450401657084750/embed" width="400" allowfullscreen="allowfullscreen" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
-
-https://assemblag.es/@hugo/112450401657084750 -->
+ -->
 
 ### Replication of unjust structures of power
 
@@ -244,8 +258,8 @@ Are GenAI reality-warping machines? Think about the small and large ways in whic
 
 **NOTE** Russia copied millions of articles from wikipedia wholesale, to replace the open encyclopedia with a home-grown version without all the bits that the current regime finds objectionable [@corfield_russia_2023; @jankowicz_russia_2023].
 
-> “The first step in liquidating a people,' said Hubl, 'is to erase its memory. Destroy its books, its culture, its history. Then have somebody write new books, manufacture a new culture, invent a new history. Before long the nation will begin to forget what it is and what it was. The world around it will forget even faster.”
-> -― Milan Kundera, The Book of Laughter and Forgetting
+>The first step in liquidating a people,' said Hubl, 'is to erase its memory. Destroy its books, its culture, its history. Then have somebody write new books, manufacture a new culture, invent a new history. Before long the nation will begin to forget what it is and what it was. The world around it will forget even faster.  
+>-― Milan Kundera, The Book of Laughter and Forgetting
 
 Potential for weaponization of GenAI. **Farfetched (?) idea** Could it be that GenAI will be at some point declared a military-grade technology with restricted applications?
 
