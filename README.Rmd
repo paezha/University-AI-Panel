@@ -18,7 +18,6 @@ library(dplyr)
 library(ggplot2)
 ```
 
-
 # Use of AI in Teaching and Learning: Some Considerations
 
 <!-- badges: start -->
@@ -28,13 +27,17 @@ library(ggplot2)
 > Mission Statement: Our organization seeks to level up on all matters related.  
 > -- An Organization Run by its Marketing Department
 
-## Background: An AI roams the University
+By: Antonio Paez
+
+All opinions expressed here are mine and do not necessarily represent those of my employer(s).
+
+## Background: An AI is Haunting Campus^[Karl Marx wrote that "A spectre is haunting Europe--the spectre of communism"; in this case, AI is the shade of another spectre, that of unregulated surveillance capitalism.]
 
 On November 30, 2022, OpenAI released what has become its flagship product, [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT), a chatbot based on [Large Language Models] that mimics natural language. The launch of the chatbot was an impressive feat of marketing [@cowen_chatgpt_2023], and was rapidly panned as "the best artificial intelligence chatbot ever released to the general public" [@roose_brilliance_2023], and able to generate "impressively detailed" and "human-like" text [@lock_what_2022].
 
 <!--impressive feat of marketing: think about what it does well, what it does poorly, and how the user interface is essential to obscure its uselessness.-->
 
-Universities have had to respond in a compressed time period to the release of generative AI tools by a handful of large American corporations, notoriously [Meta](https://en.wikipedia.org/wiki/Meta_Platforms) (or were we to deadname it, facebook), [OpenAI](https://en.wikipedia.org/wiki/OpenAI), [Google](https://en.wikipedia.org/wiki/Alphabet_Inc.), and [Microsoft](https://en.wikipedia.org/wiki/Microsoft).
+Universities have had to respond in a compressed span of time to the release of generative AI tools by a handful of large American corporations, notoriously [Meta](https://en.wikipedia.org/wiki/Meta_Platforms) (or were we to deadname it, facebook), [OpenAI](https://en.wikipedia.org/wiki/OpenAI), [Google](https://en.wikipedia.org/wiki/Alphabet_Inc.), and [Microsoft](https://en.wikipedia.org/wiki/Microsoft).
 
 McMaster developed a set of provisional guidelines (when where they developed and released? It is possible that this was done as a relatively urgent matter). These [guidelines](https://provost.mcmaster.ca/office-of-the-provost-2/generative-artificial-intelligence-2/generative-ai-for-staff/provisional-guidelines-on-the-use-of-generative-ai-in-operational-excellence/) where released under a Creative Commons Licence and have since inspired those of other post-secondary institutions including Trent University [-@trent_university_generative_2024] and University of Guelph [-@office_of_teaching_and_learning_provisional_2023].
 
@@ -188,6 +191,7 @@ ggplot() +
   theme_minimal()
 ```
 
+The variance of the model's output is substantially reduced: the output will, of necessity, be less varied, less diverse, and more norm-conforming:
 ```{r data-vs-prediction-variance}
 df_pred |> 
   group_by(type) |> 
@@ -204,9 +208,33 @@ Words go here.
 
 In relation to the points above (GenAIs require vast amounts of _human-generated_ data to ensure that there is sufficient variability for the model to train) - (Models trained )
 
-### Copyright issues
+### Copyright (and privacy) issues
 
-LLM are known to regurgitate verbatim chunks of the training datasets. This is called _memorization_, another choice of words that tends to antropomorphize what is essentially a statistical model. Memorization, in fact, is just a fancy way of saying "model overfitting"--in other words, an extreme regression to the mean that excels at predicting data in the training set, but is poor at projecting new data points. This issue can be as high 7% in the cases of some LLMs [@peng_near_duplicate_2023, p. 8].
+LLM are known to regurgitate verbatim chunks of the training datasets. This is called _memorization_, a word that contributes to antropomorphize what is essentially a statistical model. Memorization, in fact, is just a fancy way of saying "model overfitting"--in other words, an extreme regression to the mean that excels at predicting data in the training set, but is poor at projecting new data points. Overfitting happens when a model with too many parameters is fitted to a relatively small data set (Models have [billions of parameters](https://en.wikipedia.org/wiki/Large_language_model#Training_cost) and are trained on [billions of pages of text](https://www.ibm.com/topics/large-language-models])). Data memorization--the verbatim or quasi-verbatim output of training data--can be as high as 7% in the case of some LLMs [@peng_near_duplicate_2023, p. 8].
+
+Where will new data come from? [@murgia_why_2023]
+
+Note how several organizations have responded to the AIfication of all the things: by banning it. The concerns cited are seldom ethical or moral, but mostly about the risk of sensitive information leaking. As LLMs begin to be increasingly trained on model-produce data, overfitting (or memorization) can become a larger risk.
+
+And this is just a result of using an overfitted model. What about data leaks? Some stories regarding Microsoft's security track record:
+
+https://www.theregister.com/2024/04/12/microsoft_cisa_order/
+
+https://techreport.com/news/microsoft-azure-hit-with-the-largest-data-breach-in-its-history-hundreds-of-executive-accounts-compromised/
+
+Also, how confident can the public be about assurances that a big tech corporation will not data mine and commercialize data by the companies that sell the services of LLMs? Microsoft is so big that it can stand up to the US government:
+
+https://www.theregister.com/2024/04/05/microsoft_government_contracts/
+
+<!-- "Nice operation you have there...be a shame if your systems stopped working all of a sudden."-->
+
+Organization ranging from Free Open Source projects to elements of the federal government in the United States have limited/restricted the use of AI.
+
+NetBSD (a project that produces a free, Unix-like Open Source operating system) states in its commit guidelines (contributions to code) that "[c]ode generated by a large language model or similar technology...is presumed to be tainted code, and must not be committed without prior written approval by core." [@netbsd_netbsd_nodate].
+
+The National Archives and Records Administration (USA) bans use of ChatGPT [@koebler_national_2024]
+
+US Congress bans use of ChatGPT and Copilot for staff [@singh_after_2024]. This article also note how companies like Samsung and Apple have restricted the use of chatbots citing concerns with data security.
 
 ### Environmental impacts
 
@@ -216,7 +244,7 @@ https://blogs.microsoft.com/on-the-issues/2024/05/15/microsoft-environmental-sus
 
 https://blogs.microsoft.com/on-the-issues/2023/11/16/accelerating-sustainability-ai-playbook/ [@nakagawa_accelerating_2023]
 
-ChatGPT consumes substantially more energy than a regular web search...are the results better? [@https://www.brusselstimes.com/1042696/chatgpt-consumes-25-times-more-energy-than-google]
+ChatGPT consumes substantially more energy than a regular web search...are the results better? [https://www.brusselstimes.com/1042696/chatgpt-consumes-25-times-more-energy-than-google]
 
 Compare the results:
 
@@ -229,6 +257,8 @@ https://assemblag.es/@hugo/112450401657084750
 <!--
 <iframe src="https://assemblag.es/@hugo/112450401657084750/embed" width="400" allowfullscreen="allowfullscreen" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
  -->
+ 
+This problem may seem trivial, even amusing in the case above. But what when an AI replicates the both-sides perspective of much of the media when trying to learn about an existential crisis like climate changes? [@gordon_multiple_2024]. Or when trying to obtain accurate voting information in the context of voter supression? [@angwin_seeking_2024]
 
 ### Replication of unjust structures of power
 
@@ -236,21 +266,27 @@ When using a Generative AI we must ask whose perspectives that tool represents.
 
 ## As an aside
 
-On antropomorphizing GenAI tools. This happens in ways that are barely perceptively. For example, in the document "Overview of AI at McMaster" we read that GenAI's somehow have an "ability to engage in nuanced conversation". This phrasing could be simply a literary device, but even so is indicative of a tendency to ascribe human attributes to a statistical model. Doing this carelessly risks amplifying existing biases. The effort to wrap a statistical model in a human-like skin may actually be more devious, as in the new, sexy ChatGPT interface:
+On antropomorphizing GenAI tools. This happens mostly in ways that are barely liminal. For example, in the document "Overview of AI at McMaster" we read that GenAI's somehow have an "ability to engage in nuanced conversation". This phrasing could be simply a literary device, but even so is indicative of a tendency to ascribe human attributes to a statistical model. Doing this carelessly risks amplifying existing biases. But in other cases, the effort is more blatant. Wrapping a statistical model in a human-like skin may actually be more devious, as in the new, sexy ChatGPT interface:
 
 <video width="320" height="240" controls>
 <source src="video/open-ai-commercial.mp4" type="video/mp4">
 </video>
 
-**NOTES:** Need to research more the argument that UX is so important in the case of these tools because what they do well is trivial and what they do poorly is what is being hyped.
+**NOTES:** Need to research more the argument that the interface is so important in the case of these tools because what they do well is trivial and what they do poorly is what is being hyped. Found the article [@farrugia_known_2024]; see here: https://fasterandworse.com/known-purpose-and-trusted-potential/ 
 
 ## Concluding remarks
 
-ChatGPT was an awesome feat of marketing [@cowen_chatgpt_2023], but much coverage of the relevant issues in the media has been so credulous it has stretched credulity past Pluto [@burneko_if_2024]^[Bob woodward said "journalism is not stenography" [@hiskes_woodward_2007], but it is difficult to see what else writing like Roose's [-@roose_is_2024] could be called.]. There are now calls to press pause on the hype [@angwin_opinion_2024] but these are still drown by the credulous coverage.
+ChatGPT was an awesome feat of marketing [@cowen_chatgpt_2023], but much coverage of the relevant issues in the media has been so credulous it has stretched credulity past Pluto [@burneko_if_2024]^[Bob Woodward said "journalism is not stenography" [@hiskes_woodward_2007], but it is difficult to see what else writing like Roose's [-@roose_is_2024] could be called.]. There are now calls to press pause on the hype [@angwin_press_2024] but these are still drown by the credulous coverage.
 
-I suggest that universities should avoid the mistakes of the media.
+I suggest that universities should avoid the mistakes of the media, an industry that has innovated itself [out of the trust of the public](https://reutersinstitute.politics.ox.ac.uk/news/julia-angwin-fears-public-sphere-about-get-worse-ai-makes-it-easier-flood-zone-misinformation) (also see the "pivot-to-video" and how tech companies suckered many media companies, including ).
 
-Why? The reputational risk...universities are under siege from unsympathetic or actively hostile actors. Universities main source of power is their reputation as places that preserve and expand knowledge in a principled way. "This university uses ChatGPT" is a way to say that the university is redundant...an organization as expensive as an instution of higher-education is not needed to create spam and dissinformation.
+Why? The reputational risk...universities are under siege from unsympathetic or actively hostile actors. Universities main source of power is their reputation as places that preserve and expand knowledge in a principled way. "This university uses ChatGPT" is a way to say that the university is redundant...an organization as expensive as an instution of higher-education is not needed to create spam and misinformation.
+
+"McMaster is best known for our pioneering work in problem-based learning, which began in our medical school in 1969 and has been adopted across the world." https://provost.mcmaster.ca/teaching-learning/
+
+Do we really want to be best known in 40 years as "McMaster, the institution that pioneered the use of ChatGPT"?
+
+Recall that [regression to the mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean) is also called "reversion to mediocrity" [@barnett_regression_2017].
 
 ## Loose thoughts
 
