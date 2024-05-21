@@ -12,43 +12,77 @@
 
 By: Antonio Paez
 
-All opinions expressed here are mine and do not necessarily represent
-those of my employer(s).
+Disclaimner: *All opinions expressed here are mine and do not
+necessarily represent those of my employer(s)*.
 
 ## Background: An AI is Haunting Campus[^1]
 
 On November 30, 2022, OpenAI released what has become its flagship
 product, [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT), a chatbot
-based on \[Large Language Models\] that mimics natural language. The
-launch of the chatbot was an impressive feat of marketing (Cowen 2023),
-and was rapidly panned as “the best artificial intelligence chatbot ever
-released to the general public” (Roose 2023), and able to generate
-“impressively detailed” and “human-like” text (Lock 2022).
+based on [Large Language
+Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs)
+designed and trained to mimic natural language. The launch of the
+chatbot was an impressive feat of marketing (Cowen 2023), and it took
+less than two weeks for the hype to reach stratospheric levels: by early
+December, ChatGPT was being panned as “the best artificial intelligence
+chatbot ever released to the general public” (Roose 2023), and a tool
+able to generate “impressively detailed” and “human-like” text, leading
+some to wonder whether it could “replace humans” (Lock 2022).
 
-<!--impressive feat of marketing: think about what it does well, what it does poorly, and how the user interface is essential to obscure its uselessness.-->
-
-Universities have had to respond in a compressed span of time to the
-release of generative AI tools by a handful of large American
-corporations, notoriously
+Universities, much like every other organization dealing with
+information, have had to respond in a compressed span of time to the
+rapid release of generative AI (GenAI) tools, particularly those by a
+handful of large American corporations including
 [Meta](https://en.wikipedia.org/wiki/Meta_Platforms) (or were we to
 deadname it, facebook), [OpenAI](https://en.wikipedia.org/wiki/OpenAI),
 [Google](https://en.wikipedia.org/wiki/Alphabet_Inc.), and
 [Microsoft](https://en.wikipedia.org/wiki/Microsoft).
 
-McMaster developed a set of provisional guidelines (when where they
-developed and released? It is possible that this was done as a
-relatively urgent matter). These
+The release of GenAIs to the masses was accompanied by numerous lofty
+promises, mostly by entities that had a stake in their adoption.
+
+The public was promised that GenAI would “accelerate sustainability”
+(Nakagawa 2023); that LLMs would transform sectors as diverse as health
+care, finance, human resources, insurance, “and beyond” by “automating
+customer self-service, accelerating response times on an increasing
+number of tasks as well as providing greater accuracy, enhanced routing
+and intelligent context gathering” ({IBM} 2023); that AI-powered
+self-driving cars would reduce accidents, car ownership, reduce
+pollution and noise, automate logistics, and make parking tickets
+obsolete, if artificial intelligence company Allerin[^2] is to be
+believed (Joshi 2022; Garsten 2024). The list of promises has grown to
+encompass pretty much everything, from saving the planet all the way to
+micromanaging intimate facets of individual lives, for example by
+revolutionizing dating through the use of chatbots to help “people
+connect and find potential partners” (who presumably are also using
+chatbots) (Khalatian 2023).
+
+Higher-education was not spared the onslaught of promises.
+
+Hié and Thouary (2023)
+
+Power (2024)
+
+It seemed inevitable that universities *had to do something* in the face
+of all this innovative and perhaps only slightly scary technology.
+
+In response to the rapid, and disruptive, release of tools that were
+announced in revolutionary terms, McMaster developed a set of
+provisional
 [guidelines](https://provost.mcmaster.ca/office-of-the-provost-2/generative-artificial-intelligence-2/generative-ai-for-staff/provisional-guidelines-on-the-use-of-generative-ai-in-operational-excellence/)
-where released under a Creative Commons Licence and have since inspired
-those of other post-secondary institutions including Trent University
-(2024) and University of Guelph (2023).
+(when where they developed and released? It is possible that this was
+done as a relatively urgent matter) to inform the university community
+about the use of AI in “operational excellence”. These guidelines where
+released under a Creative Commons Licence and have since inspired those
+of other post-secondary institutions in Canada, including Trent
+University (2024) and the University of Guelph (2023).
 
 There is now an effort underway to update the preliminary guidelines (to
-make the permanent?) McMaster [launched a
-committee](#ai-committee-announced) to explore the use of AI across
-campus. This committee is composed of three sub-committees that examine
-the use of AI in 1) teaching and learning, 2) research, and 3)
-operational excellence in \[our work\] (the Provost’s words)(probably
+make them permanent?) and McMaster, via the Office of the Provost,
+[launched a committee](#ai-committee-announced) to explore the use of AI
+across campus. This committee is composed of three sub-committees that
+examine the use of AI in 1) teaching and learning, 2) research, and 3)
+operational excellence in “our work” (the Provost’s words)(probably
 meaning the university’s work; not sure if the Provost themself uses
 AI).
 
@@ -69,15 +103,20 @@ According to the announcement of the AI Committee:
 > important role to play in its adoption.  
 > – Susan Tighe, Provost, McMaster University
 
-Hammers are powerful tools, sometimes even to conduct research or to
-teach. Word processors are powerful tools. What makes AI different from
-other tools that it requires a pan-university consultation on an
-“*ethical approach to shaping policies and developing new ways of using
-AI to ensure a responsible and beneficial integration where it makes
-sense*”?
+Acknowledging that AI are powerful tools, right off the bat, is in line
+with the hype observed so far. Hammers are powerful tools. Word
+processors are powerful tools. Lasers are powerful tools. And yet we do
+not have a high-level committee for each of them. What makes AI
+different from other tools that it requires a pan-university
+consultation on an “*ethical approach to shaping policies and developing
+new ways of using AI to ensure a responsible and beneficial integration
+where it makes sense*”?
 
-- Where does it make sense? Presumably this is what the Committee on AI
-  will try to answer.
+The last statement carries a lot of weight here: where does adoption of
+AI make sense? Presumably this is what the Committee on AI will try to
+answer.
+
+<!--As I argue here, AI does not make a lot of sense outside of some limited applications that are nowhere near the scope of the promises of the merchants of hype.-->
 
 To understand why many organizations, including McMaster University,
 have decided to spend considerable resources considering the adoption
@@ -118,12 +157,13 @@ From the Overview on Generative AI document:
 ## What are LLMs?
 
 To understand why many organizations have decided to spend considerable
-resources considering the adoption and responsible use of AI, it is
+resources considering the adoption and responsible use of GenAI, it is
 essential to have a working understanding of what AI does differently
 from other tools.
 
-Large Language Models are models composed of multiple layers of neural
-networks trained on *very* large amounts of textual data ({IBM} 2023).
+GenAIs are ({IBM} 2021). Large Language Models are models composed of
+multiple layers of neural networks trained on *very* large amounts of
+textual data ({IBM} 2023).
 
 <!-- 
 IBM uses a dataset called Project CodeNet Dataset, which is sourced from two online judge web sites, AIZU Online Judge and AtCoder. https://research.ibm.com/blog/codenet-ai-neurips-2021 According to IBM "[the] end goal of CodeNet is to enable developers to create systems that can modernize existing codebases, as well as fix errors and security vulnerabilities in code." 
@@ -145,11 +185,15 @@ elemental facts about neural networks.
 
 <https://en.wikipedia.org/wiki/Large_language_model#Further_reading>
 
-Behind all the jargon, neural networks (LLMs are neural networks) are
-regression models (Ripley 1994). Regression of course refers to
+Behind all the jargon, the neural networks that underpin GenAI are
+models designed to produce “statistically probable outputs” when
+prompted ({IBM} 2021). In more conventional terms, neural networks are
+regression models (Ripley 1994)–much more sophisticated and powerful
+than linear regression, but regression models nonetheless. Here, it is
+important to note that the term regression, of course, refers to
 [regression to the
-mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean).
-<!-- **NOTE**: also called "reversion to mediocrity". -->
+mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean)–regressing
+a prompt to a “statistically probable” outcome.
 
 **NOTE**: Labeling data is an essential, yet extremely expensive aspect
 of training GenAIs.
@@ -296,36 +340,43 @@ Microsoft: Here’s how burning the planet will help to save it.
 <https://blogs.microsoft.com/on-the-issues/2023/11/16/accelerating-sustainability-ai-playbook/>
 (Nakagawa 2023)
 
-ChatGPT consumes substantially more energy than a regular web search…are
-the results better?
-\[<https://www.brusselstimes.com/1042696/chatgpt-consumes-25-times-more-energy-than-google>\]
+“Environmental costs of AI are soaring” (Crawford 2024)
+
+ChatGPT consumes substantially more energy than a regular web search, up
+to 25 times more, and according to some estimates, the whole of AI may
+consume twice as much energy as the whole of France by 2030 (Newsroom
+2024).
+
+…are the results better?
 
 Compare the results:
 
-<figure>
-<img src="images/logical-puzzle-web-search.png" style="width:50.0%"
-alt="A search using Duck Duck Go" />
-<figcaption aria-hidden="true">A search using Duck Duck Go</figcaption>
-</figure>
+<div class="figure">
 
-<figure>
-<img src="images/logical-puzzle-chat-gpt-4.png" style="width:50.0%"
-alt="A conversation with ChatGPT-4" />
-<figcaption aria-hidden="true">A conversation with
-ChatGPT-4</figcaption>
-</figure>
+<img src="README_files/figure-gfm/puzzle-web-search-1.png" alt="\label{fig:puzzle-web-search}A search using Duck Duck Go" width="50%" />
+<p class="caption">
+A search using Duck Duck Go
+</p>
 
-<https://assemblag.es/@hugo/112450401657084750>
+</div>
 
-<!--
-<iframe src="https://assemblag.es/@hugo/112450401657084750/embed" width="400" allowfullscreen="allowfullscreen" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
- -->
+<div class="figure">
 
-This problem may seem trivial, even amusing in the case above. But what
-when an AI replicates the both-sides perspective of much of the media
-when trying to learn about an existential crisis like climate changes?
-(Gordon 2024). Or when trying to obtain accurate voting information in
-the context of voter supression? (Angwin, Nelson, and Palta 2024)
+<img src="README_files/figure-gfm/puzzle-chatgpt-1.png" alt="\label{fig:puzzle-chatgpt}A conversation with ChatGPT-4" width="50%" />
+<p class="caption">
+A conversation with ChatGPT-4
+</p>
+
+</div>
+
+The example above may seem trivial, even amusing in the case above.It
+was not so funny for
+
+But what when an AI replicates the both-sides perspective of much of the
+media when trying to learn about an existential crisis like climate
+changes? (Gordon 2024). Or when trying to obtain accurate voting
+information in the context of voter supression? (Angwin, Nelson, and
+Palta 2024)
 
 ### Replication of unjust structures of power
 
@@ -358,7 +409,7 @@ article (Farrugia 2024); see here:
 
 ChatGPT was an awesome feat of marketing (Cowen 2023), but much coverage
 of the relevant issues in the media has been so credulous it has
-stretched credulity past Pluto (Burneko 2024)[^2]. There are now calls
+stretched credulity past Pluto (Burneko 2024)[^3]. There are now calls
 to press pause on the hype (Angwin 2024) but these are still drown by
 the credulous coverage.
 
@@ -407,7 +458,8 @@ Jankowicz 2023).
 
 Potential for weaponization of GenAI. **Farfetched (?) idea** Could it
 be that GenAI will be at some point declared a military-grade technology
-with restricted applications?
+with restricted applications? (see
+<https://www.defenseone.com/technology/2024/05/ai-and-other-tech-creating-special-operations-renaissance/396388/>)
 
 ## Notes
 
@@ -530,11 +582,27 @@ Cowen, Tyler. 2023. “ChatGPT Is Also an Impressive Feat of Marketing.”
 
 </div>
 
+<div id="ref-crawford_generative_2024" class="csl-entry">
+
+Crawford, Kate. 2024. “Generative AI’s Environmental Costs Are Soaring —
+and Mostly Secret.” *Nature* 626 (8000): 693–93.
+<https://doi.org/10.1038/d41586-024-00478-x>.
+
+</div>
+
 <div id="ref-farrugia_known_2024" class="csl-entry">
 
 Farrugia, Stephen. 2024. “Known Purpose and Trusted Potential.” *Faster
 and Worse*.
 <https://fasterandworse.com/known-purpose-and-trusted-potential/>.
+
+</div>
+
+<div id="ref-garsten_what_2024" class="csl-entry">
+
+Garsten, Ed. 2024. “What Are Self-Driving Cars? The Technology
+Explained.” *Forbes*.
+<https://www.forbes.com/sites/technology/article/self-driving-cars/>.
 
 </div>
 
@@ -546,6 +614,14 @@ Answers, Same Model.” *Proof*.
 
 </div>
 
+<div id="ref-hie_how_2023" class="csl-entry">
+
+Hié, Anthony, and Claire Thouary. 2023. “How AI Is Reshaping Higher
+Education AACSB.” *AACSB*.
+<https://www.aacsb.edu/insights/articles/2023/10/how-ai-is-reshaping-higher-education>.
+
+</div>
+
 <div id="ref-hiskes_woodward_2007" class="csl-entry">
 
 Hiskes, Jonathan. 2007. “Woodward: ‘Journalism Is Not Stenography’.”
@@ -554,9 +630,16 @@ Hiskes, Jonathan. 2007. “Woodward: ‘Journalism Is Not Stenography’.”
 
 </div>
 
+<div id="ref-ibm_what_2021" class="csl-entry">
+
+{IBM}. 2021. “What Is Generative AI?” *IBM Research*.
+<https://research.ibm.com/blog/what-is-generative-AI>.
+
+</div>
+
 <div id="ref-ibm_what_2023" class="csl-entry">
 
-{IBM}. 2023. “What Are Large Language Models (LLMs)?”
+———. 2023. “What Are Large Language Models (LLMs)?”
 <https://www.ibm.com/topics/large-language-models>.
 
 </div>
@@ -567,6 +650,22 @@ Jankowicz, Mia. 2023. “Russia Has Launched Its Own Version of Wikipedia,
 Called Ruwiki, Which Is Notably More Sympathetic to Putin.” *Business
 Insider*.
 <https://www.businessinsider.com/ruwiki-putin-friendly-version-of-wikipedia-launched-in-russia-2023-7>.
+
+</div>
+
+<div id="ref-joshi_5_2022" class="csl-entry">
+
+Joshi, Naveen. 2022. “5 Ways Autonomous Cars Will Reshape Our World.”
+*Forbes*.
+<https://www.forbes.com/sites/naveenjoshi/2022/07/22/5-ways-autonomous-cars-will-reshape-our-world/>.
+
+</div>
+
+<div id="ref-khalatian_matchmaking_2023" class="csl-entry">
+
+Khalatian, Igor. 2023. “Matchmaking 2.0: How AI Is Revolutionizing
+Online Dating.” *Forbes*.
+<https://www.forbes.com/sites/forbestechcouncil/2023/03/17/matchmaking-20-how-ai-is-revolutionizing-online-dating/>.
 
 </div>
 
@@ -618,6 +717,14 @@ AI: A Playbook.” *Microsoft On the Issues*.
 
 </div>
 
+<div id="ref-brussels_chatgpt_2024" class="csl-entry">
+
+Newsroom, {The Brussels Times}. 2024. “ChatGPT Consumes 25 Times More
+Energy Than Google.” *The Brussel Times*.
+<https://www.brusselstimes.com/1042696/chatgpt-consumes-25-times-more-energy-than-google>.
+
+</div>
+
 <div id="ref-office_of_teaching_and_learning_provisional_2023"
 class="csl-entry">
 
@@ -634,6 +741,14 @@ Peng, Zhencan, Zhizhi Wang, and Dong Deng. 2023. “Near-Duplicate
 Sequence Search at Scale for Large Language Model Memorization
 Evaluation.” *Proceedings of the ACM on Management of Data* 1 (2):
 179:1–18. <https://doi.org/10.1145/3589324>.
+
+</div>
+
+<div id="ref-power_3_2024" class="csl-entry">
+
+Power, Rhett. 2024. “3 Innovative Use Cases For AI In Higher Education.”
+*Forbes*.
+<https://www.forbes.com/sites/rhettpower/2024/02/04/3-innovative-case-uses-for-ai-in-higher-education/>.
 
 </div>
 
@@ -687,10 +802,14 @@ University Guidelines, 2024.”
 
 </div>
 
-[^1]: Karl Marx wrote that “A spectre is haunting Europe–the spectre of
-    communism”; in this case, AI is the shade of another spectre, that
-    of unregulated surveillance capitalism.
+[^1]: Karl Marx wrote about a “spectre…haunting Europe–the spectre of
+    communism”; in this case, GenAI is the shade of a very different
+    spectre, that of unregulated surveillance capitalism.
 
-[^2]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
+[^2]: Curiously, Allerin is not identified as an artificial intelligence
+    company in Joshi (2022) but only in the much later article by
+    Garsten (2024).
+
+[^3]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
     but it is difficult to see what else writing like Roose’s (2024)
     could be called.

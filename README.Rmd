@@ -14,8 +14,10 @@ knitr::opts_chunk$set(
 ```
 
 ```{r include=FALSE}
-library(dplyr)
-library(ggplot2)
+library(cowplot) # Streamlined Plot Theme and Plot Annotations for 'ggplot2'
+library(dplyr) # A Grammar of Data Manipulation
+library(ggplot2) # Create Elegant Data Visualisations Using the Grammar of Graphics
+library(magick) # Advanced Graphics and Image-Processing in R
 ```
 
 # Use of AI in Teaching and Learning: Some Considerations
@@ -29,19 +31,30 @@ library(ggplot2)
 
 By: Antonio Paez
 
-All opinions expressed here are mine and do not necessarily represent those of my employer(s).
+Disclaimner: _All opinions expressed here are mine and do not necessarily represent those of my employer(s)_.
 
-## Background: An AI is Haunting Campus^[Karl Marx wrote that "A spectre is haunting Europe--the spectre of communism"; in this case, AI is the shade of another spectre, that of unregulated surveillance capitalism.]
+## Background: An AI is Haunting Campus^[Karl Marx wrote about a "spectre...haunting Europe--the spectre of communism"; in this case, GenAI is the shade of a very different spectre, that of unregulated surveillance capitalism.]
 
-On November 30, 2022, OpenAI released what has become its flagship product, [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT), a chatbot based on [Large Language Models] that mimics natural language. The launch of the chatbot was an impressive feat of marketing [@cowen_chatgpt_2023], and was rapidly panned as "the best artificial intelligence chatbot ever released to the general public" [@roose_brilliance_2023], and able to generate "impressively detailed" and "human-like" text [@lock_what_2022].
+On November 30, 2022, OpenAI released what has become its flagship product, [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT), a chatbot based on [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs) designed and trained to mimic natural language. The launch of the chatbot was an impressive feat of marketing [@cowen_chatgpt_2023], and it took less than two weeks for the hype to reach stratospheric levels: by early December, ChatGPT was being panned as "the best artificial intelligence chatbot ever released to the general public" [@roose_brilliance_2023], and a tool able to generate "impressively detailed" and "human-like" text, leading some to wonder whether it could "replace humans" [@lock_what_2022]. 
 
-<!--impressive feat of marketing: think about what it does well, what it does poorly, and how the user interface is essential to obscure its uselessness.-->
+Universities, much like every other organization dealing with information, have had to respond in a compressed span of time to the rapid release of generative AI (GenAI) tools, particularly those by a handful of large American corporations including [Meta](https://en.wikipedia.org/wiki/Meta_Platforms) (or were we to deadname it, facebook), [OpenAI](https://en.wikipedia.org/wiki/OpenAI), [Google](https://en.wikipedia.org/wiki/Alphabet_Inc.), and [Microsoft](https://en.wikipedia.org/wiki/Microsoft). 
 
-Universities have had to respond in a compressed span of time to the release of generative AI tools by a handful of large American corporations, notoriously [Meta](https://en.wikipedia.org/wiki/Meta_Platforms) (or were we to deadname it, facebook), [OpenAI](https://en.wikipedia.org/wiki/OpenAI), [Google](https://en.wikipedia.org/wiki/Alphabet_Inc.), and [Microsoft](https://en.wikipedia.org/wiki/Microsoft).
+The release of GenAIs to the masses was accompanied by numerous lofty promises, mostly by entities that had a stake in their adoption. 
 
-McMaster developed a set of provisional guidelines (when where they developed and released? It is possible that this was done as a relatively urgent matter). These [guidelines](https://provost.mcmaster.ca/office-of-the-provost-2/generative-artificial-intelligence-2/generative-ai-for-staff/provisional-guidelines-on-the-use-of-generative-ai-in-operational-excellence/) where released under a Creative Commons Licence and have since inspired those of other post-secondary institutions including Trent University [-@trent_university_generative_2024] and University of Guelph [-@office_of_teaching_and_learning_provisional_2023].
+The public was promised that GenAI would "accelerate sustainability" [@nakagawa_accelerating_2023]; that LLMs would transform sectors as diverse as health care, finance, human resources, insurance, "and beyond" by "automating customer self-service, accelerating response times on an increasing number of tasks as well as providing greater accuracy, enhanced routing and intelligent context gathering" [@ibm_what_2023]; that AI-powered self-driving cars would reduce accidents, car ownership, reduce pollution and noise, automate logistics, and make parking tickets obsolete, if artificial intelligence company Allerin^[Curiously, Allerin is not identified as an artificial intelligence company in @joshi_5_2022 but only in the much later article by @garsten_what_2024.] is to be believed [@joshi_5_2022; @garsten_what_2024]. The list of promises has grown to encompass pretty much everything, from saving the planet all the way to micromanaging intimate facets of individual lives, for example by revolutionizing dating through the use of chatbots to help "people connect and find potential partners" (who presumably are also using chatbots) [@khalatian_matchmaking_2023].
 
-There is now an effort underway to update the preliminary guidelines (to make the permanent?) McMaster [launched a committee](#ai-committee-announced) to explore the use of AI across campus. This committee is composed of three sub-committees that examine the use of AI in 1) teaching and learning, 2) research, and 3) operational excellence in [our work] (the Provost's words)(probably meaning the university's work; not sure if the Provost themself uses AI). 
+Higher-education was not spared the onslaught of promises.
+
+@hie_how_2023
+
+@power_3_2024
+
+
+It seemed inevitable that universities _had to do something_ in the face of all this innovative and perhaps only slightly scary technology.
+
+In response to the rapid, and disruptive, release of tools that were announced in revolutionary terms, McMaster developed a set of provisional [guidelines](https://provost.mcmaster.ca/office-of-the-provost-2/generative-artificial-intelligence-2/generative-ai-for-staff/provisional-guidelines-on-the-use-of-generative-ai-in-operational-excellence/) (when where they developed and released? It is possible that this was done as a relatively urgent matter) to inform the university community about the use of AI in "operational excellence". These guidelines where released under a Creative Commons Licence and have since inspired those of other post-secondary institutions in Canada, including Trent University [-@trent_university_generative_2024] and the University of Guelph [-@office_of_teaching_and_learning_provisional_2023].
+
+There is now an effort underway to update the preliminary guidelines (to make them permanent?) and McMaster, via the Office of the Provost, [launched a committee](#ai-committee-announced) to explore the use of AI across campus. This committee is composed of three sub-committees that examine the use of AI in 1) teaching and learning, 2) research, and 3) operational excellence in "our work" (the Provost's words)(probably meaning the university's work; not sure if the Provost themself uses AI). 
 
 The sub-committees, in turn, convened panels to:
 
@@ -56,9 +69,11 @@ According to the announcement of the AI Committee:
 > AI is a powerful tool and I believe that universities have an important role to play in its adoption.  
 > -- Susan Tighe, Provost, McMaster University
 
-Hammers are powerful tools, sometimes even to conduct research or to teach. Word processors are powerful tools. What makes AI different from other tools that it requires a pan-university consultation on an "_ethical approach to shaping policies and developing new ways of using AI to ensure a responsible and beneficial integration where it makes sense_"?
+Acknowledging that AI are powerful tools, right off the bat, is in line with the hype observed so far. Hammers are powerful tools. Word processors are powerful tools. Lasers are powerful tools. And yet we do not have a high-level committee for each of them. What makes AI different from other tools that it requires a pan-university consultation on an "_ethical approach to shaping policies and developing new ways of using AI to ensure a responsible and beneficial integration where it makes sense_"?
 
-- Where does it make sense? Presumably this is what the Committee on AI will try to answer.
+The last statement carries a lot of weight here: where does adoption of AI make sense? Presumably this is what the Committee on AI will try to answer.
+
+<!--As I argue here, AI does not make a lot of sense outside of some limited applications that are nowhere near the scope of the promises of the merchants of hype.-->
 
 To understand why many organizations, including McMaster University, have decided to spend considerable resources considering the adoption and responsible use of AI, it is essential to have a working understanding of what AI does differently from other tools. We also need to understand what are the goals of the organization. When does it make sense for a university like McMaster to "integrate" AI (pressumably as part of the core mission of the organization)?
 
@@ -80,9 +95,9 @@ From the Overview on Generative AI document:
 
 ## What are LLMs?
 
-To understand why many organizations have decided to spend considerable resources considering the adoption and responsible use of AI, it is essential to have a working understanding of what AI does differently from other tools.
+To understand why many organizations have decided to spend considerable resources considering the adoption and responsible use of GenAI, it is essential to have a working understanding of what AI does differently from other tools.
 
-Large Language Models are models composed of multiple layers of neural networks trained on _very_ large amounts of textual data [@ibm_what_2023]. 
+GenAIs are  [@ibm_what_2021]. Large Language Models are models composed of multiple layers of neural networks trained on _very_ large amounts of textual data [@ibm_what_2023]. 
 
 <!-- 
 IBM uses a dataset called Project CodeNet Dataset, which is sourced from two online judge web sites, AIZU Online Judge and AtCoder. https://research.ibm.com/blog/codenet-ai-neurips-2021 According to IBM "[the] end goal of CodeNet is to enable developers to create systems that can modernize existing codebases, as well as fix errors and security vulnerabilities in code." 
@@ -110,7 +125,7 @@ https://www.ibm.com/topics/large-language-models
 
 https://en.wikipedia.org/wiki/Large_language_model#Further_reading
 
-Behind all the jargon, neural networks (LLMs are neural networks) are regression models [@ripley_neural_1994]. Regression of course refers to [regression to the mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean). <!-- **NOTE**: also called "reversion to mediocrity". -->
+Behind all the jargon, the neural networks that underpin GenAI are models designed to produce "statistically probable outputs" when prompted [@ibm_what_2021]. In more conventional terms, neural networks are regression models [@ripley_neural_1994]--much more sophisticated and powerful than linear regression, but regression models nonetheless. Here, it is important to note that the term regression, of course, refers to [regression to the mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean)--regressing a prompt to a "statistically probable" outcome.
 
 **NOTE**: Labeling data is an essential, yet extremely expensive aspect of training GenAIs.
 
@@ -244,21 +259,36 @@ https://blogs.microsoft.com/on-the-issues/2024/05/15/microsoft-environmental-sus
 
 https://blogs.microsoft.com/on-the-issues/2023/11/16/accelerating-sustainability-ai-playbook/ [@nakagawa_accelerating_2023]
 
-ChatGPT consumes substantially more energy than a regular web search...are the results better? [https://www.brusselstimes.com/1042696/chatgpt-consumes-25-times-more-energy-than-google]
+
+"Environmental costs of AI are soaring" [@crawford_generative_2024]
+
+ChatGPT consumes substantially more energy than a regular web search, up to 25 times more, and according to some estimates, the whole of AI may consume twice as much energy as the whole of France by 2030 [@brussels_chatgpt_2024]. 
+
+...are the results better?
 
 Compare the results:
 
-![A search using Duck Duck Go](images/logical-puzzle-web-search.png){width=50%}
+```{r puzzle-web-search, out.width="50%", fig.cap="\\label{fig:puzzle-web-search}A search using Duck Duck Go"}
+ggdraw() + 
+  draw_image(image = "images/logical-puzzle-web-search.png")
+```
 
-![A conversation with ChatGPT-4](images/logical-puzzle-chat-gpt-4.png){width=50%}  
+```{r puzzle-chatgpt, out.width="50%", fig.cap="\\label{fig:puzzle-chatgpt}A conversation with ChatGPT-4"}
+puzzle_plot <- ggplot() +
+  labs(caption = "https://assemblag.es/@hugo/112450401657084750") +
+  theme_void()
+  
 
-https://assemblag.es/@hugo/112450401657084750
+ggdraw() + 
+  draw_plot(puzzle_plot) +
+  draw_image(image = "images/logical-puzzle-chat-gpt-4.png")
 
-<!--
-<iframe src="https://assemblag.es/@hugo/112450401657084750/embed" width="400" allowfullscreen="allowfullscreen" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"></iframe>
- -->
- 
-This problem may seem trivial, even amusing in the case above. But what when an AI replicates the both-sides perspective of much of the media when trying to learn about an existential crisis like climate changes? [@gordon_multiple_2024]. Or when trying to obtain accurate voting information in the context of voter supression? [@angwin_seeking_2024]
+```
+
+The example above may seem trivial, even amusing in the case above.It was not so funny for 
+
+
+But what when an AI replicates the both-sides perspective of much of the media when trying to learn about an existential crisis like climate changes? [@gordon_multiple_2024]. Or when trying to obtain accurate voting information in the context of voter supression? [@angwin_seeking_2024]
 
 ### Replication of unjust structures of power
 
@@ -297,7 +327,7 @@ Are GenAI reality-warping machines? Think about the small and large ways in whic
 >The first step in liquidating a people,' said Hubl, 'is to erase its memory. Destroy its books, its culture, its history. Then have somebody write new books, manufacture a new culture, invent a new history. Before long the nation will begin to forget what it is and what it was. The world around it will forget even faster.  
 >-― Milan Kundera, The Book of Laughter and Forgetting
 
-Potential for weaponization of GenAI. **Farfetched (?) idea** Could it be that GenAI will be at some point declared a military-grade technology with restricted applications?
+Potential for weaponization of GenAI. **Farfetched (?) idea** Could it be that GenAI will be at some point declared a military-grade technology with restricted applications? (see https://www.defenseone.com/technology/2024/05/ai-and-other-tech-creating-special-operations-renaissance/396388/)
 
 ## Notes
 
@@ -337,5 +367,6 @@ The task of the Artificial Intelligence Advisory Committee Expert Panel on Teach
 <!--This does not say anything about what the Committee will do with the recommendations; I cannot find anything about this.-->
 
 ## References
+
 
 
