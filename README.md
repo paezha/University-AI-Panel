@@ -59,32 +59,59 @@ chatbots) (Khalatian 2023).
 
 Higher-education was not spared the onslaught of promises.
 
-Hié and Thouary (2023)
+Power (2024),[^3] for example, presents three innovative use cases for
+AI in higher education. First, AI can take over manual tasks and improve
+the budget by releasing administrative staff. AI can evaluate
+applications for admissions, including traits like the “grit” and
+“empathy” of applicants. AI can personalize the experience of consumers
+(also called students) by predicting their final grade with 60-70%
+accuracy, and by providing corrective and instructive feedback.
+<!--release them in a very literal sense, as one advantage is to do _more_ with limited resources (which in the current fiscal environment means laying people off). The cases discussed by Mr. Power are questionable: there are already non-AI systems that deploy paperwork; the kind of information needed to identify students at risk of dropping out is probably quite invasive, and therefore impractical or unethical to collect; I very much doubt that it is legal to use AI in hiring and admissions. -->
+Mr. Power’s message to the higher-eduation sector? It is time for
+institutions to level up: jump on the bandwagon, fellows, don’t let it
+let you behind!
 
-Power (2024)
+Hié and Thouary (2023) argue that AI will likely be the primary way to
+access information in the future. For this reason, institutions must
+equip students with the skills needed to use AI effectively, in
+particular to perfect the art of *prompt engineering*, that is, the
+ability to craft queries that prompt an AI to provide the most useful
+outputs. Using AIs may improve learning and challenge the critical
+thinking of students. Faculty will also benefit from AI: it will be used
+to evaluate their students<!-- is this even legal? -->, and will handle
+repetitive tasks like writing course syllabi. Hié and Thouary (2023)[^4]
+advice that “AI is here to stay”, that “\[faculty\] might not be able to
+stop the AI trend from growing”, so they might as well get on with the
+program and try to shape it as best they can.
 
 It seemed inevitable that universities *had to do something* in the face
-of all this innovative and perhaps only slightly scary technology.
+of all this unavoidable, innovative technology that many feared might
+leave them behind.
 
-In response to the rapid, and disruptive, release of tools that were
-announced in revolutionary terms, McMaster developed a set of
-provisional
+The fear of missing out, combined with a modicum of concern for the
+ethical implications, has led to institutional responses that have been
+less than coherent. An example is the case of Emory University, where
+the university gave a \$10,000 prize to a group of students
+participating in an Entrepreneurship Summit, only for the the students
+to be suspended later by the school’s Honor Council for the potential of
+their tool for cheating[^5] (Koebler 2024b).
+
+For its part, McMaster was a leader in responding to the rapid, and
+disruptive, release of *revolutionary* tools, and its provisional
 [guidelines](https://provost.mcmaster.ca/office-of-the-provost-2/generative-artificial-intelligence-2/generative-ai-for-staff/provisional-guidelines-on-the-use-of-generative-ai-in-operational-excellence/)
-(when where they developed and released? It is possible that this was
-done as a relatively urgent matter) to inform the university community
-about the use of AI in “operational excellence”. These guidelines where
-released under a Creative Commons Licence and have since inspired those
-of other post-secondary institutions in Canada, including Trent
-University (2024) and the University of Guelph (2023).
+(released under a Creative Commons Licence) have since inspired those of
+other post-secondary institutions in Canada, including Trent University
+(2024) and the University of Guelph (2023).
 
-There is now an effort underway to update the preliminary guidelines (to
-make them permanent?) and McMaster, via the Office of the Provost,
-[launched a committee](#ai-committee-announced) to explore the use of AI
-across campus. This committee is composed of three sub-committees that
-examine the use of AI in 1) teaching and learning, 2) research, and 3)
-operational excellence in “our work” (the Provost’s words)(probably
-meaning the university’s work; not sure if the Provost themself uses
-AI).
+The aim of the provisional guidelines was to inform the university
+community about the use of AI in “operational excellence”. But the time
+has come to update them, and the institution, via its Office of the
+Provost, [launched a committee](#ai-committee-announced) to explore the
+use of AI across campus. This committee is composed of three
+sub-committees that examine the use of AI in 1) teaching and learning,
+2) research, and 3) operational excellence in “our work” (the Provost’s
+words)(probably meaning the university’s work; not sure if the Provost
+themself uses AI).
 
 The sub-committees, in turn, convened panels to:
 
@@ -220,9 +247,8 @@ How useful will be AIs in the future? Think of model poisoning, and the
 possibility that we are going to see (or may already have seen) Peak
 ChatGPT.
 
-De-duplication of training data improves LLMs (Lee et al. 2022)
-
-No wonder: it amounts to having more different information.
+De-duplication of training data improves LLMs (Lee et al. 2022). No
+wonder: it amounts to having more different information.
 
 But there is the following implication: once human-generated content is
 exhausted and/or has been overwhelmed by chatbot generated content,
@@ -266,11 +292,98 @@ Words go here.
 
 ## What do GenAIs to to everyone else?
 
-### Use of materials on the web
+### Extractive
 
 In relation to the points above (GenAIs require vast amounts of
 *human-generated* data to ensure that there is sufficient variability
 for the model to train) - (Models trained )
+
+Germain (2023) Norem (2023)
+
+### Exploitative
+
+Above, the ways in which GenAI is exploitative of people all over the
+world, but particularly in the Global South were highlighted. But AI
+companies do not spare the rich either. OpenAI’s Sam Altman, a
+self-avowed admirer of the movie *Her*, featuring Scarlet Johansson as
+an AI voice assistant, reportedly tried to hire Ms. Johannson to be the
+voice of ChatGPT 4.0 (Kastrenakes 2024). After Ms. Johannson decline,
+OpenAI went and used a mimicry of [her voice](@as-an-aside) anyways,
+which was retired after Ms. Johansson threatened legal action[^6] (Allyn
+2024). Alas, very few have the social standing of Scarlett Johansson to
+challenge OpenAI. Most people in the world lack that power.
+
+Williams, Miceli, and Gebru (2022) (Summary needed)
+
+Perrigo (2023) (Follows summary)
+
+ChatGPT was trained on vast amounts of data scooped from the internet,
+where many societal problems are amplified. Trained on horrible content,
+it was hard to sell ChatGPT when it was prone to racist, sexist, obscene
+outbursts. But companies like facebook, who did not want to pay for
+moderation, had hit on a solution of sorts
+<!--: train an AI to detect content that was unpalatable.-->
+
+The solution?
+
+> \[F\]eed an AI with labeled examples of violence, hate speech, and
+> sexual abuse, and that tool could learn to detect those forms of
+> toxicity in the wild. That detector would be built into ChatGPT to
+> check whether it was echoing the toxicity of its training data, and
+> filter it out before it ever reached the user. It could also help
+> scrub toxic text from the training datasets of future AI models.
+
+The key here is “labeled examples”. What are those labels? Many machine
+algorithms do not learn by themselves…they learn from humans, and need
+what is called “labelled” data: a images that humans have labelled as
+“dog”, “cats”, etc. Or bits of text that have been labelled
+as…well…questionable. Labelling data is extremely time consuming and
+labor intensive. What’s a corporation to do?
+
+> To get those labels, OpenAI sent tens of thousands of snippets of text
+> to an outsourcing firm in Kenya, beginning in November 2021. Much of
+> that text appeared to have been pulled from the darkest recesses of
+> the internet. Some of it described situations in graphic detail like
+> child sexual abuse, bestiality, murder, suicide, torture, self harm,
+> and incest. ”
+
+What did this mean to the people doing all this labeling in one of the
+poorest regions in the world? First of all, an income: “data labelers
+employed…on behalf of OpenAI were paid a take-home wage of between
+around \$1.32 and \$2 per hour depending on seniority and performance.”
+But at what cost?
+
+> One Sama worker tasked with reading and labeling text for OpenAI told
+> TIME he suffered from recurring visions after reading a graphic
+> description of a man having sex with a dog in the presence of a young
+> child. “That was torture,” he said. “You will read a number of
+> statements like that all through the week. By the time it gets to
+> Friday, you are disturbed from thinking through that picture.”
+
+Hao (2023)
+
+Quotes from Hao’s podcast:
+
+> Karen Hao: One of the reasons why ChatGPT was able to become so
+> virally popular and continued to sustain popularity is because it is
+> largely not spewing really awful things. People feel comfortable using
+> the product knowing that it’s not going to do that.
+
+> Annie Minoff: At least it won’t do it in English. If Alex wanted to
+> use ChatGPT in his native language, Swahili, would he be able to do
+> that?
+
+> Karen Hao: You can interact with ChatGPT in Swahili, but ChatGPT was
+> developed primarily to work in English. So a lot of the scrubbing, the
+> content moderation, the important safety measures within the chatbot
+> were done in English. So when you prompt it in Swahili, you’ll get
+> more misinformation. You’ll get more confusing sentences that don’t
+> make sense, and you will potentially get more of this content that
+> they worked so hard to filter out because they were only filtering it
+> in English.
+
+Think about linguistic hegemony, and how the models are only as good (or
+as bad) as their inputs.
 
 ### Copyright (and privacy) issues
 
@@ -324,7 +437,7 @@ presumed to be tainted code, and must not be committed without prior
 written approval by core.” ({NetBSD} n.d.).
 
 The National Archives and Records Administration (USA) bans use of
-ChatGPT (Koebler 2024)
+ChatGPT (Koebler 2024a)
 
 US Congress bans use of ChatGPT and Copilot for staff (Singh 2024). This
 article also note how companies like Samsung and Apple have restricted
@@ -369,8 +482,13 @@ A conversation with ChatGPT-4
 
 </div>
 
-The example above may seem trivial, even amusing in the case above.It
-was not so funny for
+The example above may seem like an amusement, but a GenAI is not a toy,
+as Air Canada discover when the company was found liable for “negligent
+misrepresentation”, after a court denied claims by the airline that the
+chatbot was somehow responsible for its own actions as an effectively
+separate legal entity (Garcia 2024).
+
+Similar GenAI-generated mishaps abound.
 
 But what when an AI replicates the both-sides perspective of much of the
 media when trying to learn about an existential crisis like climate
@@ -389,11 +507,11 @@ On antropomorphizing GenAI tools. This happens mostly in ways that are
 barely liminal. For example, in the document “Overview of AI at
 McMaster” we read that GenAI’s somehow have an “ability to engage in
 nuanced conversation”. This phrasing could be simply a literary device,
-but even so is indicative of a tendency to ascribe human attributes to a
-statistical model. Doing this carelessly risks amplifying existing
-biases. But in other cases, the effort is more blatant. Wrapping a
-statistical model in a human-like skin may actually be more devious, as
-in the new, sexy ChatGPT interface:
+but even so it is indicative of a tendency to ascribe human attributes
+to a statistical model. Doing this risks amplifying existing biases. But
+in other cases, the effort is more blatant. Wrapping a statistical model
+in a human-like skin may actually be more devious, as in the new, sexy
+ChatGPT interface:
 
 <video width="320" height="240" controls>
 <source src="video/open-ai-commercial.mp4" type="video/mp4">
@@ -409,7 +527,7 @@ article (Farrugia 2024); see here:
 
 ChatGPT was an awesome feat of marketing (Cowen 2023), but much coverage
 of the relevant issues in the media has been so credulous it has
-stretched credulity past Pluto (Burneko 2024)[^3]. There are now calls
+stretched credulity past Pluto (Burneko 2024)[^7]. There are now calls
 to press pause on the hype (Angwin 2024) but these are still drown by
 the credulous coverage.
 
@@ -423,8 +541,19 @@ Why? The reputational risk…universities are under siege from
 unsympathetic or actively hostile actors. Universities main source of
 power is their reputation as places that preserve and expand knowledge
 in a principled way. “This university uses ChatGPT” is a way to say that
-the university is redundant…an organization as expensive as an instution
-of higher-education is not needed to create spam and misinformation.
+the university is redundant…an organization as expensive as an
+institution of higher-education is not needed when there are cheaper
+alternatives for such an education (“act now before you are laid off!”):
+
+<div class="figure">
+
+<img src="README_files/figure-gfm/ligemy-ai-bundle-1.png" alt="\label{fig:ai-success-bundle}An AI success bundle from the &quot;The Real People of Ligency PR and Marketing Team&quot;" width="50%" />
+<p class="caption">
+An AI success bundle from the “The Real People of Ligency PR and
+Marketing Team”
+</p>
+
+</div>
 
 “McMaster is best known for our pioneering work in problem-based
 learning, which began in our medical school in 1969 and has been adopted
@@ -534,6 +663,14 @@ Vice-Provost Teaching and Learning in an email dated April 16:
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
+<div id="ref-allyn_scarlett_2024" class="csl-entry">
+
+Allyn, Bonny. 2024. “Scarlett Johansson Says She Is ’Shocked, Angered’
+over New ChatGPT Voice.” *NPR*, May.
+<https://www.npr.org/2024/05/20/1252495087/openai-pulls-ai-voice-that-was-compared-to-scarlett-johansson-in-the-movie-her>.
+
+</div>
+
 <div id="ref-angwin_press_2024" class="csl-entry">
 
 Angwin, Julia. 2024. “Press Pause on the Silicon Valley Hype Machine.”
@@ -598,6 +735,14 @@ and Worse*.
 
 </div>
 
+<div id="ref-garcia_what_2024" class="csl-entry">
+
+Garcia, Marisa. 2024. “What Air Canada Lost In ‘Remarkable’ Lying AI
+Chatbot Case.” *Forbes*.
+<https://www.forbes.com/sites/marisagarcia/2024/02/19/what-air-canada-lost-in-remarkable-lying-ai-chatbot-case/>.
+
+</div>
+
 <div id="ref-garsten_what_2024" class="csl-entry">
 
 Garsten, Ed. 2024. “What Are Self-Driving Cars? The Technology
@@ -606,11 +751,27 @@ Explained.” *Forbes*.
 
 </div>
 
+<div id="ref-germain_google_2023" class="csl-entry">
+
+Germain, Thomas. 2023. “Google Says It’ll Scrape Everything You Post
+Online for AI.” *Gizmodo*.
+<https://gizmodo.com/google-says-itll-scrape-everything-you-post-online-for-1850601486>.
+
+</div>
+
 <div id="ref-gordon_multiple_2024" class="csl-entry">
 
 Gordon, Aaron. 2024. “The Multiple Faces of Claude AI: Different
 Answers, Same Model.” *Proof*.
 <https://www.proofnews.org/email/257dd8df-8ee1-4717-9f3d-6e7c1218b82d/>.
+
+</div>
+
+<div id="ref-hao_hidden_2023" class="csl-entry">
+
+Hao, Karen. 2023. “The Hidden Workforce That Helped Filter Violence and
+Abuse Out of ChatGPT - The Journal. - WSJ Podcasts.” *WSJ*.
+<https://www.wsj.com/podcasts/the-journal/the-hidden-workforce-that-helped-filter-violence-and-abuse-out-of-chatgpt/ffc2427f-bdd8-47b7-9a4b-27e7267cf413>.
 
 </div>
 
@@ -661,6 +822,14 @@ Joshi, Naveen. 2022. “5 Ways Autonomous Cars Will Reshape Our World.”
 
 </div>
 
+<div id="ref-kastrenakes_scarlett_2024" class="csl-entry">
+
+Kastrenakes, Jacob. 2024. “Scarlett Johansson Told OpenAI Not to Use Her
+Voice — and She’s Not Happy They Might Have Anyway.” *The Verge*.
+<https://www.theverge.com/2024/5/20/24161253/scarlett-johansson-openai-altman-legal-action>.
+
+</div>
+
 <div id="ref-khalatian_matchmaking_2023" class="csl-entry">
 
 Khalatian, Igor. 2023. “Matchmaking 2.0: How AI Is Revolutionizing
@@ -671,9 +840,17 @@ Online Dating.” *Forbes*.
 
 <div id="ref-koebler_national_2024" class="csl-entry">
 
-Koebler, Jason. 2024. “National Archives Bans Employee Use of ChatGPT.”
+Koebler, Jason. 2024a. “National Archives Bans Employee Use of ChatGPT.”
 *404 Media*.
 <https://www.404media.co/national-archives-bans-employee-use-of-chatgpt/>.
+
+</div>
+
+<div id="ref-koebler__university_2024" class="csl-entry">
+
+———. 2024b. “University Suspends Students for AI Homework Tool It Gave
+Them \$10,000 Prize to Make.” *404 Media*.
+<https://www.404media.co/university-suspends-students-for-ai-homework-tool-it-paid-them-10-000-to-make/>.
 
 </div>
 
@@ -725,6 +902,14 @@ Energy Than Google.” *The Brussel Times*.
 
 </div>
 
+<div id="ref-norem_intels_2023" class="csl-entry">
+
+Norem, Josh. 2023. “Intel’s GPU Drivers Now Collect Telemetry, Including
+’How You Use Your Computer’.” *ExtremeTech*.
+<https://www.extremetech.com/gaming/intels-gpu-drivers-now-collect-telemetry-including-how-you-use-your-computer>.
+
+</div>
+
 <div id="ref-office_of_teaching_and_learning_provisional_2023"
 class="csl-entry">
 
@@ -741,6 +926,13 @@ Peng, Zhencan, Zhizhi Wang, and Dong Deng. 2023. “Near-Duplicate
 Sequence Search at Scale for Large Language Model Memorization
 Evaluation.” *Proceedings of the ACM on Management of Data* 1 (2):
 179:1–18. <https://doi.org/10.1145/3589324>.
+
+</div>
+
+<div id="ref-perrigo_2_2023" class="csl-entry">
+
+Perrigo, Billy. 2023. “The \$2 Per Hour Workers Who Made ChatGPT Safer.”
+*TIME*. <https://time.com/6247678/openai-chatgpt-kenya-workers/>.
 
 </div>
 
@@ -800,6 +992,15 @@ University Guidelines, 2024.”
 
 </div>
 
+<div id="ref-williams_exploited_2022" class="csl-entry">
+
+Williams, Adrienne, Milagros Miceli, and Timnit Gebru. 2022. “The
+Exploited Labor Behind Artificial Intelligence.” *Noema Magazine*,
+October.
+<https://www.noemamag.com/the-exploited-labor-behind-artificial-intelligence>.
+
+</div>
+
 </div>
 
 [^1]: Karl Marx wrote about a “spectre…haunting Europe–the spectre of
@@ -810,6 +1011,30 @@ University Guidelines, 2024.”
     company in Joshi (2022) but only in the much later article by
     Garsten (2024).
 
-[^3]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
+[^3]: Rhett Power is a motivational speaker and executive coach
+
+[^4]: Anthony Hié is Chief Innovation and Digital officer at
+    [Excelia](https://www.excelia-group.com/about-excelia/our-schools/excelia-business-school).
+    Writing in 2022, Mr. Hié predicted that the metaverse would be a
+    [revolution in higher
+    education](https://www.linkedin.com/pulse/metaverse-dedicated-pedagogy-revolution-higher-education-anthony-hi%C3%A9).
+    In October 2023 facebook [slashed its metaverse
+    team](https://www.reuters.com/technology/meta-lay-off-employees-metaverse-silicon-unit-wednesday-2023-10-03/).
+    Microsoft
+    [disbanded](https://www.theinformation.com/articles/microsoft-kills-its-industrial-metaverse-team-after-4-months)
+    its Industrial Metaverse Core Team four months after launching it.
+    Claire Thouary is the founder of [QACE UP](http://qace-up.fr), a
+    consulting firm that supports higher-education institutions in their
+    quest for “quality excellence”.
+
+[^5]: There was no evidence that cheating had happened.
+
+[^6]: Altman’s denials that OpenAI had not used Ms. Johansson’s voice
+    sounded hollow, after he
+    [posted](https://x.com/sama/status/1790075827666796666) on social
+    media the word “her” at the time the new version of ChatGPT was
+    announced.
+
+[^7]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
     but it is difficult to see what else writing like Roose’s (2024)
     could be called.
