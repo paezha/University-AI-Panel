@@ -1,17 +1,5 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-<style type="text/css">
-.blackbox {
-  padding: 1em;
-  background: black;
-  color: white;
-  border: 2px solid orange;
-  border-radius: 10px;
-}
-.center {
-  text-align: center;
-}
-</style>
 
 # Use of AI in Teaching and Learning: Some Considerations
 
@@ -21,26 +9,14 @@
 By: Antonio Páez (<paezha@mcmaster.ca>)
 
 Disclaimer: *All opinions expressed here are mine and any resemblance to
-those of my employer(s) is purely coincidental*.
+those of my employer(s) is purely coincidental*. *No generative AI tool
+was used to research or write this essay*.
 
 ## Background: An AI is Haunting Campus[^1]
 
 > Mission Statement: Our organization seeks to level up on all matters
 > related.  
 > – An Organization Run by its Marketing Department
-
-<div class="blackbox" data-latex="">
-
-<div class="center" data-latex="">
-
-**NOTICE!**
-
-</div>
-
-Thank you for noticing this **new notice**! Your noticing it has been
-noted, and *will be reported to the authorities*!
-
-</div>
 
 On November 30, 2022, OpenAI released what became its flagship product,
 [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT), a chatbot based on
@@ -66,27 +42,28 @@ deadname it, facebook), [OpenAI](https://en.wikipedia.org/wiki/OpenAI),
 
 GenAI was announced as nothing short of revolutionary. McMaster, for
 example,
-[states](https://provost.mcmaster.ca/office-of-the-provost-2/generative-artificial-intelligence-2/generative-ai-for-staff/provisional-guidelines-on-the-use-of-generative-ai-in-operational-excellence/):
+[states](https://provost.mcmaster.ca/office-of-the-provost-2/generative-artificial-intelligence-2/generative-ai-for-staff/provisional-guidelines-on-the-use-of-generative-ai-in-operational-excellence/)
+that:
 
-> Understanding how generative AI works, and how it can support work
+> \[u\]nderstanding how generative AI works, and how it can support work
 > within organizations represents an ongoing area of exploration and
 > innovation. The opportunities of generative AI are exciting: creating
 > workplace efficiencies to allow for different kinds of work, adding
 > capabilities for individuals and teams, and offering personalized
 > uses.
 
-AI was quickly perceived as an *innovative* and *exciting* technology,
+AI was quickly painted as an *innovative* and *exciting* technology,
 that moreover can lead to *efficiencies*[^2]. It seemed inevitable that
-universities *had to do something* or risk being let behind.
+universities *had to do something* with it, at the risk of being let
+behind.
 
 The fear of missing out, combined with a modicum of concern for the
 ethical implications of GenAIs[^3], has led to institutional responses
-that have been less than coherent. An example is the case of Emory
-University, where the university gave a \$10,000 prize to a group of
-students who proposed developing an AI tool for an Entrepreneurship
-Summit, only for the students to be subsequently suspended by the
-school’s Honor Council for the potential of their tool for cheating[^4]
-(Koebler 2024b).
+that have been less than coherent. A case in point is Emory University,
+where the university gave a \$10,000 prize to a group of students who
+proposed developing an AI tool for an Entrepreneurship Summit, only for
+the students to be subsequently suspended by the school’s Honor Council
+for the potential of their tool for cheating[^4] (Koebler 2024b).
 
 For its part, McMaster was a leader in responding to the rapid, and
 disruptive, release of these *revolutionary* tools, and its provisional
@@ -96,14 +73,16 @@ other post-secondary institutions in Canada, including the University of
 Guelph (2023) and Trent University (2024).
 
 The aim of the provisional guidelines was to inform the university
-community about the use of AI in “operational excellence”. But the time
-has come to update the guidelines, and the institution, via its Office
-of the Provost, [launched a committee](#ai-committee-announced) to
-explore the use of AI across campus. This committee is composed of three
+community about the use of AI in “operational excellence”. As we
+approach the Fall Term of 2024, with almost two years of cohabitation
+experience with AI for the masses at our backs, the time has come to
+update these guidelines. Pertinently, the institution, via its Office of
+the Provost, [launched a committee](#ai-committee-announced) to explore
+the use of AI across campus. This committee is composed of three
 sub-committees that examine the use of AI in 1) teaching and learning,
 2) research, and 3) operational excellence in “our work” (the Provost’s
-words)(probably meaning the university’s work; not sure if the Provost
-themself uses AI).
+words)(in all likelihood meaning the university’s work; not sure if the
+Provost herself uses AI).
 
 The sub-committees, in turn, convened panels to:
 
@@ -122,37 +101,40 @@ According to the announcement of this AI Committee at McMaster:
 > important role to play in its adoption.  
 > – Susan Tighe, Provost
 
-Accepting that AIs are powerful tools, right off the bat, is consistent
-with the hype observed so far (Angwin 2024). Hammers are powerful tools.
-Word processors are powerful tools. Lasers are powerful tools. And yet
-we do not have high-level committees for each of and every tool that the
-university uses. What makes AIs different from other tools that they
-require a pan-university consultation on an “*ethical approach to
-shaping policies and developing new ways of using AI to ensure a
+Notice that this statement takes for granted that 1) AIs are powerful
+tools, and 2) universities can be leading players in their adoption.
+This perspective is almost fatalistic in its enthusiasm, and perfectly
+consistent with the hype observed around AI this time[^5] (Angwin 2024).
+To put things in perspective, hammers are powerful tools. Word
+processors are powerful tools. Lasers are powerful tools. And yet we do
+not have high-level university committees for each and every tool that
+is used at the institution. What is it about AIs that, unlike many other
+tools, requires a pan-university consultation on an “*ethical approach
+to shaping policies and developing new ways of using AI to ensure a
 responsible and beneficial integration where it makes sense*”?
 
 (The last sentence in the statement above carries quite a bit of weight
 here: where does adoption of AI make sense? Presumably this is what the
 Committee on AI will try to answer.)
 
-<!--As I argue here, AI does not make a lot of sense outside of some limited applications that are nowhere near the scope of the promises of the merchants of hype.-->
-
 To understand why many organizations, including McMaster University,
 have decided to spend considerable resources studying the adoption and
-responsible use of AI, it is essential to have a working understanding
-of what AI does that sets it apart from other tools.
+responsible use of AIs, it is essential to have a working understanding
+of what the technology claims to do that sets it apart from other tools.
 
-In doing this, we must be alert to the fact that technologies are never
-politically neutral: it is important to ask two questions:
+In doing this, it is essential that we remain alert to the fact that
+technologies are *never* politically neutral, and therefore it is
+important to ask two questions when considering their adoption:
 
 - What does a specific technology do for whom?
 
 - And what does it do to whom?
 
 We also need to understand the goals of the organization that considers
-the technology. When does it make sense for a university like McMaster
-to “integrate” AI as part of the core mission of the organization,
-accounting for what it does to some people and what it does for others?
+using the technology. When does it make sense for a university like
+McMaster to “integrate” AIs as part of the core mission of the
+organization, accounting for what they do for some people and what they
+do to others?
 
 Let us begin with the mission of McMaster as an institution of higher
 education.
@@ -174,20 +156,19 @@ are things like “integrity” and “critical thought” valued? Or, what
 happens when “integrity”, “quality”, and/or “excellence” clash with “the
 economic needs of our society” (say, a mandate by democratically elected
 governments to spend as little as possible in post-secondary
-education[^5])?
+education[^6])?
 
-Clearly, there will be some tension implicit in the mission of a
-university. But being generous, let us take the mission statement at
-face value and assume that the highest priorities are those related to
-knowledge obtained, preserved, and communicated with integrity and
-quality.
+Clearly, there is some tension implicit in the mission of a university.
+But being generous, we can take the mission statement at face value and
+assume that the highest priorities are those related to knowledge
+obtained, preserved, and communicated with integrity and quality.
 
 ## What do AIs do?
 
 At this point, we might as well ask “what do AIs *not* do”?
 
 A possible reason why many organizations have decided to spend
-substantial resources considering the adoption of GenAI is that, unlike
+substantial resources considering the adoption of AIs is that, unlike
 most other tools, they are seen as *everything tools*. Indeed, the
 release of GenAIs to the masses was accompanied by innumerable lofty
 promises, albeit most of them made by entities that had a stake in the
@@ -198,11 +179,11 @@ The public was promised that GenAI would “accelerate sustainability”
 care, finance, human resources, insurance, “and beyond” by “automating
 customer self-service, accelerating response times on an increasing
 number of tasks as well as providing greater accuracy, enhanced routing
-and intelligent context gathering” ({IBM} 2023); according to
-Allerin[^6], AI-powered self-driving cars would reduce accidents, car
-ownership, pollution and noise, and would automate logistics and make
-parking tickets obsolete (Joshi 2022; Garsten 2024). In mental health
-care, chatbots could complement human therapists “via comprehensive data
+and intelligent context gathering” (IBM 2023); according to Allerin[^7],
+AI-powered self-driving cars would reduce accidents, car ownership,
+pollution and noise, and would automate logistics and make parking
+tickets obsolete (Joshi 2022; Garsten 2024). In mental health care,
+chatbots could complement human therapists “via comprehensive data
 access and \[analysis of\] behavioral patterns” to “mimic practitioner
 questions and subsequently make recommendations based on a user’s
 inputs” (Silva and Henderson 2023).
@@ -215,9 +196,9 @@ presumably also use chatbots to do the same) (Khalatian 2023).
 
 Higher-education was not spared the onslaught of promises.
 
-Power (2024),[^7] for example, presents three innovative use cases for
+Power (2024),[^8] for example, presents three innovative use cases for
 AI in higher education. First, AI could take over manual tasks and
-improve the budget by releasing administrative staff[^8]. AI could
+improve the budget by releasing administrative staff[^9]. AI could
 evaluate applications for admissions, including assessing traits like
 the “grit” and “empathy” of applicants. AI could also personalize the
 experience of consumers (also called students) by predicting their final
@@ -228,37 +209,30 @@ Mr. Power’s message to the higher-education sector? It is time for
 institutions to “level up”: jump on the bandwagon, fellas, don’t let it
 let you behind!
 
-In another instance, Hié and Thouary (2023) argue that AIs will likely
-be the primary way to access information in the future. For this reason,
-institutions must equip students with the skills needed to use AI
-competently, in particular to perfect the art of *prompt engineering*,
-that is, the ability to craft effective queries that prompt a GenAI to
-provide the most useful outputs. Universities will use AIs to improve
-learning and challenge the critical thinking of students. Faculty will
-also benefit from AI: it will be used to evaluate their students[^9],
-and will handle repetitive tasks like writing course syllabi[^10]. Hié
-and Thouary (2023)[^11] warn that “AI is here to stay”, that
+In another instance, Hié and Thouary (2023)[^10] argue that AIs will
+likely be the primary way to access information in the future. For this
+reason, institutions must equip students with the skills needed to use
+AI competently, in particular to perfect the art of *prompt
+engineering*, that is, the ability to craft effective queries that
+prompt a GenAI to provide the most useful outputs. Universities will use
+AIs to improve learning and challenge the critical thinking of students.
+Faculty will also benefit from AI: it will be used to evaluate their
+students[^11], and will handle repetitive tasks like writing course
+syllabi[^12].
+
+Hié and Thouary (2023) warn that “AI is here to stay”[^13], that
 “\[faculty\] might not be able to stop the AI trend from growing”, and
 so they might as well get on with the program and try to shape it as
 best they can.
 
-What does McMaster hope to achieve with AI? From the Overview on
-Generative AI document:
-
-> Some of \[the uses of AI\] in our context could include qualitative
-> and quantitative data analysis, writing text (e.g. reference letters,
-> grant applications, job descriptions, report summaries), translation,
-> captioning, multiple formats for learning and engagement, and
-> personalized support.
-
 ## But really, what do AIs do?
 
-GenAIs are *deep learning models* ({IBM} 2021), so called because they
-are neural networks with *depth*, meaning many, many hidden layers. As
-an example, Large Language Models (such as those behind OpenAI’s
-ChatGPT, Microsoft’s Copilot, Google’s Gemini, and facebook’s LLaMA) are
-models built with multiple layers of neural networks trained on *very*
-large amounts of textual data ({IBM} 2023).
+GenAIs are *deep learning models* (IBM 2021), so called because they are
+neural networks with *depth*, meaning many, many hidden layers. As an
+example, Large Language Models (such as those behind OpenAI’s ChatGPT,
+Microsoft’s Copilot, Google’s Gemini, and facebook’s LLaMA) are models
+built with multiple layers of neural networks trained on *very* large
+amounts of textual data (IBM 2023).
 
 But, what are
 [neural](https://en.wikipedia.org/wiki/Large_language_model#Further_reading)
@@ -266,9 +240,9 @@ But, what are
 
 Behind all the jargon, the neural networks that underpin GenAI are
 models designed to produce “statistically probable outputs” when
-prompted ({IBM} 2021). In more conventional terms, neural networks are
-regression models (Ripley 1994)–much more sophisticated and powerful
-than linear regression to be sure, but regression models nonetheless.
+prompted (IBM 2021). In more conventional terms, neural networks are
+regression models–much more sophisticated and powerful than linear
+regression to be sure, but regression models nonetheless (Ripley 1994).
 Here, it is important to note that the term regression refers to
 [regression to the
 mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean)–regressing
@@ -280,7 +254,7 @@ variables $x$ (observations of things thought to correlate with the
 dependent variable). With these inputs, the model finds a conditional
 mean for the output $\hat{y}$ (i.e., a mean value conditional on the
 values of the dependent variables). The process of finding that
-conditional mean is to satisfy some critarion (e.g., that the
+conditional mean is to satisfy some criterion (e.g., that the
 conditional mean minimizes the error of the model–the distance between
 $y$ and $\hat{y}$).
 
@@ -295,20 +269,18 @@ of the model with respect to that variable.
 
 <div class="figure">
 
-<img src="README_files/figure-gfm/plot-simulated-data-1.png" alt="Simple Example of a Regression Model" width="50%" />
+<img src="README_files/figure-gfm/plot-simulated-data-1.png" alt="Figure 1. Simple Example of a Regression Model" width="50%" />
 <p class="caption">
-Simple Example of a Regression Model
+Figure 1. Simple Example of a Regression Model
 </p>
 
 </div>
 
-Predict:
-
 <div class="figure">
 
-<img src="README_files/figure-gfm/data-vs-predictions-comparison-1.png" alt="Training data and model output compared" width="50%" />
+<img src="README_files/figure-gfm/data-vs-predictions-comparison-1.png" alt="Figure 2. Training data and model output compared" width="50%" />
 <p class="caption">
-Training data and model output compared
+Figure 2. Training data and model output compared
 </p>
 
 </div>
@@ -324,24 +296,24 @@ parameters.
 
 <div class="figure">
 
-<img src="images/nn1.png" alt="Simple Example of a Shallow Neural Network" width="50%" />
+<img src="images/nn1.png" alt="Figure 3. Simple Example of a Shallow Neural Network" width="50%" />
 <p class="caption">
-Simple Example of a Shallow Neural Network
+Figure 3. Simple Example of a Shallow Neural Network
 </p>
 
 </div>
 
 The plot below illustrates the predictions of this neural network, where
-we can see that it is not limited to a linear response; neural networks
-are more flexible than linear regression, and they achieve this by being
-less parsimonious (they use more parameters).
+we can see that the model is not limited to a linear response; neural
+networks are more flexible than linear regression, and they achieve this
+by being less parsimonious (they use more parameters).
 
 <div class="figure">
 
-<img src="README_files/figure-gfm/data-vs-predictions-comparison-2-1.png" alt="Training data and model outputs compared: linear regression and shallow neural network" width="50%" />
+<img src="README_files/figure-gfm/data-vs-predictions-comparison-2-1.png" alt="Figure 4. Training data and model outputs compared: linear regression and shallow neural network" width="50%" />
 <p class="caption">
-Training data and model outputs compared: linear regression and shallow
-neural network
+Figure 4. Training data and model outputs compared: linear regression
+and shallow neural network
 </p>
 
 </div>
@@ -352,9 +324,9 @@ consisting of five neurons. This model uses forty-six parameters.
 
 <div class="figure">
 
-<img src="images/nn2.png" alt="Example of a Deeper Neural Network" width="50%" />
+<img src="images/nn2.png" alt="Figure 5. Example of a Deeper Neural Network" width="50%" />
 <p class="caption">
-Example of a Deeper Neural Network
+Figure 5. Example of a Deeper Neural Network
 </p>
 
 </div>
@@ -365,27 +337,42 @@ data.
 
 <div class="figure">
 
-<img src="README_files/figure-gfm/data-vs-predictions-comparison-3-1.png" alt="Training data and model outputs compared: shallow neural network and deeper neural network" width="50%" />
+<img src="README_files/figure-gfm/data-vs-predictions-comparison-3-1.png" alt="Figure 6. Training data and model outputs compared: shallow neural network and deeper neural network" width="50%" />
 <p class="caption">
-Training data and model outputs compared: shallow neural network and
-deeper neural network
+Figure 6. Training data and model outputs compared: shallow neural
+network and deeper neural network
 </p>
 
 </div>
 
-Indeed, the first neural network is “better” in that it reduces the
-typical error by -6.8% compared to the linear regression, whereas the
-deeper network reduces the typical error by -6.8%, also with respect to
-the linear regression[^12].
+Indeed, the first neural network is “better” than the linear regression
+in that it reduces the typical error by -5.6%, whereas the deeper
+network reduces the typical error by -6.8%, also with respect to the
+linear regression[^14].
 
-There is a limit to how flexible any model can be, and this is as true
-of linear regression as it is of neural networks. Each additional
-parameter makes the model more flexible, but as a rule we cannot use
-more parameters than we have data to train the model. Roughly, every
-additional parameter needs a data input to train on, and when there are
-as many parameters as data inputs the model is overfit and will predict
-each value of the independent variable in the training dataset
-perfectly.
+There is a limit as to how flexible a model can be, and this is true of
+linear regression and of neural networks. Each additional parameter
+makes the model more flexible, but as a rule we cannot use more
+parameters than the number of data points that exist in the dataset used
+to train the model. Roughly, every additional parameter needs a data
+input to train on, and when there are as many parameters as data inputs
+the model is overfit and will predict each value of the independent
+variable in the training dataset perfectly. The model will fail to train
+if there are more parameters than data points.
+
+Here are some key ideas to keep in mind:
+
+- AIs are neural networks, which is to say, regression models.
+- A regression model generates outputs that are regressions to the mean
+  (i.e., statistically probable outputs).
+- AIs are *very* flexible non-linear regression models.
+- Their flexibility comes from using “deep” architectures, which means
+  many layers with many, many parameters[^15].
+- Also, importantly, since regression models aim for the mean (i.e., a
+  statistically probable output), they tend to be bad at *extrapolation*
+  (or thinking outside the box, if AIs could think). The further away an
+  input (i.e., prompt) is from the space defined by the training
+  dataset, the worse the output will tend to be[^16].
 
 <!-- 
 IBM uses a dataset called Project CodeNet Dataset, which is sourced from two online judge web sites, AIZU Online Judge and AtCoder. https://research.ibm.com/blog/codenet-ai-neurips-2021 According to IBM "[the] end goal of CodeNet is to enable developers to create systems that can modernize existing codebases, as well as fix errors and security vulnerabilities in code." 
@@ -401,19 +388,111 @@ IBM uses a dataset called Project CodeNet Dataset, which is sourced from two onl
 **NOTE**: Labeling data is an essential, yet extremely expensive aspect
 of training GenAIs.
 
-## What do GenAI tools do for students at McMaster?
+## AI in teaching and learning
 
-## What do GenAI tools do to students at McMaster?
+Next, I lay out some considerations about the use of AI for teaching and
+learning, in an attempt to find out where it makes sense to use this
+technology. To begin, we must note the sheer number of examples of the
+use of AI by students. A report by Tyton Partners (2023) that was
+sponsored by Turnitin found that 50% out of 1,600 post-secondary
+students who participated in the study, were users of GenAI (but only
+22% of 1,000 faculty in the study). Use of AI by students is one of the
+reasons cited by some for universities to embrace AI (e.g., Power 2024).
+McMaster’s own internal research indicates that at least 61% of over
+1,300 students polled, used AI during the Fall Term in 2023, 75% of them
+for school work (Yachouh, Maqbool, and Rao 2024).
 
-## Not learning
+But embracing AI just because the students use it is like putting the
+cart before the horse. After all, smoking is banned on campus, and I do
+not recall the university asking the students if they smoked[^17].
+
+What does McMaster hope to achieve with AI? From the Overview on
+Generative AI document:
+
+> Some of \[the uses of AI\] in our context could include qualitative
+> and quantitative data analysis, writing text (e.g. reference letters,
+> grant applications, job descriptions, report summaries), translation,
+> captioning, multiple formats for learning and engagement, and
+> personalized support.
+
+## What can GenAI tools do for students?
+
+<!-- From Review Report in private folder: May 6 Review Report_AI Expert Panel on Teaching and Learning.docx -->
+
+- Students want concepts explained to them differently.
+
+Relatively common concepts have already been explained by humans in
+dozens if not hundreds of different ways. A search of McMaster’s library
+catalogue, looking only for resources available online (for
+convenience), reveals that there are hundreds, thousands, and sometimes
+tens of thousands of resources available to explore the same concept
+from multiple perspectives.
+
+<div class="figure">
+
+<img src="images/mac-library-econometrics.png" alt="Figure 7. Result of a search for online 'econometrics' resources in McMaster's Library catalogue" width="50%" />
+<p class="caption">
+Figure 7. Result of a search for online ‘econometrics’ resources in
+McMaster’s Library catalogue
+</p>
+
+</div>
+
+<div class="figure">
+
+<img src="images/mac-library-cell-biology.png" alt="Figure 8. Result of a search for online 'cell biology' resources in McMaster's Library catalogue" width="50%" />
+<p class="caption">
+Figure 8. Result of a search for online ‘cell biology’ resources in
+McMaster’s Library catalogue
+</p>
+
+</div>
+
+<div class="figure">
+
+<img src="images/mac-library-euphemism.png" alt="Figure 9. Result of a search for online 'euphemism in history' resources in McMaster's Library catalogue" width="50%" />
+<p class="caption">
+Figure 9. Result of a search for online ‘euphemism in history’ resources
+in McMaster’s Library catalogue
+</p>
+
+</div>
+
+Is an AI tool essential to find alternative explanations for common
+concepts? Probably only at the expense of research skills. As for more
+obscure concepts, given their paucity in training datasets, those would
+tend to be uncommon, and therefore improbable outputs (i.e. for reasons
+of lying far from the mean). This strongly suggests that any outputs
+about highly specialized queries should be treated with caution[^18].
+
+In summary: there is no dearth of materials to learn from about
+relatively common concepts, and AIs should not be used to try to learn
+specialized concepts.
+
+- Practice questions
+
+Most textbooks include plenty of practice questions, but it may signal
+something worse: preparation for the examination.
+
+- Immediate feedback on drafted work
+
+From Mollick and Mollick (2024)
+
+- 
+- 
+- 
+
+## What do GenAI tools do to students?
+
+### Not learning
 
 Words go here.
 
-## Learning the wrong stuff
+### Learning the wrong stuff
 
 Words go here.
 
-## Deskilling
+### Deskilling
 
 Words go here.
 
@@ -465,7 +544,7 @@ self-avowed admirer of the movie *Her*, featuring Scarlet Johansson as
 an AI voice assistant, reportedly tried to hire Ms. Johannson to be the
 voice of ChatGPT 4.0 (Kastrenakes 2024). After Ms. Johannson decline,
 OpenAI went and used a mimicry of [her voice](@as-an-aside) anyways,
-which was retired after Ms. Johansson threatened legal action[^13]
+which was retired after Ms. Johansson threatened legal action[^19]
 (Allyn 2024). Alas, very few have the social standing of Scarlett
 Johansson to challenge OpenAI. Most people in the world lack that power.
 
@@ -683,7 +762,7 @@ article (Farrugia 2024); see here:
 
 ChatGPT was an awesome feat of marketing (Cowen 2023), but much coverage
 of the relevant issues in the media has been so credulous it has
-stretched credulity past Pluto (Burneko 2024)[^14]. There are now calls
+stretched credulity past Pluto (Burneko 2024)[^20]. There are now calls
 to press pause on the hype (Angwin 2024) but these are still drown by
 the credulous coverage.
 
@@ -867,6 +946,14 @@ Public Funding as a Percent of Total Revenue.”
 
 </div>
 
+<div id="ref-carter_mcmaster_2017" class="csl-entry">
+
+Carter, Adam. 2017. “McMaster University Banning Smoking on All
+Campuses.” *CBC News*, September.
+<https://www.cbc.ca/news/canada/hamilton/mcmaster-smoking-ban-1.4294924>.
+
+</div>
+
 <div id="ref-caut_provincial" class="csl-entry">
 
 CAUT. 2024. “Provincial Government Expenditures (Operating) on
@@ -939,6 +1026,14 @@ Answers, Same Model.” *Proof*.
 
 </div>
 
+<div id="ref-griffith_gpt_4_2023" class="csl-entry">
+
+Griffith, Eric. 2023. “GPT-4 Vs. ChatGPT-3.5: What’s the Difference?”
+*PCMAG*.
+<https://www.pcmag.com/news/the-new-chatgpt-what-you-get-with-gpt-4-vs-gpt-35>.
+
+</div>
+
 <div id="ref-hao_hidden_2023" class="csl-entry">
 
 Hao, Karen. 2023. “The Hidden Workforce That Helped Filter Violence and
@@ -965,7 +1060,7 @@ Hiskes, Jonathan. 2007. “Woodward: ‘Journalism Is Not Stenography’.”
 
 <div id="ref-ibm_what_2021" class="csl-entry">
 
-{IBM}. 2021. “What Is Generative AI?” *IBM Research*.
+IBM. 2021. “What Is Generative AI?” *IBM Research*.
 <https://research.ibm.com/blog/what-is-generative-AI>.
 
 </div>
@@ -1040,6 +1135,15 @@ Training Data Makes Language Models Better.”
 Lock, Samantha. 2022. “What Is AI Chatbot Phenomenon ChatGPT and Could
 It Replace Humans?” *The Guardian*.
 <https://web.archive.org/web/20230116100346/https://www.theguardian.com/technology/2022/dec/05/what-is-ai-chatbot-phenomenon-chatgpt-and-could-it-replace-humans>.
+
+</div>
+
+<div id="ref-mollick_instructors_2024" class="csl-entry">
+
+Mollick, Ethan R., and Lilach Mollick. 2024. “Instructors as Innovators:
+A Future-Focused Approach to New AI Learning Opportunities, With
+Prompts.” {SSRN} {Scholarly} {Paper}. Rochester, NY.
+<https://doi.org/10.2139/ssrn.4802463>.
 
 </div>
 
@@ -1149,6 +1253,14 @@ York Times*.
 
 </div>
 
+<div id="ref-siegel_ai_2023" class="csl-entry">
+
+Siegel, Eric. 2023. “The AI Hype Cycle Is Distracting Companies.”
+*Harvard Business Review*, June.
+<https://hbr.org/2023/06/the-ai-hype-cycle-is-distracting-companies>.
+
+</div>
+
 <div id="ref-silva_4_2023" class="csl-entry">
 
 Silva, Lauren, and Lisa Henderson. 2023. “4 AI Therapy Options Reviewed:
@@ -1181,12 +1293,43 @@ University Guidelines, 2024.”
 
 </div>
 
+<div id="ref-tyton_partners_generative_2023" class="csl-entry">
+
+Tyton Partners. 2023. “Generative AI in Higher Education: Fall 2023
+Update of Time For Class Study.”
+<https://tytonpartners.com/app/uploads/2023/10/GenAI-IN-HIGHER-EDUCATION-FALL-2023-UPDATE-TIME-FOR-CLASS-STUDY.pdf>.
+
+</div>
+
+<div id="ref-usher_state_2023" class="csl-entry">
+
+Usher, Alex. 2023. “State of Postsecondary Education in Canada 2023.”
+*HESA*. <https://higheredstrategy.com/spec-2023/>.
+
+</div>
+
+<div id="ref-verma_chatgpt_2023" class="csl-entry">
+
+Verma, Pranshu, and Will Oremus. 2023. “ChatGPT Invented a Sexual
+Harassment Scandal and Named a Real Law Prof as the Accused.”
+*Washington Post*, April.
+<https://www.washingtonpost.com/technology/2023/04/05/chatgpt-lies/>.
+
+</div>
+
 <div id="ref-williams_exploited_2022" class="csl-entry">
 
 Williams, Adrienne, Milagros Miceli, and Timnit Gebru. 2022. “The
 Exploited Labor Behind Artificial Intelligence.” *Noema Magazine*,
 October.
 <https://www.noemamag.com/the-exploited-labor-behind-artificial-intelligence>.
+
+</div>
+
+<div id="ref-yachouh_student_2024" class="csl-entry">
+
+Yachouh, Christine, Samarah Maqbool, and Surbhi Rao. 2024. “Student
+Perspectives on Generative AI in Teaching and Learning.”
 
 </div>
 
@@ -1197,60 +1340,96 @@ October.
     unregulated surveillance capitalism.
 
 [^2]: “Efficiencies”, to be clear, is the day’s euphemism for cutting
-    costs (O’Connell 2012, 64).
+    costs (O’Connell 2012, 64). Cost-cutting is usually implemented by
+    finding “redundancies” rather than finding other things for people
+    to do.
 
 [^3]: Ethical concerns for the most part have had to do with policing
     academic dishonesty among students
 
 [^4]: There was no evidence that cheating had happened.
 
-[^5]: Between 2000-2020, Ontario had the lowest spending on
+[^5]: The pattern of cyclical hypes around AI even has a name: [AI
+    winters](https://en.wikipedia.org/wiki/AI_winter); the current one
+    with chatbots in the pole position is just the most recent of
+    several hype cycles (see Siegel 2023)
+
+[^6]: Between 2000-2020, Ontario had the lowest spending on
     post-secondary education of all provinces in Canada, relative to its
     share of spending (CAUT 2024). Public funding of universities in
     Ontario as percent of revenue fell from 45.6% in 2001/2 to 35.5% in
-    2019/20 (Canada} 2022). It is little wonder that universities are
-    seeking “efficiencies”
+    2019/20 (Canada} 2022). As noted by Usher (2023), Ontario is “a
+    province where underfunding \[higher-education\] institutions is a
+    pan-partisan affair”. Is it any wonder that universities in the
+    province are pushed to find “efficiencies”?
 
-[^6]: Curiously, Allerin is not identified as an artificial intelligence
+[^7]: Curiously, Allerin is not identified as an artificial intelligence
     company in Joshi (2022) but only in the much later article by
     Garsten (2024).
 
-[^7]: Rhett Power is a motivational speaker and executive coach
+[^8]: Rhett Power is a motivational speaker and executive coach
 
-[^8]: Probably to work on something else, and not for the university,
+[^9]: Probably to work on something else, and not for the university,
     hence leading to “efficiencies”
 
-[^9]: A task of dubious legality, and clearly a way to cheat students of
-    a learning experience
+[^10]: Anthony Hié is Chief Innovation and Digital officer at
+    [Excelia](https://www.excelia-group.com/about-excelia/our-schools/excelia-business-school).
+    Claire Thouary is the founder of [QACE UP](http://qace-up.fr), a
+    consulting firm that supports higher-education institutions in their
+    quest for “quality excellence”, whatever that means.
 
-[^10]: In my 20+ years of experience as an educator, writing syllabi has
+[^11]: A task of dubious legality, and clearly a way to cheat students
+    of a learning experience
+
+[^12]: In my 20+ years of experience as an educator, writing syllabi has
     been essential to understand my own courses; automating the task is
     another way of cheapening the quality of the learning experience for
     students
 
-[^11]: Anthony Hié is Chief Innovation and Digital officer at
-    [Excelia](https://www.excelia-group.com/about-excelia/our-schools/excelia-business-school).
-    Writing in 2022, Mr. Hié predicted that the metaverse would be a
+[^13]: Writing in 2022, Mr. Hié predicted that the metaverse would be a
     [revolution in higher
     education](https://www.linkedin.com/pulse/metaverse-dedicated-pedagogy-revolution-higher-education-anthony-hi%C3%A9).
-    In October 2023 facebook [slashed its metaverse
-    team](https://www.reuters.com/technology/meta-lay-off-employees-metaverse-silicon-unit-wednesday-2023-10-03/).
-    Microsoft
+    On February, 2023, Microsoft
     [disbanded](https://www.theinformation.com/articles/microsoft-kills-its-industrial-metaverse-team-after-4-months)
-    its Industrial Metaverse Core Team four months after launching it.
-    Claire Thouary is the founder of [QACE UP](http://qace-up.fr), a
-    consulting firm that supports higher-education institutions in their
-    quest for “quality excellence”.
+    its Industrial Metaverse Core Team scantly four months after
+    launching it. Meta, the main cheerleader of the eponymous metaverse,
+    [slashed its own metaverse
+    team](https://www.reuters.com/technology/meta-lay-off-employees-metaverse-silicon-unit-wednesday-2023-10-03/)
+    in October, 2023.
 
-[^12]: The “typical error” here is the mean absolute deviation of the
+[^14]: The “typical error” here is the mean absolute deviation of the
     predictions.
 
-[^13]: Altman’s denials that OpenAI had not used Ms. Johansson’s voice
+[^15]: According to reports (see Griffith 2023), GPT-1 had 117 million
+    parameters, GPT-2 1.5 billion, and GPT-3 175 billion parameters.
+    OpenAI no longer reports the number of parameters, but in the latest
+    version this is estimated to be trillions.
+
+[^16]: Which is possibly why so-called hallucinations became less common
+    as more and more data was used to train LLMs. The increasingly large
+    datasets essentially expanded the space where interpolation was
+    possible.
+
+[^17]: “A tobacco and smoke-free campus is the next important step
+    towards fulfilling our responsibilities as educators, healthcare
+    professionals and to the communities we serve” said then-president
+    Patrick Deane (Carter 2017)
+
+[^18]: The Overview on Generative AI notes that “if you ask \[a
+    chatbot\] about yourself or a more obscure topic, \[it\] will almost
+    certainly make up nonsense.” This is true even when asking about a
+    person with an extensive online presence (the internet being the
+    likely source of the training datasets); as recently as 2023, a
+    famous law professor discovered when ChatGPT produced output stating
+    that he had been accused of sexual harassment (in the real world he
+    had not been) (Verma and Oremus 2023)
+
+[^19]: Altman’s denials that OpenAI had not used Ms. Johansson’s voice
     sounded hollow, after he
     [posted](https://x.com/sama/status/1790075827666796666) on social
     media the word “her” at the time the new version of ChatGPT was
     announced.
 
-[^14]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
+[^20]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
     but it is difficult to see what else writing like Roose’s (2024)
     could be called.
