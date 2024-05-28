@@ -12,6 +12,26 @@ Disclaimer: *All opinions expressed here are mine and any resemblance to
 those of my employer(s) is purely coincidental*. *No generative AI tool
 was used to research or write this essay*.
 
+------------------------------------------------------------------------
+
+## Contents
+
+- [Background](#background)  
+- [The university’s mission](#the-mission)  
+- [What do AIs do?](#what-do-ais-do)  
+- [A note on the terms of the conversation](#terms-of-debate)  
+- [But really, what do AIs do?](#really-what-do-they-do)  
+- [AI in teaching and learning](#ai-in-teaching-and-learning)  
+- [What can GenAI tools do for
+  students?](#what-can-ais-do-for-students)  
+- [What do GenAI tools do to students?](#what-can-ais-do-to-students)  
+- [What do GenAIs do for the mega-corporations pushing these
+  tools?](#what-do-ais-to-corporations)  
+- [What do GenAIs to to everyone
+  else?](#what-do-ais-do-to-everyone-else)
+
+------------------------------------------------------------------------
+
 ## Background
 
 > Mission Statement: Our organization seeks to level up on all matters
@@ -138,16 +158,17 @@ and what it does to others?
 Let us begin with the mission of McMaster as an institution of higher
 education.
 
-## The [mission](https://president.mcmaster.ca/mission-vision/)
+## The university’s mission
 
-McMaster’s mission is “the discovery, communication and preservation of
-knowledge,” accomplished with a commitment to “creativity, innovation
-and excellence”. These aspirations must respond to some underlying
-values, and indeed, the university explicitly values “integrity,
-quality, inclusiveness and teamwork”. Ultimately, the university aims to
-“inspire critical thinking, personal growth, and a passion for lifelong
-learning” and to serve “the social, cultural, and economic needs of our
-community and our society.”
+McMaster’s [mission](https://president.mcmaster.ca/mission-vision/) is
+“the discovery, communication and preservation of knowledge,”
+accomplished with a commitment to “creativity, innovation and
+excellence”. These aspirations must respond to some underlying values,
+and indeed, the university explicitly values “integrity, quality,
+inclusiveness and teamwork”. Ultimately, the university aims to “inspire
+critical thinking, personal growth, and a passion for lifelong learning”
+and to serve “the social, cultural, and economic needs of our community
+and our society.”
 
 A mission statement is like an onion, and one needs to peel multiple
 layers to try to understand the core principles enunciated there. Why
@@ -225,7 +246,7 @@ Hié and Thouary (2023) warn that “AI is here to stay”[^15], that
 so they might as well get on with the program and try to shape it as
 best they can.
 
-## A note on the terms of the debate
+## A note on the terms of the conversation
 
 A benefit of portraying AI as an *everything tool* (for the proponents
 of the technology, at least), is that conversations around it quickly
@@ -689,12 +710,16 @@ The Onion
 
 </div>
 
-Mind you, these, and numerous other [hapless
-results](https://www.nbcnews.com/tech/tech-news/google-ai-im-feeling-depressed-cheese-not-sticking-to-pizza-error-rcna153301)
-(as of May, 2023) are produce by AI *after* Google has already spent
-tens of billions of dollars on the technology (Vynck and Nix 2024). To
-what extent can more money improve AI? Probably not by much, since the
-key constraint is the amount of data available for training.
+Mind you, these, and numerous other hapless results[^29] (as of May,
+2024) are produced by an AI that Google has already spent tens of
+billions of dollars developing (Vynck and Nix 2024). To what extent can
+more money improve AI? Probably not by much, since the key constraint is
+the amount of data available for training, and as numerous examples
+
+a search for “how to rotate text in ms paint,” referring to the
+Microsoft Paint application. The top Google search result, viewed by NBC
+News, directs the reader to a sarcastic Reddit comment that says to
+press the “Flubblegorp” key on your keyboard. This key does not exist.
 
 NEXT:
 
@@ -762,16 +787,27 @@ Germain (2023) Norem (2023)
 
 ### Exploitative
 
-Above, the ways in which GenAI is exploitative of people all over the
-world, but particularly in the Global South were highlighted. But AI
-companies do not spare the rich either. OpenAI’s Sam Altman, a
-self-avowed admirer of the movie *Her*, featuring Scarlet Johansson as
-an AI voice assistant, reportedly tried to hire Ms. Johannson to be the
-voice of ChatGPT 4.0 (Kastrenakes 2024). After Ms. Johannson decline,
-OpenAI went and used a mimicry of [her voice](@as-an-aside) anyways,
-which was retired after Ms. Johansson threatened legal action[^29]
-(Allyn 2024). Alas, very few have the social standing of Scarlett
-Johansson to challenge OpenAI. Most people in the world lack that power.
+ChatGPT 4.o was announced on May 13, 2024, with a flashy display of the
+model’s new capabilities, which included the ability to respond vocally
+to prompts, and to identify images via a mobile device’s camera. 4.o’s
+voice, in particular, caused some titillation in the pants of even its
+creators (Roose 2024). The voice was modeled after the digital personal
+assistant of the movie *Her*, played by Scarlett Johannson. This film
+(to approximately no one’s surprise) is, by his own account, one of
+OpenAI’s Altman’s favorites. The background story of 4.o’s voice is
+somewhat sordid: Altman reportedly tried to hire Ms. Johannson to be the
+voice of ChatGPT 4.o (Kastrenakes 2024), but when Ms. Johannson
+declined, OpenAI went and used a mimicry of [her voice](@as-an-aside)
+anyways. This voice was retired (probably to the profound sadness of
+many an AI engineer) after Ms. Johansson threatened legal action[^30]
+(Allyn 2024).
+
+Alas, very few have the social standing of Scarlett Johansson to
+challenge OpenAI. Most people in the world lack that power.
+
+The ways in which GenAI is exploitative of people all over the world,
+but particularly in the Global South were highlighted. But AI companies
+do not spare the rich either.
 
 Williams, Miceli, and Gebru (2022) (Summary needed)
 
@@ -844,6 +880,9 @@ Quotes from Hao’s podcast:
 
 Think about linguistic hegemony, and how the models are only as good (or
 as bad) as their inputs.
+
+Roberts (2016) Commercial {Content} {Moderation}: {Digital} {Laborers}’
+{Dirty} {Work}
 
 ### Copyright (and privacy) issues
 
@@ -956,10 +995,48 @@ changes? (Gordon 2024). Or when trying to obtain accurate voting
 information in the context of voter supression? (Angwin, Nelson, and
 Palta 2024)
 
-### Replication of unjust structures of power
+### Reproduction of unjust structures of power
 
-When using a Generative AI we must ask whose perspectives that tool
-represents.
+When using a Generative AI we must ask whose perspectives the tool will
+tend to reproduce and amplify.
+
+Training data, much like technology, are not politically neutral, and
+several processes contribute to reproduce malignant biases, A way to
+explain this is by means of the concept of *platformed racism*
+(Matamoros-Fernández 2017). Platformed racism is the process whereby the
+functionalities of platforms are exploited to create and spread racist
+ideology (liking and sharing), often in a grass-roots fashion, but more
+ominously with the assist of bad-faith actors[^31]. The second aspect of
+platformed racism is the implicit endorsement of racist ideology through
+vague standards and [arbitrary moderation
+practices](https://www.bbc.com/news/technology-58058428) that exclude
+some views while allowing others to thrive (Myers West 2018; Hawkins et
+al. 2023).
+
+Search engines were already known to reinforce racism (Noble 2018);
+given the above, it is too mych to expecet that AI-augmented search
+engines do better[^32]. In another wretched incident, Google’s AI
+overview stated that Barack Obama was the first Muslim president of the
+US, a regrettable piece of misinformation that fails to surprise given
+the years-long right-wing disinformation campaign to otherize Obama
+(Tenbarge 2024). Mishaps like this, and others, are dismissed by Google
+as attempts to “to trip up the technology with uncommon questions”
+(Tenbarge 2024), which only reinforces the notion that AIs only are
+useful when [regressing to the mean](#really-what-do-they-do). Responses
+like fiddling with the model (fine tune it) to provide more palatable
+outputs (like in the case of **FIND EXAMPLE**) are not more reassuring.
+Who is to say what a handful of unaccountable corporations will find
+palatable tomorrow, let alone in the face of powerful authoritarian
+regimes?
+
+<div class="figure">
+
+<img src="README_files/figure-gfm/google-obama-1.png" alt="\label{fig:google-ai-overview-of-obama}Google's AI overview of Muslim US presidents" width="50%" />
+<p class="caption">
+Google’s AI overview of Muslim US presidents
+</p>
+
+</div>
 
 ## As an aside
 
@@ -989,7 +1066,7 @@ article (Farrugia 2024); see here:
 
 ChatGPT was an awesome feat of marketing (Cowen 2023), but much coverage
 of the relevant issues in the media has been so credulous it has
-stretched credulity past Pluto (Burneko 2024)[^30]. There are now calls
+stretched credulity past Pluto (Burneko 2024)[^33]. There are now calls
 to press pause on the hype (Angwin 2024) but these are still drown by
 the credulous coverage.
 
@@ -1157,6 +1234,17 @@ Lasts.” *The Conversation*.
 
 </div>
 
+<div id="ref-bender_dangers_2021" class="csl-entry">
+
+Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret
+Shmitchell. 2021. “On the Dangers of Stochastic Parrots: Can Language
+Models Be Too Big? 🦜.” In *Proceedings of the 2021 ACM Conference on
+Fairness, Accountability, and Transparency*, 610–23. FAccT ’21. New
+York, NY, USA: Association for Computing Machinery.
+<https://doi.org/10.1145/3442188.3445922>.
+
+</div>
+
 <div id="ref-buckley_are_2023" class="csl-entry">
 
 Buckley, Alex. 2023. “Are We Answering the Question That Has Been Set?
@@ -1203,6 +1291,15 @@ Post-Secondary Education as a Share of Total Government Spending.”
 Corfield, Gareth. 2023. “Russia Launches Wikipedia Rival in New
 Censorship Crackdown.” *The Telegraph*, July.
 <https://www.telegraph.co.uk/business/2023/07/12/russia-rival-wikipedia-censorship-crackdown-ruwiki/>.
+
+</div>
+
+<div id="ref-center_for_countering_digital_hate_googles_2023"
+class="csl-entry">
+
+Countering Digital Hate}, {Center for. 2023. “Google’s New Bard AI
+Generate Lies.” *Center for Countering Digital Hate CCDH*.
+<https://counterhate.com/research/misinformation-on-bard-google-ai-chat/>.
 
 </div>
 
@@ -1283,6 +1380,16 @@ Griffith, Eric. 2023. “GPT-4 Vs. ChatGPT-3.5: What’s the Difference?”
 Hao, Karen. 2023. “The Hidden Workforce That Helped Filter Violence and
 Abuse Out of ChatGPT - The Journal. - WSJ Podcasts.” *WSJ*.
 <https://www.wsj.com/podcasts/the-journal/the-hidden-workforce-that-helped-filter-violence-and-abuse-out-of-chatgpt/ffc2427f-bdd8-47b7-9a4b-27e7267cf413>.
+
+</div>
+
+<div id="ref-hawkins_race_2023" class="csl-entry">
+
+Hawkins, Ian, Jessica Roden, Miriam Attal, and Haleemah Aqel. 2023.
+“Race and Gender Intertwined: Why Intersecting Identities Matter for
+Perceptions of Incivility and Content Moderation on Social Media.”
+*Journal of Communication* 73 (6): 539–51.
+<https://doi.org/10.1093/joc/jqad023>.
 
 </div>
 
@@ -1420,6 +1527,15 @@ Size.” *Macleans.ca*.
 
 </div>
 
+<div id="ref-matamoros-fernandez_platformed_2017" class="csl-entry">
+
+Matamoros-Fernández, Ariadna. 2017. “Platformed Racism: The Mediation
+and Circulation of an Australian Race-Based Controversy on Twitter,
+Facebook and YouTube.” *Information, Communication & Society* 20 (6):
+930–46. <https://doi.org/10.1080/1369118X.2017.1293130>.
+
+</div>
+
 <div id="ref-mollick_instructors_2024" class="csl-entry">
 
 Mollick, Ethan R., and Lilach Mollick. 2024. “Instructors as Innovators:
@@ -1434,6 +1550,15 @@ Prompts.” {SSRN} {Scholarly} {Paper}. Rochester, NY.
 Murgia, Mahmudita. 2023. “Why Computer-Made Data Is Being Used to Train
 AI Models.” *Financial Times*.
 <https://www.ft.com/content/053ee253-820e-453a-a1d5-0f24985258de>.
+
+</div>
+
+<div id="ref-myers_west_censored_2018" class="csl-entry">
+
+Myers West, Sarah. 2018. “Censored, Suspended, Shadowbanned: User
+Interpretations of Content Moderation on Social Media Platforms.” *New
+Media & Society* 20 (11): 4366–83.
+<https://doi.org/10.1177/1461444818773059>.
 
 </div>
 
@@ -1457,6 +1582,14 @@ AI: A Playbook.” *Microsoft On the Issues*.
 Newsroom, {The Brussels Times}. 2024. “ChatGPT Consumes 25 Times More
 Energy Than Google.” *The Brussel Times*.
 <https://www.brusselstimes.com/1042696/chatgpt-consumes-25-times-more-energy-than-google>.
+
+</div>
+
+<div id="ref-noble_algorithms_2018" class="csl-entry">
+
+Noble, Safiya Umoja. 2018. “Algorithms of Oppression: How Search Engines
+Reinforce Racism.” In *Algorithms of Oppression*. New York University
+Press. <https://doi.org/10.18574/nyu/9781479833641.001.0001>.
 
 </div>
 
@@ -1529,6 +1662,15 @@ Classification.” *Journal of the Royal Statistical Society: Series B
 
 </div>
 
+<div id="ref-roberts_commercial_2016" class="csl-entry">
+
+Roberts, Sarah T. 2016. “Commercial Content Moderation: Digital
+Laborers’ Dirty Work.” In *The Intersectional Internet : Race, Sex,
+Class and Culture Online*, Noble, Safiya Umoja and Tynes, Brendesha M.
+(eds.). Peter Lang Publishing.
+
+</div>
+
 <div id="ref-roose_brilliance_2023" class="csl-entry">
 
 Roose, Kevin. 2023. “The Brilliance and Weirdness of ChatGPT.” *The New
@@ -1584,11 +1726,27 @@ Sustainability Report.” *Microsoft On the Issues*.
 
 </div>
 
+<div id="ref-tenbarge_glue_2024" class="csl-entry">
+
+Tenbarge, Kate. 2024. “Glue on Pizza? Google’s AI Faces Social Media
+Mockery.” *NBC News*.
+<https://www.nbcnews.com/tech/tech-news/google-ai-im-feeling-depressed-cheese-not-sticking-to-pizza-error-rcna153301>.
+
+</div>
+
 <div id="ref-trent_university_generative_2024" class="csl-entry">
 
 Trent University. 2024. “Generative Artificial Intelligence, Trent
 University Guidelines, 2024.”
 <https://otl.uoguelph.ca/teaching-assessment-resources/teaching-context-ai/provisional-recommendations-use-generative-ai>.
+
+</div>
+
+<div id="ref-treyger_russian_2022" class="csl-entry">
+
+Treyger, Elina, Joe Cheravitch, and Raphael S. Cohen. 2022. “Russian
+Disinformation Efforts on Social Media.” RAND Corporation.
+<https://www.rand.org/pubs/research_reports/RR4373z2.html>.
 
 </div>
 
@@ -1606,6 +1764,14 @@ Online Distance Learning.” *Assessment & Evaluation in Higher Education*
 Tyton Partners. 2023. “Generative AI in Higher Education: Fall 2023
 Update of Time For Class Study.”
 <https://tytonpartners.com/app/uploads/2023/10/GenAI-IN-HIGHER-EDUCATION-FALL-2023-UPDATE-TIME-FOR-CLASS-STUDY.pdf>.
+
+</div>
+
+<div id="ref-us_department_of_state_gec_2024" class="csl-entry">
+
+U.S. Department of State. 2024. “GEC Special Report: Russia’s Pillars of
+Disinformation and Propaganda.”
+<https://www.state.gov/russias-pillars-of-disinformation-and-propaganda-report/>.
 
 </div>
 
@@ -1799,12 +1965,31 @@ Perspectives on Generative AI in Teaching and Learning.”
 [^28]: The headline of the 404 Media report was “Google Is Paying Reddit
     \$60 Million for Fucksmith to Tell Its Users to Eat Glue”.
 
-[^29]: Altman’s denials that OpenAI had not used Ms. Johansson’s voice
+[^29]: For instance, ; or returning misinformation about depresion
+    (Tenbarge 2024)
+
+[^30]: Altman’s denials that OpenAI had not used Ms. Johansson’s voice
     sounded hollow, after he
     [posted](https://x.com/sama/status/1790075827666796666) on social
     media the word “her” at the time the new version of ChatGPT was
     announced.
 
-[^30]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
+[^31]: Online Russian disinformation has had a wide reach (Treyger,
+    Cheravitch, and Cohen 2022) and furthermore is known to exploit “all
+    kinds of separatism and ethnic, social and racial conflicts,
+    actively supporting all dissident movements–extremist, racist, and
+    sectarian groups” to destabilize internal U.S. politics (U.S.
+    Department of State 2024, 51). Given how cagey corporations are
+    about the data they use, it is anyone’s guess how much dis- and
+    misinformation is in the datasets used to train their AIs (the
+    Unfathomable Data problem discussed by Bender et al. (2021)).
+
+[^32]: A report by the Center for Countering Digital Hate found that
+    Google’s Bard generated wrong and/or hateful outputs 78 out of 100
+    tests (Countering Digital Hate} 2023). In addition to being
+    misleading to the unadvised, it is also a stupendous tool ripe for
+    abuse by the advised with an agenda.
+
+[^33]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
     but it is difficult to see what else writing like Roose’s (2024)
-    could be called.
+    could be called, besides hagiography.

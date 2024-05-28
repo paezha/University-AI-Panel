@@ -32,7 +32,28 @@ By: Antonio Páez (paezha@mcmaster.ca)
 
 Disclaimer: _All opinions expressed here are mine and any resemblance to those of my employer(s) is purely coincidental_. _No generative AI tool was used to research or write this essay_.
 
-## Background 
+---  
+
+
+## Contents
+
+- [Background](#background)  
+- [The university's mission](#the-mission)  
+- [What do AIs do?](#what-do-ais-do)  
+- [A note on the terms of the conversation](#terms-of-debate)  
+- [But really, what do AIs do?](#really-what-do-they-do)  
+- [AI in teaching and learning](#ai-in-teaching-and-learning)  
+- [What can GenAI tools do for students?](#what-can-ais-do-for-students)  
+- [What do GenAI tools do to students?](#what-can-ais-do-to-students)  
+- [What do GenAIs do for the mega-corporations pushing these tools?](#what-do-ais-to-corporations)  
+- [What do GenAIs to to everyone else?](#what-do-ais-do-to-everyone-else)  
+
+
+---  
+
+
+
+## Background {#background}
 
 > Mission Statement: Our organization seeks to level up on all matters related.  
 > -- An Organization Run by its Marketing Department
@@ -78,15 +99,15 @@ We also need to understand the goals of the organization that considers using th
 
 Let us begin with the mission of McMaster as an institution of higher education.
 
-## The [mission](https://president.mcmaster.ca/mission-vision/)
+## The university's mission {#the-mission}
 
-McMaster's mission is "the discovery, communication and preservation of knowledge," accomplished with a commitment to "creativity, innovation and excellence". These aspirations must respond to some underlying values, and indeed, the university explicitly values "integrity, quality, inclusiveness and teamwork". Ultimately, the university aims to "inspire critical thinking, personal growth, and a passion for lifelong learning" and to serve "the social, cultural, and economic needs of our community and our society."
+McMaster's [mission](https://president.mcmaster.ca/mission-vision/) is "the discovery, communication and preservation of knowledge," accomplished with a commitment to "creativity, innovation and excellence". These aspirations must respond to some underlying values, and indeed, the university explicitly values "integrity, quality, inclusiveness and teamwork". Ultimately, the university aims to "inspire critical thinking, personal growth, and a passion for lifelong learning" and to serve "the social, cultural, and economic needs of our community and our society."
 
 A mission statement is like an onion, and one needs to peel multiple layers to try to understand the core principles enunciated there. Why are things like "integrity" and "critical thought" valued? Or, what happens when "integrity", "quality", and/or "excellence" clash with "the economic needs of our society" (say, a mandate by democratically elected governments to spend as little as possible in post-secondary education^[Between 2000-2020, Ontario had the lowest spending on post-secondary education of all provinces in Canada, relative to its share of spending [@caut_provincial]. Public funding of universities in Ontario as percent of revenue fell from 45.6% in 2001/2 to 35.5% in 2019/20 [@statistics_canada_college_2022]. As noted by @usher_state_2023, Ontario is "a province where underfunding [higher-education] institutions is a pan-partisan affair". Is it any wonder that universities in the province are pushed to find "efficiencies"?])?
 
 Clearly, there is some tension implicit in the mission of a university. But being generous, we can take the mission statement at face value and assume that the highest priorities are those related to knowledge obtained, preserved, and communicated with integrity and quality.
 
-## What do AIs do?
+## What do AIs do?{#what-do-ais-do}
 
 At this point, we might as well ask "what do AIs _not_ do"? 
 
@@ -105,7 +126,7 @@ In another instance, @hie_how_2023^[Anthony Hié is Chief Innovation and Digital
 
 @hie_how_2023 warn that "AI is here to stay"^[Writing in 2022, Mr. Hié predicted that the metaverse would be a [revolution in higher education](https://www.linkedin.com/pulse/metaverse-dedicated-pedagogy-revolution-higher-education-anthony-hi%C3%A9). On February, 2023, Microsoft [disbanded](https://www.theinformation.com/articles/microsoft-kills-its-industrial-metaverse-team-after-4-months) its Industrial Metaverse Core Team scantly four months after launching it. Meta, the main cheerleader of the eponymous metaverse, [slashed its own metaverse team](https://www.reuters.com/technology/meta-lay-off-employees-metaverse-silicon-unit-wednesday-2023-10-03/) in October, 2023.], that "[faculty] might not be able to stop the AI trend from growing", and so they might as well get on with the program and try to shape it as best they can.
 
-## A note on the terms of the debate
+## A note on the terms of the conversation {#terms-of-debate}
 
 A benefit of portraying AI as an _everything tool_ (for the proponents of the technology, at least), is that conversations around it quickly turn into a [Gish Gallop](https://en.wikipedia.org/wiki/Gish_gallop), a rhetorical device where a party makes an overwhelming number of arguments with little regard to their accuracy or strength. In the case of AI, critics are forced to respond to every single propounded use case with in-depth analysis, which usually is more time consuming than making all sorts of claims to begin with^[This communication strategy is what Trump's erstwhile and possibly future advisor Steve Bannon termed [flooding the zone with shit](https://www.vox.com/policy-and-politics/2020/1/16/20991816/impeachment-trial-trump-bannon-misinformation).]. 
 
@@ -113,7 +134,7 @@ A second discoursive device deployed by proponents of AI is an informal fallacy 
 
 In what follows, I do not plan to confront every single possible use case of AI as doing so plays into the intent of the Gish Gallop^[I have already spent close to 50 hours working on this essay, and it is still nowhere near an exhaustive apology or indictment of AI.], which is to defeat criticism by flooding the zone. As well, I reject the dilemma posed by the purveyors of hype, and I remain convinced that there are other ways for teaching and learning to be excellent that do not require AI.
 
-## But really, what do AIs do?
+## But really, what do AIs do? {#really-what-do-they-do}
 
 GenAIs are _deep learning models_ [@ibm_what_2021], so called because they are neural networks with _depth_, meaning many, many hidden layers. As an example, Large Language Models (such as those behind OpenAI's ChatGPT, Microsoft's Copilot, Google's Gemini, and facebook's LLaMA) are models built with multiple layers of neural networks trained on _very_ large amounts of textual data [@ibm_what_2023].
 
@@ -359,7 +380,7 @@ Here are some key ideas to keep in mind:
 
 **NOTE**: Labeling data is an essential, yet extremely expensive aspect of training GenAIs.
 
-## AI in teaching and learning
+## AI in teaching and learning {#ai-in-teaching-and-learning}
 
 Next, I lay out some considerations about the use of AI for teaching and learning, in an attempt to find out where it makes sense to use this technology. To begin, we must note the sheer number of examples of the use of AI by students. A report by @tyton_partners_generative_2023 that was sponsored by Turnitin found that 50% out of 1,600 post-secondary students who participated in the study, were users of GenAI (but only 22% of 1,000 faculty in the study). Use of AI by students is one of the reasons cited by some for universities to embrace AI [e.g., @power_3_2024]. McMaster's own internal research indicates that at least 61% of over 1,300 students polled, used AI during the Fall Term in 2023, 75% of them for school work [@yachouh_student_2024].
 
@@ -369,7 +390,7 @@ What does McMaster hope to achieve with AI? From the Overview on Generative AI d
 
 > Some of [the uses of AI] in our context could include qualitative and quantitative data analysis, writing text (e.g. reference letters, grant applications, job descriptions, report summaries), translation, captioning, multiple formats for learning and engagement, and personalized support.
 
-## What can GenAI tools do for students?
+## What can GenAI tools do for students?{#what-can-ais-do-for-students}
 
 > Anecdotally students at McMaster report wanting to use generative AI not to complete assignments for them, but to help enhance learning in their courses by having concepts explained differently, by working on practice questions or by getting immediate feedback on drafted work.
 
@@ -413,7 +434,7 @@ This is an unrealistic expectation. More realistically, students could have the 
 
 @mollick_instructors_2024^[Drs. Eric Mollick and Lilach Mollick are members of Wharton Interactive, in the business school of the University of Pennsylvania. Wharton Interactive offers to "democratize education" so to level up your learning! [@kelner_level_2022]] envision a future in which educators are innovators thanks to their adroit use of prompts for AIs. According to these authors, GenAI stands alone among educational technologies in that it can be "'programmed' through prompts alone", which should allow even instructors "without extensive technology or coding experience" to more easily create classroom applications. 
 
-## What do GenAI tools do to students?
+## What do GenAI tools do to students? {#what-can-ais-do-to-students}
 
 ### Distract from learning
 
@@ -449,7 +470,10 @@ Other AI Overview results include a recommendation by geologists to eat at least
 knitr::include_graphics("images/google-the-rock.jpg")
 ```
 
-Mind you, these, and numerous other [hapless results](https://www.nbcnews.com/tech/tech-news/google-ai-im-feeling-depressed-cheese-not-sticking-to-pizza-error-rcna153301) (as of May, 2023) are produce by AI _after_ Google has already spent tens of billions of dollars on the technology [@vynck_after_2024]. To what extent can more money improve AI? Probably not by much, since the key constraint is the amount of data available for training.
+Mind you, these, and numerous other hapless results^[For instance, ; or returning misinformation about depresion [@tenbarge_glue_2024]] (as of May, 2024) are produced by an AI that Google has already spent tens of billions of dollars developing [@vynck_after_2024]. To what extent can more money improve AI? Probably not by much, since the key constraint is the amount of data available for training, and as numerous examples 
+
+
+a search for “how to rotate text in ms paint,” referring to the Microsoft Paint application. The top Google search result, viewed by NBC News, directs the reader to a sarcastic Reddit comment that says to press the “Flubblegorp” key on your keyboard. This key does not exist. 
 
 NEXT:
 
@@ -488,11 +512,11 @@ df_pred_all |>
   summarize(variance = var(y))
 ```
 
-## What do GenAIs do for the mega-corporations pushing these tools?
+## What do GenAIs do for the mega-corporations pushing these tools? {#what-do-ais-to-corporations}
 
 So far, not money. But since corporations are not in the development of AI for charitable motives, at some point they will want to make money out of them. Who will pay? And how much will they need to pay? Or have to pay, if their skills are inexorable dependent on this one technology?
 
-## What do GenAIs to to everyone else?
+## What do GenAIs to to everyone else? {#what-do-ais-do-to-everyone-else}
 
 ### Extractive
 
@@ -503,7 +527,11 @@ In relation to the points above (GenAIs require vast amounts of _human-generated
 
 ### Exploitative
 
-Above, the ways in which GenAI is exploitative of people all over the world, but particularly in the Global South were highlighted. But AI companies do not spare the rich either. OpenAI's Sam Altman, a self-avowed admirer of the movie _Her_, featuring Scarlet Johansson as an AI voice assistant, reportedly tried to hire Ms. Johannson to be the voice of ChatGPT 4.0 [@kastrenakes_scarlett_2024]. After Ms. Johannson decline, OpenAI went and used a mimicry of [her voice](@as-an-aside) anyways, which was retired after Ms. Johansson threatened legal action^[Altman's denials that OpenAI had not used Ms. Johansson's voice sounded hollow, after he [posted](https://x.com/sama/status/1790075827666796666) on social media the word "her" at the time the new version of ChatGPT was announced.] [@allyn_scarlett_2024]. Alas, very few have the social standing of Scarlett Johansson to challenge OpenAI. Most people in the world lack that power.  
+ChatGPT 4.o was announced on May 13, 2024, with a flashy display of the model's new capabilities, which included the ability to respond vocally to prompts, and to identify images via a mobile device's camera. 4.o's voice, in particular, caused some titillation in the pants of even its creators [@roose_is_2024]. The voice was modeled after the digital personal assistant of the movie _Her_, played by Scarlett Johannson. This film (to approximately no one's surprise) is, by his own account, one of OpenAI's Altman's favorites. The background story of 4.o's voice is somewhat sordid: Altman reportedly tried to hire Ms. Johannson to be the voice of ChatGPT 4.o [@kastrenakes_scarlett_2024], but when Ms. Johannson declined, OpenAI went and used a mimicry of [her voice](@as-an-aside) anyways. This voice was retired (probably to the profound sadness of many an AI engineer) after Ms. Johansson threatened legal action^[Altman's denials that OpenAI had not used Ms. Johansson's voice sounded hollow, after he [posted](https://x.com/sama/status/1790075827666796666) on social media the word "her" at the time the new version of ChatGPT was announced.] [@allyn_scarlett_2024]. 
+
+Alas, very few have the social standing of Scarlett Johansson to challenge OpenAI. Most people in the world lack that power.  
+
+The ways in which GenAI is exploitative of people all over the world, but particularly in the Global South were highlighted. But AI companies do not spare the rich either. 
 
 @williams_exploited_2022 (Summary needed)
 
@@ -535,6 +563,8 @@ Quotes from Hao's podcast:
 > Karen Hao: You can interact with ChatGPT in Swahili, but ChatGPT was developed primarily to work in English. So a lot of the scrubbing, the content moderation, the important safety measures within the chatbot were done in English. So when you prompt it in Swahili, you'll get more misinformation. You'll get more confusing sentences that don't make sense, and you will potentially get more of this content that they worked so hard to filter out because they were only filtering it in English.
 
 Think about linguistic hegemony, and how the models are only as good (or as bad) as their inputs.
+
+@roberts_commercial_2016 Commercial {Content} {Moderation}: {Digital} {Laborers}' {Dirty} {Work}
 
 ### Copyright (and privacy) issues
 
@@ -604,9 +634,25 @@ Similar GenAI-generated mishaps abound.
 
 But what when an AI replicates the both-sides perspective of much of the media when trying to learn about an existential crisis like climate changes? [@gordon_multiple_2024]. Or when trying to obtain accurate voting information in the context of voter supression? [@angwin_seeking_2024]
 
-### Replication of unjust structures of power
+### Reproduction of unjust structures of power
 
-When using a Generative AI we must ask whose perspectives that tool represents.
+When using a Generative AI we must ask whose perspectives the tool will tend to reproduce and amplify. 
+
+Training data, much like technology, are not politically neutral, and several processes contribute to reproduce malignant biases, A way to explain this is by means of the concept of _platformed racism_ [@matamoros-fernandez_platformed_2017]. Platformed racism is the process whereby the functionalities of platforms are exploited to create and spread racist ideology (liking and sharing), often in a grass-roots fashion, but more ominously with the assist of bad-faith actors^[Online Russian disinformation has had a wide reach [@treyger_russian_2022] and furthermore is known to exploit "all kinds of separatism and ethnic, social and racial conflicts, actively supporting all dissident movements--extremist, racist, and sectarian groups" to destabilize internal U.S. politics [@us_department_of_state_gec_2024, p. 51]. Given how cagey corporations are about the data they use, it is anyone's guess how much dis- and misinformation is in the datasets used to train their AIs (the Unfathomable Data problem discussed by @bender_dangers_2021).]. The second aspect of platformed racism is the implicit endorsement of racist ideology through vague standards and [arbitrary moderation practices](https://www.bbc.com/news/technology-58058428) that exclude some views while allowing others to thrive [@myers_west_censored_2018; @hawkins_race_2023].
+
+Search engines were already known to reinforce racism [@noble_algorithms_2018]; given the above, it is too mych to expecet that AI-augmented search engines do better^[A report by the Center for Countering Digital Hate found that Google's Bard generated wrong and/or hateful outputs 78 out of 100 tests [@center_for_countering_digital_hate_googles_2023]. In addition to being misleading to the unadvised, it is also a stupendous tool ripe for abuse by the advised with an agenda.]. In another wretched incident, Google's AI overview stated that Barack Obama was the first Muslim president of the US, a regrettable piece of misinformation that fails to surprise given the years-long right-wing disinformation campaign to otherize Obama [@tenbarge_glue_2024]. Mishaps like this, and others, are dismissed by Google as attempts to "to trip up the technology with uncommon questions" [@tenbarge_glue_2024], which only reinforces the notion that AIs only are useful when [regressing to the mean](#really-what-do-they-do). Responses like fiddling with the model (fine tune it) to provide more palatable outputs (like in the case of **FIND EXAMPLE**) are not more reassuring. Who is to say what a handful of unaccountable corporations will find palatable tomorrow, let alone in the face of powerful authoritarian regimes?
+
+```{r google-obama, out.width="50%", fig.cap="\\label{fig:google-ai-overview-of-obama}Google's AI overview of Muslim US presidents"}
+google_plot <- ggplot() +
+  labs(caption = "Source: https://www.nbcnews.com/tech/tech-news/google-ai-im-feeling-depressed-cheese-not-sticking-to-pizza-error-rcna153301") +
+  theme_void()
+  
+
+ggdraw() + 
+  draw_plot(google_plot) +
+  draw_image(image = "images/google-obama.png")
+```
+
 
 ## As an aside {#as-an-aside}
 
@@ -622,7 +668,7 @@ On antropomorphizing GenAI tools. This happens mostly in ways that are barely li
 
 <!-- AI is a way to cheapen university education; it compromises the ideals of quality, integrity, and excellence. -->
 
-ChatGPT was an awesome feat of marketing [@cowen_chatgpt_2023], but much coverage of the relevant issues in the media has been so credulous it has stretched credulity past Pluto [@burneko_if_2024]^[Bob Woodward said "journalism is not stenography" [@hiskes_woodward_2007], but it is difficult to see what else writing like Roose's [-@roose_is_2024] could be called.]. There are now calls to press pause on the hype [@angwin_press_2024] but these are still drown by the credulous coverage.
+ChatGPT was an awesome feat of marketing [@cowen_chatgpt_2023], but much coverage of the relevant issues in the media has been so credulous it has stretched credulity past Pluto [@burneko_if_2024]^[Bob Woodward said "journalism is not stenography" [@hiskes_woodward_2007], but it is difficult to see what else writing like Roose's [-@roose_is_2024] could be called, besides hagiography.]. There are now calls to press pause on the hype [@angwin_press_2024] but these are still drown by the credulous coverage.
 
 I suggest that universities should avoid the mistakes of the media, an industry that has innovated itself [out of the trust of the public](https://reutersinstitute.politics.ox.ac.uk/news/julia-angwin-fears-public-sphere-about-get-worse-ai-makes-it-easier-flood-zone-misinformation) (also see the "pivot-to-video" and how tech companies suckered many media companies, including ).
 
