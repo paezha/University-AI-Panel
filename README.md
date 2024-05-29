@@ -100,9 +100,7 @@ update these guidelines. Pertinently, the institution, via its Office of
 the Provost, [launched a committee](#ai-committee-announced) to explore
 the use of AI across campus. This committee is composed of three
 sub-committees tasked with examining the use of AI in 1) teaching and
-learning, 2) research, and 3) operational excellence in “our work” (the
-Provost’s words)(in all likelihood meaning the university’s work; not
-sure if the Provost herself uses AI in addition to the majestic plural).
+learning, 2) research, and 3) operational excellence in “our work”.
 
 The sub-committees, in turn, convened panels to [provide
 recommendations](%7B#ai-panel-tasks%7D) on updates to the [Provisional
@@ -119,7 +117,7 @@ According to the announcement of this AI Committee at McMaster:
 > – Susan Tighe, Provost
 
 Notice that this statement (like the definition of the work before the
-panels), takes for granted that 1) AIs are powerful tools, and 2)
+panels above), takes for granted that 1) AIs are powerful tools, and 2)
 universities can be leading players in their adoption. This attitude is
 almost fatalistic[^6] in its enthusiasm, and perfectly consistent with
 the hype observed around AI this time[^7] (Angwin 2024).
@@ -202,33 +200,39 @@ number of tasks as well as providing greater accuracy, enhanced routing
 and intelligent context gathering” (IBM 2023); according to
 Allerin[^10], AI-powered self-driving cars would reduce accidents, car
 ownership, pollution and noise, and would automate logistics and make
-parking tickets obsolete (Joshi 2022; Garsten 2024). In mental health
-care, chatbots could complement human therapists “via comprehensive data
-access and \[analysis of\] behavioral patterns” to “mimic practitioner
-questions and subsequently make recommendations based on a user’s
-inputs” (Silva and Henderson 2023).
+parking tickets obsolete (Joshi 2022; Garsten 2024). But there is no
+reason to stop at self-driving vehicles: McMaster University’s Canada
+Excellence Research Chair Laureate Ali Emadi “hopes to help
+revolutionize and influence everything from personal travel to city
+planning” by putting AI directly into our transportation systems (Dorey
+2023). In mental health care, chatbots could complement human therapists
+“via comprehensive data access and \[analysis of\] behavioral patterns”
+to “mimic practitioner questions and subsequently make recommendations
+based on a user’s inputs” (Silva and Henderson 2023).
 
 AI would even write code, perhaps helping itself to some
-self-programming (AI self-help?) as an outcome.
+self-programming along the way: AIs that write themselves, or AI
+self-help?
 
 Figure @(fig:ai-writing-code)
 
 <div class="figure">
 
-<img src="images/AI-bug-fix.png" alt="\label{fig:ai-bug-fix}Figure X. Example of an AI writing code" width="50%" />
+<img src="images/AI-bug-fix.png" alt="\label{fig:ai-bug-fix}Figure X. An example of Atlassian AI writing code" width="50%" />
 <p class="caption">
-Figure X. Example of an AI writing code
+Figure X. An example of Atlassian AI writing code
 </p>
 
 </div>
 
-The list of promises has grown to encompass pretty much everything, from
-saving the planet all the way to micromanaging intimate facets of
-individual lives, for example by revolutionizing dating through the use
-of chatbots to help “people connect and find potential partners” (who
-presumably also use chatbots to do the same) (Khalatian 2023).
+The list of promises about what AI will do has grown to encompass pretty
+much everything, from saving the planet from ourselves, all the way down
+to micromanaging intimate facets of individual lives, for example by
+revolutionizing dating through the use of chatbots to help “people
+connect and find potential partners” (who presumably also use chatbots
+to do the same) (Khalatian 2023).
 
-Higher-education was not spared the onslaught of promises.
+Higher-education has not spared the onslaught of promises.
 
 Power (2024),[^11] for example, presents three innovative use cases for
 AI in higher education. First, AI could take over manual tasks and
@@ -488,7 +492,7 @@ Generative AI document:
 > captioning, multiple formats for learning and engagement, and
 > personalized support.
 
-## What can GenAI tools do for students?
+## What do GenAI tools do for students?
 
 > Anecdotally students at McMaster report wanting to use generative AI
 > not to complete assignments for them, but to help enhance learning in
@@ -785,14 +789,18 @@ norm-conforming:
     #> 3 regression output     20.1
     #> 4 training data         21.3
 
-## What do GenAIs do for the mega-corporations pushing these tools?
+## What do GenAIs do for the mega-corporations pushing them?
 
 So far, not money. But since corporations are not in the development of
 AI for charitable motives, at some point they will want to make money
 out of them. Who will pay? And how much will they need to pay? Or have
 to pay, if their skills are inexorable dependent on this one technology?
 
-## What do GenAIs to to everyone else?
+To read:
+
+Sriram, Nellis, and Sriram (2023)
+
+## What do GenAIs do to everyone else?
 
 ### Extractive
 
@@ -1031,14 +1039,13 @@ et al. (2021)). In this way, AIs, rather than contributing to online
 safety, may end up amplifying the legacy of Russian interference
 (Švedkauskas, Sirikupt, and Salzer 2020).\]. The second aspect of
 platformed racism is the implicit endorsement of racist ideology through
-vague standards and [arbitrary moderation
-practices](https://www.bbc.com/news/technology-58058428) that exclude
+vague standards and arbitrary moderation practices[^34] that exclude
 some views while allowing others to thrive (Myers West 2018; Hawkins et
 al. 2023).
 
 Search engines were already known to reinforce racism (Noble 2018);
 given the above, it really is too much to expect that AI-augmented
-search engines will do better[^34]. In another wretched incident,
+search engines will do better[^35]. In another wretched incident,
 Google’s AI overview stated that Barack Obama was the first Muslim
 president of the US, a regrettable piece of misinformation that fails to
 surprise given the years-long Russian-assisted right-wing propaganda
@@ -1090,7 +1097,7 @@ article (Farrugia 2024); see here:
 
 ChatGPT was an awesome feat of marketing (Cowen 2023), but much coverage
 of the relevant issues in the media has been so credulous it has
-stretched credulity past Pluto (Burneko 2024)[^35]. There are now calls
+stretched credulity past Pluto (Burneko 2024)[^36]. There are now calls
 to press pause on the hype (Angwin 2024) but these are still drown by
 the credulous coverage.
 
@@ -1330,11 +1337,20 @@ Censorship Crackdown.” *The Telegraph*, July.
 
 </div>
 
+<div id="ref-center_for_countering_digital_hate_failure_2021"
+class="csl-entry">
+
+Countering Digital Hate}, {Center for. 2021. “Failure to Protect.”
+Center for Countering Digital Hate.
+<https://counterhate.com/research/failure-to-protect/>.
+
+</div>
+
 <div id="ref-center_for_countering_digital_hate_googles_2023"
 class="csl-entry">
 
-Countering Digital Hate}, {Center for. 2023. “Google’s New Bard AI
-Generate Lies.” *Center for Countering Digital Hate CCDH*.
+———. 2023. “Google’s New Bard AI Generate Lies.” *Center for Countering
+Digital Hate CCDH*.
 <https://counterhate.com/research/misinformation-on-bard-google-ai-chat/>.
 
 </div>
@@ -1352,6 +1368,14 @@ Cowen, Tyler. 2023. “ChatGPT Is Also an Impressive Feat of Marketing.”
 Crawford, Kate. 2024. “Generative AI’s Environmental Costs Are Soaring —
 and Mostly Secret.” *Nature* 626 (8000): 693–93.
 <https://doi.org/10.1038/d41586-024-00478-x>.
+
+</div>
+
+<div id="ref-dorey_driving_2023" class="csl-entry">
+
+Dorey, Jesse. 2023. “Driving Change: Rethinking Mobility to Build the
+Transportation System of the Future.”
+<https://brighterworld.mcmaster.ca/articles/emadi-marc-cubic-partnership/>.
 
 </div>
 
@@ -1771,6 +1795,14 @@ Sustainability Report.” *Microsoft On the Issues*.
 
 </div>
 
+<div id="ref-sriram_ai_2023" class="csl-entry">
+
+Sriram, Akash, Stephen Nellis, and Akash Sriram. 2023. “AI Lesson for
+Microsoft and Google: Spend Money to Make Money.” *Reuters*, July.
+<https://www.reuters.com/technology/ai-lesson-microsoft-google-spend-money-make-money-2023-07-25/>.
+
+</div>
+
 <div id="ref-svedkauskas_analysis_2020" class="csl-entry">
 
 Švedkauskas, Žilvinas, Chonlawit Sirikupt, and Michel Salzer. 2020.
@@ -2054,7 +2086,13 @@ Perspectives on Generative AI in Teaching and Learning.”
     destabilize internal U.S. politics (U.S. Department of State 2024,
     51).
 
-[^34]: A report by the Center for Countering Digital Hate found that
+[^34]: According to the Center for Countering Digital Hate, platforms
+    like facebook, Instagram, Tiktok, Twitter, and YouTube, failed to
+    act 84% of the time on hundreds of posts that had millions of views,
+    with facebook being the worst performer (Countering Digital Hate}
+    2021).
+
+[^35]: A report by the Center for Countering Digital Hate found that
     Google’s Bard generated wrong and/or hateful outputs 78 out of 100
     tests (Countering Digital Hate} 2023). In addition to being
     misleading to the unadvised, AI is also a stupendous tool ripe for
@@ -2063,6 +2101,6 @@ Perspectives on Generative AI in Teaching and Learning.”
     to produce disinformation with AI, than using AI to identify
     misinformation (Maiberg · 2024).
 
-[^35]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
+[^36]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
     but it is difficult to see what else writing like Roose’s (2024)
     could be called, besides hagiography.
