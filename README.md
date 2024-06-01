@@ -884,6 +884,14 @@ norm-conforming:
     #> 3 regression output     20.1
     #> 4 training data         21.3
 
+Tools to posion AI models:
+
+Salman et al. (2023)
+
+Shan et al. (2024)
+
+Xu et al. (2024)
+
 ## What do GenAIs do for the mega-corporations pushing them?
 
 So far, not money. But since corporations are not in the development of
@@ -1106,6 +1114,8 @@ Microsoft: Here’s how burning the planet will help to save it.
 <https://blogs.microsoft.com/on-the-issues/2023/11/16/accelerating-sustainability-ai-playbook/>
 (Nakagawa 2023)
 
+<https://www.theguardian.com/commentisfree/article/2024/may/30/ugly-truth-ai-chatgpt-guzzling-resources-environment>
+
 “Environmental costs of AI are soaring” (Crawford 2024)
 
 <https://www.wired.com/story/the-generative-ai-search-race-has-a-dirty-secret/>
@@ -1200,10 +1210,9 @@ technology with uncommon questions” (Tenbarge 2024). This dismissal,
 though, only reinforces the notion that AIs are only ever useful when
 [regressing to the mean](#really-what-do-they-do). Responses like
 fiddling with the model (fine tuning it) to provide more palatable
-outputs (like in the case of **FIND EXAMPLE**) are not more reassuring.
-Who is to say what a handful of unaccountable corporations will find
-palatable tomorrow, let alone in the face of powerful authoritarian
-regimes?
+outputs[^47] are not more reassuring. Who is to say what a handful of
+unaccountable corporations will find palatable tomorrow, let alone in
+the face of powerful authoritarian regimes?
 
 <div class="figure">
 
@@ -1246,7 +1255,7 @@ the current hype around AI.
 
 ChatGPT was a colossal feat of marketing (Cowen 2023), but much coverage
 of AI in the media has been stretched beyond the breaking point of
-credulity (Burneko 2024)[^47]. There are now calls to press pause on the
+credulity (Burneko 2024)[^48]. There are now calls to press pause on the
 hype (Angwin 2024) but these are still drown by the uncritical coverage.
 
 > An end to “batch” teaching. Instead of working with cohorts of
@@ -1327,10 +1336,10 @@ them), can still hope to recoup some of their investment in AI. But a
 university gambles its most important asset when betting on AI: its
 reputation as a place were knowledge is created, and as a custodian of
 knowledge. AIs already have a reputation for producing mis- and
-disinformation–from the very titans of the field[^48] to the
-unaware[^49], and beyond, to bad-faith actors. In my view, there are no
-efficiencies, no promises of future excellence, that can compensate the
-risk of ruining an institutions reputation.
+disinformation–from the very titans of the field[^49] to the
+unaware[^50], and beyond, to bad-faith actors[^51]. In my view, there
+are no efficiencies, no promises of future excellence, that can
+compensate the risk of ruining an institutions reputation.
 
 Why? The reputational risk…universities are under siege from
 unsympathetic or actively hostile actors. Universities main source of
@@ -2053,12 +2062,29 @@ Roth, Emma. 2024. “Google Cut a Deal with Reddit for AI Training Data.”
 
 </div>
 
+<div id="ref-salman_raising_2023" class="csl-entry">
+
+Salman, Hadi, Alaa Khaddaj, Guillaume Leclerc, Andrew Ilyas, and
+Aleksander Madry. 2023. “Raising the Cost of Malicious AI-Powered Image
+Editing.” arXiv. <https://doi.org/10.48550/arXiv.2302.06588>.
+
+</div>
+
 <div id="ref-sennesh_conspiracy_2023" class="csl-entry">
 
 Sennesh, Eli, and James J. Hughes. 2023. “Conspiracy Theories, Left
 Futurism, and the Attack on TESCREAL.” *Institute for Ethics and
 Emerging Technologies*.
 <https://medium.com/institute-for-ethics-and-emerging-technologies/conspiracy-theories-left-futurism-and-the-attack-on-tescreal-456972fe02aa>.
+
+</div>
+
+<div id="ref-shan_nightshade_2024" class="csl-entry">
+
+Shan, Shawn, Wenxin Ding, Josephine Passananti, Stanley Wu, Haitao
+Zheng, and Ben Y. Zhao. 2024. “Nightshade: Prompt-Specific Poisoning
+Attacks on Text-to-Image Generative Models.” In, 212–12. IEEE Computer
+Society. <https://doi.org/10.1109/SP54263.2024.00182>.
 
 </div>
 
@@ -2144,6 +2170,13 @@ Mockery.” *NBC News*.
 
 </div>
 
+<div id="ref-thiel_education_2009" class="csl-entry">
+
+Thiel, Peter. 2009. “The Education of a Libertarian.” *Cato Unbound*.
+<https://www.cato-unbound.org/2009/04/13/peter-thiel/education-libertarian>.
+
+</div>
+
 <div id="ref-trent_university_generative_2024" class="csl-entry">
 
 Trent University. 2024. “Generative Artificial Intelligence, Trent
@@ -2226,6 +2259,15 @@ Williams, Adrienne, Milagros Miceli, and Timnit Gebru. 2022. “The
 Exploited Labor Behind Artificial Intelligence.” *Noema Magazine*,
 October.
 <https://www.noemamag.com/the-exploited-labor-behind-artificial-intelligence>.
+
+</div>
+
+<div id="ref-xu_shadowcast_2024" class="csl-entry">
+
+Xu, Yuancheng, Jiarui Yao, Manli Shu, Yanchao Sun, Zichu Wu, Ning Yu,
+Tom Goldstein, and Furong Huang. 2024. “Shadowcast: Stealthy Data
+Poisoning Attacks Against Vision-Language Models.” arXiv.
+<https://doi.org/10.48550/arXiv.2402.06659>.
 
 </div>
 
@@ -2424,19 +2466,19 @@ Perspectives on Generative AI in Teaching and Learning.”
     only a handful of American companies that offer an “essential”
     service.
 
-[^34]: And this refers not only to individuals playing with ChatGPT and
-    MidJourney. In 2022, McMaster University operated on revenues of
-    less than [\$843
+[^34]: And this refers not only to individuals whose skills are yoked to
+    ChatGPT and MidJourney. In 2022, McMaster University operated on
+    revenues of less than [\$843
     million](https://financial-affairs.mcmaster.ca/app/uploads/2023/06/2023-24-Consolidated-Budget-FINAL.pdf)
     (CAD). Microsoft, in contrast, operated on revenues of approximately
     [\$198,000
     millions](https://www.microsoft.com/investor/reports/ar22/) (USD) in
     2022. To put things in perspective (and using the average exchange
-    rate of 2022), if McMaster used all of its 2022 revenue to pay
+    rate of 2022), if McMaster used *all* of its 2022 revenue to pay
     Microsoft, that would leave McMaster with zero money and still
     account for less than *one third of one percent point* of
-    Microsoft’s revenue. A mid-sized Canadian university is puny
-    compared to the economic might of Microsoft.
+    Microsoft’s revenue. A mid-sized Canadian university is like an ant
+    compared to the economic boot of Microsoft.
 
 [^35]: The headline of the 404 Media report was “Google Is Paying Reddit
     \$60 Million for Fucksmith to Tell Its Users to Eat Glue”.
@@ -2458,11 +2500,17 @@ Perspectives on Generative AI in Teaching and Learning.”
     Altman](https://www.advocate.com/news/sam-altman-openai-exclusive)
     and [Peter
     Thiel](https://www.npr.org/2016/07/21/486966882/i-am-proud-to-be-gay-tech-investor-peter-thiel-tells-gop-convention)
-    are openly gay.
+    are openly gay. On the other hand, their political agenda hides in
+    plain sight. Thiel (2009) has written about how he “no longer
+    believe\[s\] that freedom and democracy are compatible”. Elon Musk,
+    well, Elon Musk once shared a meme comparing Canada’s PM Justin
+    Trudeau to Hitler, when defending the vandals who [terrorized
+    Ottawa](https://fortune.com/2022/01/27/elon-musk-twitter-freedom-convoy-canadian-truckers-rule-covid-vaccine/)
+    in 2022.
 
-[^39]: A quick summary of these believes is that humans (or at lest some
+[^39]: A quick summary of these beliefs is that humans (or at lest some
     of them, those who can afford to do so) are destined to use
-    technology to indefinitely extend life and conquer the stars, but
+    technology to indefinitely extend life and conquer the stars…just
     not before super-intelligent AIs destroy humanity.
 
 [^40]: A movement exposed to the harsh light of public opinion for being
@@ -2514,12 +2562,28 @@ Perspectives on Generative AI in Teaching and Learning.”
     easier to produce disinformation with AI, than it is to use AI to
     combat misinformation (Maiberg 2024).
 
-[^47]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
+[^47]: Like in the case of [Google’s
+    response](https://blog.google/products/search/ai-overviews-update-may-2024/)
+    to the poor quality of its recently launched AI overviews.
+
+[^48]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
     but it is difficult to see what else writing like Roose’s (2024)
     could be called, besides hagiography.
 
-[^48]: Google could not care less about its reputation. It is [too big
-    to
-    care](https://pluralistic.net/2024/04/04/teach-me-how-to-shruggie/#kagi).
+[^49]: Entities like Google and Amazon could not care less about their
+    reputation. They are [too
+    big](https://www.businessinsider.com/ex-amazon-ghaderi-exec-suing-ai-race-copyright-allegations-2024)
+    [to
+    care](https://pluralistic.net/2024/04/04/teach-me-how-to-shruggie/).
 
-[^49]: 
+[^50]: Like a B.C. lawyer who was
+    [reprimanded](https://www.cbc.ca/news/canada/british-columbia/lawyer-chatgpt-fake-precedent-1.7126393)
+    for using AI hallucinations in a legal filing. This was not even the
+    first time that supposedly highly skilled professionals were
+    castigated for
+    [using](https://www.washingtonpost.com/technology/2023/11/16/chatgpt-lawyer-fired-ai/)
+    [chatbots](https://www.reuters.com/legal/new-york-lawyers-sanctioned-using-fake-chatgpt-cases-legal-brief-2023-06-22/).
+
+[^51]: Like rival geopolitical powers that are relatively impervious to
+    propaganda themselves for reason of being [authoritarian
+    countries](https://www.theatlantic.com/magazine/archive/2024/06/china-russia-republican-party-relations/678271/).
