@@ -23,7 +23,7 @@ library and internet search skills*.
 - [A note on the terms of the conversation](#terms-of-debate)  
 - [But really, what do AIs do?](#really-what-do-they-do)  
 - [AI in teaching and learning](#ai-in-teaching-and-learning)  
-- [What do GenAIs do for students?](#what-can-ais-do-for-students)  
+- [What do GenAIs do for students?](#what-do-ais-do-for-students)  
 - [What do GenAIs do to students?](#what-can-ais-do-to-students)  
 - [What do GenAIs do for the mega-corporations pushing these
   tools?](#what-do-ais-to-corporations)  
@@ -224,7 +224,7 @@ along the way: AIs that write themselves, or AI self-help?
 
 <div class="figure">
 
-<img src="images/AI-bug-fix.png" alt="\label{fig:ai-bug-fix}Figure 1. An example of Atlassian AI writing code" width="50%" />
+<img src="images/ai-bug-fix.png" alt="\label{fig:ai-bug-fix}Figure 1. An example of Atlassian AI writing code" width="50%" />
 <p class="caption">
 Figure 1. An example of Atlassian AI writing code
 </p>
@@ -236,16 +236,32 @@ pretty much everything, from saving the planet from ourselves, all the
 way down to micromanaging intimate facets of individual lives, for
 example by revolutionizing dating through the use of chatbots to help
 “people connect and find potential partners” (who presumably also use
-chatbots to do the same) (Khalatian 2023).
+chatbots to do the same) (Khalatian 2023). Not even the [bowel movements
+of our
+pets](https://finance.yahoo.com/news/next-generation-ai-powered-cat-140000795.html)
+are beyond the revolutionary all-seeing eye of AI.
 
-Higher-education has not been spared the onslaught of promises.
+<div class="figure">
 
-Power (2024),[^11] for example, presents three innovative use cases for
-AI in higher education. First, AI could take over manual tasks and
-improve the budget by releasing administrative staff[^12]. AI could
-evaluate applications for admissions, including assessing traits like
-the “grit” and “empathy” of applicants. AI could also personalize the
-experience of consumers (also called students) by predicting their final
+<img src="images/ai-litter-box.png" alt="\label{fig:ai-bug-fix}Figure 2. Revolutionizing pet health" width="50%" />
+<p class="caption">
+Figure 2. Revolutionizing pet health
+</p>
+
+</div>
+
+The forecast that AI will improve everything (from the natural
+environment of the globe to the dumps of our cats) was certain to,
+sooner or later, reach higher-education, a target-rich environment for
+selling hype–and indeed, colleges and universities have not been spared
+the onslaught of promises. Examples of this abound.
+
+Power (2024),[^11], for one, presents three innovative use cases for AI
+in higher education. First, AI could take over manual tasks and improve
+the budget by releasing administrative staff[^12]. AI could evaluate
+applications for admissions, including assessing traits like the “grit”
+and “empathy” of applicants. AI could also personalize the experience of
+consumers (occasionally also called students) by predicting their final
 grade with 60-70% accuracy, and by providing corrective and instructive
 feedback.
 
@@ -269,13 +285,13 @@ Hié and Thouary (2023) warn that “AI is here to stay”[^16], and that
 they might as well get on with the program and try to shape it as best
 they can.
 
-Similarly hyperbolic claims aoput AI in higher education can be found
+Similarly hyperbolic claims about AI in higher education can be found
 peppered throughout the landscape, including by Johnson (2023)[^17] and
 Contact North (2024)[^18]. A fairly comprehensive list (from Johnson
 2023) is as follows (notice the use of “can” in the original, not
 “could”, or “maybe will”):
 
-- AI can provide personalised learning.  
+- AI can provide personalized learning.  
 - AI-powered systems can provide smart tutoring.  
 - AI can automate grading.  
 - AI can enable virtual classrooms.  
@@ -287,7 +303,7 @@ Contact North (2024)[^18]. A fairly comprehensive list (from Johnson
   opportunities for teachers.
 - AI can streamline administrative tasks.
 
-Is it possible that AIs can really do all this?
+Is it really possible that AIs can do all this?
 
 ## A note on the terms of the conversation
 
@@ -301,7 +317,7 @@ every single propounded use case with in-depth analysis, which usually
 is much more time consuming than making the unsubstantiated and/or
 misleading claims of the gallop itself[^19]. Proponents of AI can always
 admit that, ok, AIs do not actually do *that one thing*, but what about
-the myriad of other things that people say they do?
+the myriad of other things that people say they really do do?
 
 A second discursive device deployed by proponents of AI is an informal
 fallacy known as [The False
@@ -319,11 +335,11 @@ environmental, and social compromises demanded by AI[^21].
 ## But really, what do AIs do?
 
 GenAIs are *deep learning models* (IBM 2021b), so-called because they
-are neural networks with *depth*, meaning many, many hidden layers. As
-an example, Large Language Models (such as those behind OpenAI’s
-ChatGPT, Microsoft’s Copilot, Google’s Gemini, and facebook’s LLaMA) are
-models built with multiple layers of neural networks trained on *very*
-large amounts of textual data (IBM 2023).
+are neural networks with *depth*, meaning many, many, *many* hidden
+layers. As an example, Large Language Models (such as those behind
+OpenAI’s ChatGPT, Microsoft’s Copilot, Google’s Gemini, and facebook’s
+LLaMA) are models built with multiple layers of neural networks trained
+on *very* large amounts of textual data (IBM 2023).
 
 But, what are
 [neural](https://en.wikipedia.org/wiki/Large_language_model#Further_reading)
@@ -337,7 +353,7 @@ regression to be sure, but regression models nonetheless (Ripley 1994).
 Here, it is important to note that the term regression refers to
 [regression to the
 mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean)–regressing
-a prompt to a “statistically probable” outcome.
+an input (e.g., a prompt) to a “statistically probable” outcome.
 
 A regression model takes data as inputs, typically a “dependent”
 variable $y$ (observations of an outcome of interest) and “independent”
@@ -360,18 +376,18 @@ describe the slope of the model with respect to that variable.
 
 <div class="figure">
 
-<img src="README_files/figure-gfm/plot-simulated-data-1.png" alt="Figure 2. Simple Example of a Regression Model" width="50%" />
+<img src="README_files/figure-gfm/plot-simulated-data-1.png" alt="Figure 3. Simple Example of a Regression Model" width="50%" />
 <p class="caption">
-Figure 2. Simple Example of a Regression Model
+Figure 3. Simple Example of a Regression Model
 </p>
 
 </div>
 
 <div class="figure">
 
-<img src="README_files/figure-gfm/data-vs-predictions-comparison-1.png" alt="Figure 3. Training data and model output compared" width="50%" />
+<img src="README_files/figure-gfm/data-vs-predictions-comparison-1.png" alt="Figure 4. Training data and model output compared" width="50%" />
 <p class="caption">
-Figure 3. Training data and model output compared
+Figure 4. Training data and model output compared
 </p>
 
 </div>
@@ -385,28 +401,28 @@ input and the output layers. In comparison to the linear regression and
 its two parameters, this neural network uses seven parameters. Another
 key difference between a linear regression model and a neural network is
 that the latter requires an initial set of parameters, which are often
-drawn at random, thus making the results of the model contigent on the
+drawn at random, thus making the results of the model contingent on the
 starting conditions of the training process.
 
 <div class="figure">
 
-<img src="images/nn1.png" alt="Figure 4. Simple Example of a Shallow Neural Network" width="50%" />
+<img src="images/nn1.png" alt="Figure 5. Simple Example of a Shallow Neural Network" width="50%" />
 <p class="caption">
-Figure 4. Simple Example of a Shallow Neural Network
+Figure 5. Simple Example of a Shallow Neural Network
 </p>
 
 </div>
 
 The plot below illustrates the predictions of this neural network, where
-we can see that the model is not limited to a linear response; neural
+we can see that the model is not limited to a linear response. Neural
 networks are more flexible than linear regression, and they achieve this
 by being less parsimonious (they use more parameters).
 
 <div class="figure">
 
-<img src="README_files/figure-gfm/data-vs-predictions-comparison-2-1.png" alt="Figure 5. Training data and model outputs compared: linear regression and shallow neural network" width="50%" />
+<img src="README_files/figure-gfm/data-vs-predictions-comparison-2-1.png" alt="Figure 6. Training data and model outputs compared: linear regression and shallow neural network" width="50%" />
 <p class="caption">
-Figure 5. Training data and model outputs compared: linear regression
+Figure 6. Training data and model outputs compared: linear regression
 and shallow neural network
 </p>
 
@@ -418,22 +434,21 @@ consisting of five neurons. This model uses forty-six parameters.
 
 <div class="figure">
 
-<img src="images/nn2.png" alt="Figure 6. Example of a Deeper Neural Network" width="50%" />
+<img src="images/nn2.png" alt="Figure 7. Example of a Deeper Neural Network" width="50%" />
 <p class="caption">
-Figure 6. Example of a Deeper Neural Network
+Figure 7. Example of a Deeper Neural Network
 </p>
 
 </div>
 
 The increased complexity leads to greater flexibility, and we can see
-that the model makes predictions that resemble more closely the actual
-data.
+that the model’s predictions resemble more closely the actual data.
 
 <div class="figure">
 
-<img src="README_files/figure-gfm/data-vs-predictions-comparison-3-1.png" alt="Figure 7. Training data and model outputs compared: shallow neural network and deeper neural network" width="50%" />
+<img src="README_files/figure-gfm/data-vs-predictions-comparison-3-1.png" alt="Figure 8. Training data and model outputs compared: shallow neural network and deeper neural network" width="50%" />
 <p class="caption">
-Figure 7. Training data and model outputs compared: shallow neural
+Figure 8. Training data and model outputs compared: shallow neural
 network and deeper neural network
 </p>
 
@@ -450,21 +465,25 @@ makes the model more flexible, but as a rule we cannot use more
 parameters than the number of data points that exist in the dataset used
 to train the model. Roughly, every additional parameter needs a data
 input to train on, and when there are as many parameters as data inputs
-the model is overfit and will predict each value of the independent
+the model becomes overfit and will predict each value of the independent
 variable in the training dataset perfectly. The model will fail to train
 if there are more parameters than data points.
 
 In a neural network trained to work with natural language, the
-“predictors” are words that come before and after a certain word.
-Several approaches exist to *embed* a bag of words, using large text
-corpora the co-occurrence of words is used to convert words to numerical
-vectors. These vectors are decontextualized, that is, they only reflect
-the position of a given word with respect to other words in the training
-corpora; however, the numeric values are static even if the surrounding
-words in a specific prompt change. A recent breakthrough in this field
-is the development of *transformers*, a network architecture
-architecture that updates the numeric values of a word depending on the
-words that come before and after.
+“predictors” are the words that come before and after a certain word.
+Several approaches exist to *embed* a bag of words, which means using
+large text corpora to calculate the frequency of co-occurrence of words.
+These frequencies are then converted to numerical vectors that represent
+the position of a word in multidimensional space. These “coordinates” in
+the space of the vocabulary can then be used to calculate the
+“distances” between words. Alas, these vectors are decontextualized,
+that is, they only reflect the position of a given word with respect to
+other words in the training corpora, and the numeric values are static,
+even if the surrounding words in a specific prompt change. A recent
+breakthrough in the field of natural language processing is the
+development of *transformers*, a network architecture architecture that
+updates the numeric values of a word depending on the words that come
+before and after in a prompt.
 
 Here are some key ideas to keep in mind when thinking about AIs:
 
@@ -473,7 +492,8 @@ Here are some key ideas to keep in mind when thinking about AIs:
   (i.e., statistically probable outputs).
 - AIs are *very* flexible non-linear regression models.
 - Their flexibility comes from using “deep” architectures, which means
-  many layers with many, many parameters[^23].
+  many layers with many, many parameters[^23]. The large number of
+  parameters makes these models *extremely* data hungry.
 - AIs are trained using an initial set of random values as parameters.
   The same training dataset can result in different models due to the
   randomness in the initial conditions.
@@ -489,22 +509,23 @@ Here are some key ideas to keep in mind when thinking about AIs:
 
 Next, I lay out some considerations about the use of AI for teaching and
 learning, in an attempt to find out where it makes sense to use this
-technology. To begin, we must note the sheer number of examples of the
-use of AI by students. A report sponsored by Turnitin (Tyton Partners
-2023) found that 50% out of 1,600 post-secondary students in the study
-were users of GenAI (but only 22% of 1,000 faculty). Use of AI by
-students is a commonly cited reason for universities to embrace AI
-(e.g., Power 2024). McMaster’s own internal research indicates that at
-least 61% of over 1,300 students polled, used AI during the Fall Term in
-2023, 75% of them for school work (Yachouh, Maqbool, and Rao 2024).
+technology. To begin, we must note the number of examples of the use of
+AI by students. A Turnitin-sponsored report (Tyton Partners 2023) of
+1,600 post secondary students and 1,000 faculty, found that 50% of
+students used GenAI, compared to only 22% faculty. Use of AI by students
+is commonly cited as a reason for universities to embrace AI (e.g.,
+Power 2024). McMaster’s own internal research (based on a sample of over
+1,300 students) indicates that at least 61% of students used AI during
+the Fall Term in 2023, 75% of them for school work (Yachouh, Maqbool,
+and Rao 2024).
 
-But embracing AI just because the students use it is like putting the
-cart before the horse. After all, smoking is banned on campus, and I do
-not recall the university asking the students if they smoked[^25]. A
-university is supposed to be a place of education (higher, at that), and
-not a fast-food locale where customers get what they want.
+But embracing AI because the students use it is putting the cart before
+the horse. After all, smoking is banned on campus, and I do not recall
+the university asking the students if they smoked[^25]. A university is
+supposed to be a place of education (higher, at that), and not a
+fast-food locale where customers get what they want.
 
-What does McMaster hope to achieve with AI? From the Overview on
+So, what does McMaster hope to achieve with AI? From the Overview on
 Generative AI document:
 
 > Some of \[the uses of AI\] in our context could include qualitative
@@ -541,9 +562,9 @@ concept from multiple perspectives.
 
 <div class="figure">
 
-<img src="images/mac-library-econometrics.png" alt="Figure 8. Result of a search for online 'econometrics' resources in McMaster's Library catalog" width="50%" />
+<img src="images/mac-library-econometrics.png" alt="Figure 9. Result of a search for online 'econometrics' resources in McMaster's Library catalog" width="50%" />
 <p class="caption">
-Figure 8. Result of a search for online ‘econometrics’ resources in
+Figure 9. Result of a search for online ‘econometrics’ resources in
 McMaster’s Library catalog
 </p>
 
@@ -551,9 +572,9 @@ McMaster’s Library catalog
 
 <div class="figure">
 
-<img src="images/mac-library-cell-biology.png" alt="Figure 9. Result of a search for online 'cell biology' resources in McMaster's Library catalog" width="50%" />
+<img src="images/mac-library-cell-biology.png" alt="Figure 10. Result of a search for online 'cell biology' resources in McMaster's Library catalog" width="50%" />
 <p class="caption">
-Figure 9. Result of a search for online ‘cell biology’ resources in
+Figure 10. Result of a search for online ‘cell biology’ resources in
 McMaster’s Library catalog
 </p>
 
@@ -561,9 +582,9 @@ McMaster’s Library catalog
 
 <div class="figure">
 
-<img src="images/mac-library-euphemism.png" alt="Figure 10. Result of a search for online 'euphemism in history' resources in McMaster's Library catalogue" width="50%" />
+<img src="images/mac-library-euphemism.png" alt="Figure 11. Result of a search for online 'euphemism in history' resources in McMaster's Library catalogue" width="50%" />
 <p class="caption">
-Figure 10. Result of a search for online ‘euphemism in history’
+Figure 11. Result of a search for online ‘euphemism in history’
 resources in McMaster’s Library catalogue
 </p>
 
@@ -603,10 +624,10 @@ Two issues appear to be relevant.
 
 First, posing interesting questions for students to work on is an
 essential part of an instructor’s job, but this part of the job becomes
-compromised when instructors operate in massive classrooms
-situations[^27]. In this case, AI is a substitute, and demonstrably not
-a good one, for a qualified instructor who can intellectually challenge
-their students.
+compromised when instructors are pushed to operate in massive classrooms
+with sometimes hundreds of students[^27]. In this case, AI is a
+substitute, and demonstrably not a good one, for a qualified instructor
+who can intellectually challenge their students.
 
 The second issue is traditional evaluation. As noted, studying for the
 examination often detracts from genuine learning. Why are other
@@ -615,9 +636,8 @@ Ross (2023) suggests that instructors need to develop assessment
 literacy, that is, an understanding of “the fundamental assessment
 concepts and procedures, and to engage in the ongoing process of
 adjusting instructional strategies to enrich students learning
-experiences”. There is a need for innovative approaches in assessment,
-but it is unlikely that AI is the tool to develop the literacy that they
-require.
+experiences”. There is a indeed a dire need for innovative approaches in
+assessment, but it is unlikely that AI is the tool to develop them.
 
 - Immediate feedback on drafted work
 
@@ -632,17 +652,20 @@ aspect about getting feedback from an AI…who, actually, provides the
 feedback in this case? Whose data are used to train the machine that
 provides the feedback? Who fine-tunes the machine that provides the
 feedback? Whose perspectives and views are used to provide the feedback,
-and can they ever be accountable for the feedback provided?[^28].
+and can they ever be accountable for the feedback provided[^28]?
 
 - Personalized learning
 
 Is learning really personalized if there is no person on the teaching
-side of things? This sounds like a gimmick to put a little lipstick on
-the underfunded massification of higher education. A competent
-instructor who is not tasked with talking at hundreds of anonymous faces
-in an auditorium can provide personalized learning opportunities to
-students, in ways that a plausible-sounding machine that regresses to
-the mean cannot do.
+side of things? An AI cannot possibly understand the needs of a person,
+let alone help to satisfy them. The idea of using AI to somehow
+personalize learning is less a plan to provide excellent learning
+opportunities, and more a gimmick to put a little lipstick on the
+underfunded massification of higher education: a competent instructor,
+freed from the task of talking at hundreds of anonymous faces in an
+auditorium, can provide excellent personalized learning opportunities to
+students in ways that a plausible-sounding machine that regresses to the
+mean cannot do.
 
 - Creation of interactive and adaptive learning materials
 
@@ -653,81 +676,165 @@ it can be “‘programmed’ through prompts alone”, which should allow even
 instructors “without extensive technology or coding experience” to more
 easily create classroom applications.
 
+Leaving the technology fetish about classroom applications aside,
+Mollick and Mollick are well aware of the ethical concerns around using
+AI (see p. 6), including that “\[m\]odels are trained in ways that may
+violate copyright”, exploiting the “efforts of low-wage workers in
+precarious conditions for part of their training”, and the fact that
+“\[m\]odels are trained on biased data and can produce either subtly or
+overtly biased results”. And yet, they choose to ignore every single one
+of these concerns for the sake of being innovators[^30]. Machine-washing
+plagiarism while exploiting low-wage workers is innovative only in a way
+that offends human decency.
+
+But even if the datasets and training processes used to develop GenAIs
+were unimpeachable, would the practice of generating learning materials
+using AIs be “innovative”? Alas, no. As should be clear by now, any
+teaching materials generated in this way can only aspire to be average
+given the prompts used to get the machine going. As a shortcut to save
+time (and especially money), GenAIs might be of interest, but no one
+should buy the delusion that the use of this technology makes them
+innovators. In any case, the list of remedial measures required to
+verify that the materials produced by the AI algorithm are not nonsense
+is so long, that it is hard to see what is being gained (see Mollick and
+Mollick 2024, 4–5).
+
 - Automated grading
 
-There is nothing new about automated grading: Scantron sheets for
-multiple choice examinations have existed for over four decades. They
-work well because the algorithm for grading multiple choices is simple,
-and importantly, it is deterministic (i.e., there is no randomness
+There is nothing new about automated grading:
+[Scantron](https://www.scantron.com/company/) sheets for multiple choice
+examinations have existed for over four decades. They work well because
+the algorithm needed for grading multiple choices is simple, and
+importantly, it is deterministic (i.e., there is no randomness
 involved). There is no reason to use a neural network to grade multiple
-choice examinations. As well, there is no evidence at all that a neural
-network can do better at grading anything more complex than a multiple
-choice examination, especially since 1) it will tend to consider things
-that are closer to the mean as “better”; and 2) the amount of training
-required for a classification task of this nature is massive[^30].
+choice examinations. But on the flip side, there is also no evidence
+that a neural network can perform well at grading anything more complex
+than a multiple choice examination, especially since 1) it will tend to
+consider things that are closer to the mean as “better”[^31]; and 2) the
+amount of training required for a classification task of this nature is
+massive[^32].
 
 - Writing reference letters
 
-Using a chatbot to write reference letters must be either one of the
-most pointless or more dishonest uses of a chatbots in higher education.
-Imagine that the reference letter honestly includes a disclosure that
-ChatGPT was used to write it[^31]. If the objective of a reference
-letter is for someone to attest from the vantage point of some level of
-expertise as to the skills and qualities of a person, a chatbot-written
-letter is probably worse than useless: what message does the disclaimer
-send to the recipient of the letter? And how much stock will anyone
-place on the veracity of the letter? To avoid this catch, one would have
-to occult or obscure the AI assist, and in doing so would end up passing
-text written by countless others and filtered through a machine, as if
-it was their own.
+Using a chatbot to write reference letters must be one of the most
+pointless uses of chatbots in higher education, or one of the most
+dishonest. Imagine that the reference letter honestly included a
+disclosure that ChatGPT was used to write it[^33]. If the objective of a
+reference letter is for someone to attest from the vantage point of some
+level of expertise as to the skills and qualities of a person, a
+chatbot-written letter is probably worse than useless: what message does
+the disclaimer send to the recipient of the letter? And how much stock
+will anyone place on the veracity of the letter? To avoid this catch,
+one would have to occult or obscure the use of AI, and in doing so would
+end up passing text written by countless others and filtered through a
+machine, as if it was their own.
 
-- qualitative and quantitative data analysis
+Equally troublesome is the need to input some personal data, so as to
+avoid getting a generic letter from the machine. Does the author of the
+letter need consent to share personal information about the subject of
+the letter with OpenAI et al.?
 
+- Qualitative and quantitative data analysis
+
+Neural networks have been used for decades to do data analysis. There is
+nothing new here. But what is being promised is that we will be able to
+do data analysis without having to learn how to do data analysis. That
+somehow a chatbot will do it for us. The idea that a chatbot could be
+used to do data analysis betrays a profound misunderstanding of what
+chatbots do, and almost absolute ignorance of what data analysis
+entails. Ask a chatbot to do some arithmetic: it will produce something
+that is right on average. But average is not always right. And seeing
+how AIs are now being trained on the dregs of the internet (see below)
+it should not surprise anyone when an AI Overview responds to the prompt
+“2 + 2” with “potato”.
+
+<div class="figure">
+
+<img src="images/potato.png" alt="Figure 12. Data analysis using a chatbot? Maybe not such a good idea" width="50%" />
+<p class="caption">
+Figure 12. Data analysis using a chatbot? Maybe not such a good idea
+</p>
+
+</div>
+
+An error like this is easy to spot. But we seldom use computers to do
+calculations that can be done by hand, and checking that an AI-generated
+response is not wrong is likely to be as time consuming as not using an
+AI to do data analysis in the first place (see Yuan et al. 2023).
+
+From a different perspective, even the average output of an AI should be
+treated with caution. As noted [above](#really-what-do-they-do), the
+results of a neural network depend on the weights selected at random at
+the start of a training process. Change those weights, the results will
+change. As well, even small variations in the prompt can be impactful in
+models with millions upon millions of parameters. In statistical terms,
+the output is but one *realization* of a random process. For the results
+to be useful, we should calculate the average of a large number of
+responses. Given the cost of training and querying a LLM, this is
+prohibitively expensive.
+
+- Identify early signs of learning difficulties.
+
+An AI should not be used to identify signs of learning difficulties for
+the same reasons that AIs cannot be trusted to identify text written by
+an AI. The false positive rates (blaming the innocent) are out of
+proportion compared to the benefits the practice might offer. A vigilant
+instructor will be aware of learning difficulties among their students
+(but not if the students are an ocean of anonymous faces). But were the
+process to become automated, who would decide that an intervention is
+needed, and who qualified for it? Would the intervention be offered to
+everyone flagged by the system, including the false positives? And,
+could those denied an intervention complain? Importantly, who will fund
+any intervention? And who will deliver it? Another AI?
+
+<!--
 - AI-powered systems can provide smart tutoring.  
-
 - AI can enable virtual classrooms.  
-
 - AI can provide data insights for informed decisions.  
-
 - Natural Language Processing (NLP) can enhance language learning.  
-
-- AI can create interactive and adaptive learning materials.  
-
-- AI can identify early signs of learning difficulties.  
-
-- AI can aid in providing personalised professional development
-  opportunities for teachers.
-
-- AI can streamline administrative tasks.
+-->
 
 ## What do GenAIs do to students?
+
+The preceding section illustrates how numerous tasks that AIs can
+notionally do in higher education are in fact poor replacements for a
+human-centered education–and that is even before considering the moral,
+ethical, and possibly legal compromises that the use of
+corporate-developed AIs demand (non-corporate developed AIs can be
+ignored: as VandeHei and Allen (2024) remind us, only a handful of
+corporations have the resources to make AIs give the impression of
+competence). But what about the things that GenAIs can do *to* students?
 
 ### Distract from learning
 
 Reliance on AI can short-circuit the learning process. Statements like
 “in the very near future AIs will likely be the primary way we access
 knowledge” (Hié and Thouary 2023) convey the idea that prompt
-engineering will become an essential skill; perhaps the skill to end all
-skills.
+engineering will become an essential skill; perhaps even the skill to
+end all skills[^34].
 
-However, this skill is tied to a singular technology. How is prompt
-engineering a transferable skill? As Mollick and Mollick (2024) note,
-prompt engineering is not even transferable *between* different LLMs
-(see p. 5 and p. 36). Good research skills transfer between contexts.
-Learning how to form an effective query to find bibliographical
-resources would work at McMaster, at the University of Toronto, and at
-the New York Public Library. Learning to identify relevant content would
-work while reading a novel, a book of history, or a text of
-econometrics. Writing eventually helps to create a style.
+It is important to note that, even if prompt engineering offered some
+value to students, the skill is inextricable tied to a singular
+technology, with little transferability potential. As Mollick and
+Mollick (2024) demonstrate, prompt engineering is not even transferable
+*between* different LLMs (see p. 5 and p. 36). Good skills transfer
+between contexts. Learning how to form an effective bibliographical
+query would work at retrieving relevant resources at McMaster, at the
+University of Toronto, and at the New York Public Library. Learning to
+identify relevant content would work while reading a novel, a book of
+history, or a text of econometrics. Writing, the slow and painful
+process of converting thoughts into words, is essential to create a
+style of communication that is unique to every person. It might be
+argued, in fact, that writing *is* learning (Klein and Boscolo 2016).
 
 In a sense, an AI is like a crutch. It can help someone to accomplish a
 task more easily, but it will not help if used constantly. However, what
 the public is being promised is not a crutch: it is an All-Terrain
-Vehicle that the end user cannot hope to master[^32] due to its blackbox
+Vehicle that the end user cannot hope to master[^35] due to its blackbox
 nature (in the sense that neural networks are blackboxes, and the
 development of AIs itself is a blackbox where things change based on the
-interests of their corporate developers[^33], and not the interests of
-their relatively small customers[^34] who fancy themselves creators but
+interests of their corporate developers[^36], and not the interests of
+their relatively small customers[^37] who fancy themselves creators but
 never learned (or forgot) how to code.).
 
 <!--
@@ -740,25 +847,28 @@ Avg. exchange rate in 2022: 1.3019 CAD/US
 &#10;Put another way: If McMaster gave ALL OF ITS REVENUE to Microsoft, it would only account for 842899000 / (198000000000 * 1.3019) or less than one third of a percentage point of Microsoft's revenue.
 --->
 
-My perspective is that it is better to do things more slowly at the
-beginning, to really exercise the brain, so that the brain can do more
-exceptional things later (perhaps even more efficiently).
+One could ask whether there is value in doing things more slowly, less
+expertly at the beginning, in order to make the delicate process of
+thought work, so that the brain can accomplish genuinely exceptional
+things later, and perhaps even more efficiently.
 
-But let us assume for a moment that AI in its current form really
-becomes essential. What is the expected longevity of skills like prompt
-engineering?
+### Learning the wrong stuff and deskilling
+
+But let us assume for a moment that using AIs in their current form does
+becomes an in-demand tool in the short term. What is the expected
+longevity of skills like prompt engineering?
 
 Apart from a few methodological developments (like transformers),
 improvement in the performance of AIs (say, from ChatGPT-2 to the latest
 version), mostly comes from using bigger datasets. There has been a rush
-for data, as developers try to improve their models by training them
-using more and more data. But, despite the large number of texts
+for data[^38], as developers try to improve their models by training
+them using more and more data. But, despite the large number of texts
 available in digital form, there is still only a finite amount of data
 to be had.
 
-Big corporations are mostly done grabbing all data that they could lay
-their hands on, sometimes by morally dubious, and at times by possibly
-illegal means.
+As of this writing, the big corporations that can afford to grab data,
+are mostly done with all the data grabbing, sometimes by morally
+dubious, and at times by possibly illegal means (Clark 2024).
 
 IBM, for example, uses data drawn from the Project CodeNet Dataset. The
 data are “sourced” from two online judge web sites, AIZU Online Judge
@@ -774,12 +884,12 @@ modernizing databases, fixing errors, etc., be able to access this for
 free, and use the systems for education and research only? What does
 “commercial uses” even mean?
 
-As the sources of human-generated natural language data dry up, the
+As the sources of human-generated natural language data dry up, the few
 corporations developing AIs have turned to what might be the last juicy
-nuggets left on the internet.
+nuggets of text left on the internet.
 
 OpenAI turned to Stack Overflow (Stack Overflow 2024) for more data.
-Stack Overflow [bills itself](https://stackoverflow.com) as “A
+Stack Overflow [bills itself](https://stackoverflow.com) as “\[a\]
 community-based space to find and contribute answers to technical
 challenges, and one of the most popular websites in the world.” The
 community was
@@ -795,58 +905,50 @@ It is an open question how long Stack Overflow will remain a
 community-based space, when it treats the members of the community as
 unwitting providers of data for OpenAI.
 
-Google, for its part, turned to Reddit for training data (Roth 2024) to
-the tune of \$60 million per year. The results of this deal have been
-less than stellar, as Reddit content begins to creep into Google’s
-AI-assisted search. Reports of this include a suggestion by Google
-search to put non-toxic glue to pizza sauce to keep the cheese from
-sliding (Koebler · 2024)[^35].
+Google, for its part, turned to Reddit for training data to the tune of
+\$60 million per year (Roth 2024). As Reddit content begins to creep
+into Google’s AI-assisted search, the results of this deal have turned
+grotesque, with reports of AI Overview failures including a suggestion
+to put non-toxic glue to pizza sauce to keep the cheese from sliding
+(Koebler · 2024)[^39].
 
 <div class="figure">
 
-<img src="images/google-cheese-glue.png" alt="Figure 10. Google's AI overview result was traced back to a post by redditor Fucksmith" width="50%" />
+<img src="images/google-cheese-glue.png" alt="Figure 13. Google's AI Overview result was traced back to a post by redditor Fucksmith" width="50%" />
 <p class="caption">
-Figure 10. Google’s AI overview result was traced back to a post by
+Figure 13. Google’s AI Overview result was traced back to a post by
 redditor Fucksmith
 </p>
 
 </div>
 
-Other AI Overview results include a recommendation by geologists to eat
+Other AI Overview results included a recommendation by geologists to eat
 at least one small rock a day, a piece of advice tracked back to an
-article in the well-known satirical periodical The Onion.
+article published by the well-known satirical periodical [The
+Onion](https://www.theonion.com/geologists-recommend-eating-at-least-one-small-rock-per-1846655112).
 
 <div class="figure">
 
-<img src="images/google-the-rock.jpg" alt="Figure 10. Google's AI overview result was traced back to an article in The Onion" width="50%" />
+<img src="images/google-the-rock.jpg" alt="Figure 14. Google's AI Overview result was traced back to an article in The Onion" width="50%" />
 <p class="caption">
-Figure 10. Google’s AI overview result was traced back to an article in
+Figure 14. Google’s AI Overview result was traced back to an article in
 The Onion
 </p>
 
 </div>
 
-Mind you, these, and numerous other hapless results[^36] (as of May,
+Mind you, these, and numerous other hapless results[^40] (as of May,
 2024) are produced by an AI that Google has already spent tens of
 billions of dollars developing (Vynck and Nix 2024). To what extent can
 more money improve AI? Probably not by much, since the key constraint is
-the amount of data available for training, and as numerous examples
-
-a search for “how to rotate text in ms paint,” referring to the
-Microsoft Paint application. The top Google search result, viewed by NBC
-News, directs the reader to a sarcastic Reddit comment that says to
-press the “Flubblegorp” key on your keyboard. This key does not exist.
-
-NEXT:
-
-Peak ChatGPT.
+the amount of data available for training the deep neural networks
+behind GenAI.
 
 Model poisoning.
 
-Develop a garbage skill
-<https://arstechnica.com/tech-policy/2023/05/lawyer-cited-6-fake-cases-made-up-by-chatgpt-judge-calls-it-unprecedented/>
+Peak ChatGPT.
 
-### Learning the wrong stuff
+Develop a garbage skill
 
 Words go here.
 
@@ -854,10 +956,6 @@ Automation bias: <https://en.wikipedia.org/wiki/Automation_bias>
 
 It is likely that there is a similar authority bias in which students
 tend to be more positive
-
-### Deskilling
-
-Words go here.
 
 ### Persistence of skills (how long will learning to use a chatbot be useful?)
 
@@ -952,7 +1050,7 @@ somewhat sordid: Altman reportedly tried to hire Ms. Johannson to be the
 voice of ChatGPT 4.o (Kastrenakes 2024), but when Ms. Johannson
 declined, OpenAI went and used a mimicry of [her voice](@as-an-aside)
 anyways. This voice was retired (probably to the profound sadness of
-many an AI engineer) after Ms. Johansson threatened legal action[^37]
+many an AI engineer) after Ms. Johansson threatened legal action[^41]
 (Allyn 2024).
 
 Alas, very few have the social standing of Scarlett Johansson to
@@ -1131,18 +1229,18 @@ Compare the results:
 
 <div class="figure">
 
-<img src="README_files/figure-gfm/puzzle-web-search-1.png" alt="\label{fig:puzzle-web-search}A search using Duck Duck Go" width="50%" />
+<img src="README_files/figure-gfm/puzzle-web-search-1.png" alt="\label{fig:puzzle-web-search}Figure 15. A search using Duck Duck Go" width="50%" />
 <p class="caption">
-A search using Duck Duck Go
+Figure 15. A search using Duck Duck Go
 </p>
 
 </div>
 
 <div class="figure">
 
-<img src="README_files/figure-gfm/puzzle-chatgpt-1.png" alt="\label{fig:puzzle-chatgpt}A conversation with ChatGPT-4" width="50%" />
+<img src="README_files/figure-gfm/puzzle-chatgpt-1.png" alt="\label{fig:puzzle-chatgpt}Figure 16. A conversation with ChatGPT-4" width="50%" />
 <p class="caption">
-A conversation with ChatGPT-4
+Figure 16. A conversation with ChatGPT-4
 </p>
 
 </div>
@@ -1167,58 +1265,56 @@ When using a Generative AI we must ask whose perspectives the tool will
 tend to reproduce and amplify. In this sense, numerous observers (e.g.,
 Ahuja 2023; Stross 2023; Gebru and Torres 2024) have noted the
 ideological leanings of various actors in the AI scene, an elite world
-of tech investors[^38] known for fringe ideologies that combine a
+of tech investors[^42] known for fringe ideologies that combine a
 peculiar mix of uber-techno-optimism and existential fright (including
-transhumanism, extropianism, singularitarianism, and cosmism)[^39],
+transhumanism, extropianism, singularitarianism, and cosmism)[^43],
 paired with extreme theories of justice (including rationalism,
-effective altruism[^40], and longtermism[^41]).
+effective altruism[^44], and longtermism[^45]).
 
-One does not need to posit a conspiracy theory[^42] to worry about the
+One does not need to posit a conspiracy theory[^46] to worry about the
 influence (whether coordinated or not) of a small group of men (they are
-almost all of them men[^43]) who collectively can muster more than *half
-a trillion dollars* as they try to implement their ideas (Stross 2023).
+almost all of them men[^47]) who collectively can muster more than *half
+a trillion dollars* as they try to turn their individual convictions
+into a reality for all (Stross 2023).
 
 But leaving aside the question of a potential “unadmitted political
 agenda” by an ultra-wealthy elite, there is the much more immediate
 problem that training data, much like technology, are not politically
 neutral. Several processes have been identified that contribute to
-reproduce malignant biases, including the concept of *platformed racism*
-(Matamoros-Fernández 2017). Platformed racism is a process whereby the
+reproduce malignant biases, including that of *platformed racism*
+(Matamoros-Fernández 2017). Platformed racism results when the
 functionalities of platforms (e.g., liking and sharing) are exploited to
 create and spread racist ideology, often in a grass-roots fashion, but
-more ominously with the assist of bad-faith actors[^44]. Given how cagey
+more ominously with the assist of bad-faith actors[^48]. Given how cagey
 corporations are about the data they use to train their models, it is
 anyone’s guess how much dis- and misinformation has been passed to their
-AIs (this is part of the Unfathomable Data problem discussed by Bender
-et al. (2021)). In this way, AIs, rather than contributing to online
-safety, may end up amplifying the legacy of Russian interference
-(Švedkauskas, Sirikupt, and Salzer 2020).\]. The second aspect of
-platformed racism is the implicit endorsement of racist ideology through
-vague standards and arbitrary moderation practices[^45] that exclude
-some views while allowing others to thrive (Myers West 2018; Hawkins et
-al. 2023).
+AIs[^49]. The second aspect of platformed racism is the implicit
+endorsement of racist ideology through vague standards and arbitrary
+moderation practices[^50] that exclude some views while allowing others
+to thrive (Myers West 2018; Hawkins et al. 2023).
 
 Search engines were already known to reinforce racism (Noble 2018);
 given the above, it really is too much to expect that AI-augmented
-search engines will do better[^46]. In another wretched incident,
-Google’s AI overview stated that Barack Obama was the first Muslim
+search engines will do any better[^51]. In another wretched incident,
+Google’s AI Overview stated that Barack Obama was the first Muslim
 president of the US, a regrettable piece of misinformation that fails to
 surprise given the years-long Russian-assisted right-wing propaganda
-campaign to otherize Obama (Tenbarge 2024). Mishaps like this, and
-others, are dismissed by Google as attempts to “to trip up the
-technology with uncommon questions” (Tenbarge 2024). This dismissal,
-though, only reinforces the notion that AIs are only ever useful when
+campaign to otherize Mr. Obama (Tenbarge 2024). Mishaps like this, and
+others, are dismissed by Google as attempts “to trip up the technology
+with uncommon questions” (Tenbarge 2024). This dismissal, arrogant as it
+is, only reinforces the notion that AIs are only ever useful when
 [regressing to the mean](#really-what-do-they-do). Responses like
 fiddling with the model (fine tuning it) to provide more palatable
-outputs[^47] are not more reassuring. Who is to say what a handful of
-unaccountable corporations will find palatable tomorrow, let alone in
-the face of powerful authoritarian regimes?
+outputs[^52] are not reassuring. Who is to say what a handful of
+unaccountable corporations will find unpalatable tomorrow, let alone in
+the face of powerful authoritarian regimes that might threaten their
+profits[^53]?
 
 <div class="figure">
 
-<img src="README_files/figure-gfm/google-obama-1.png" alt="\label{fig:google-ai-overview-of-obama}Google's AI overview of Muslim US presidents" width="50%" />
+<img src="README_files/figure-gfm/google-obama-1.png" alt="\label{fig:google-ai-overview-of-obama}Figure 17. Google's AI Overview of Muslim US presidents" width="50%" />
 <p class="caption">
-Google’s AI overview of Muslim US presidents
+Figure 17. Google’s AI Overview of Muslim US presidents
 </p>
 
 </div>
@@ -1255,7 +1351,7 @@ the current hype around AI.
 
 ChatGPT was a colossal feat of marketing (Cowen 2023), but much coverage
 of AI in the media has been stretched beyond the breaking point of
-credulity (Burneko 2024)[^48]. There are now calls to press pause on the
+credulity (Burneko 2024)[^54]. There are now calls to press pause on the
 hype (Angwin 2024) but these are still drown by the uncritical coverage.
 
 > An end to “batch” teaching. Instead of working with cohorts of
@@ -1336,8 +1432,8 @@ them), can still hope to recoup some of their investment in AI. But a
 university gambles its most important asset when betting on AI: its
 reputation as a place were knowledge is created, and as a custodian of
 knowledge. AIs already have a reputation for producing mis- and
-disinformation–from the very titans of the field[^49] to the
-unaware[^50], and beyond, to bad-faith actors[^51]. In my view, there
+disinformation–from the very titans of the field[^55] to the
+unaware[^56], and beyond, to bad-faith actors[^57]. In my view, there
 are no efficiencies, no promises of future excellence, that can
 compensate the risk of ruining an institutions reputation.
 
@@ -1389,9 +1485,9 @@ Crypto-currency to AI: <https://en.wikipedia.org/wiki/Cognition_AI>
 
 <div class="figure">
 
-<img src="README_files/figure-gfm/googly-eyes-1.png" alt="\label{fig:googly-ai-eyes}Figure XX. In conclusion" width="50%" />
+<img src="README_files/figure-gfm/googly-eyes-1.png" alt="\label{fig:googly-ai-eyes}Figure 18. In conclusion" width="50%" />
 <p class="caption">
-Figure XX. In conclusion
+Figure 18. In conclusion
 </p>
 
 </div>
@@ -1476,7 +1572,8 @@ priority initiatives for the Expert Panel on Teaching and Learning:
 
 ## References
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
 
 <div id="ref-ahuja_we_2023" class="csl-entry">
 
@@ -1548,6 +1645,14 @@ Higher Education.” *Studies in Higher Education* 0 (0): 1–17.
 
 </div>
 
+<div id="ref-burke_microsoft_2024" class="csl-entry">
+
+Burke, Renee Dudley, Doris. 2024. “Microsoft Refused to Fix Security
+Flaw That Russians Later Used to Hack U.S. Government.” *ProPublica*.
+<https://www.propublica.org/article/microsoft-solarwinds-golden-saml-data-breach-russian-hackers>.
+
+</div>
+
 <div id="ref-burneko_if_2024" class="csl-entry">
 
 Burneko, Albert. 2024. “If Kevin Roose Was ChatGPT With A Spray-On
@@ -1587,6 +1692,14 @@ class="csl-entry">
 ———. 2023. “Google’s New Bard AI Generate Lies.” *Center for Countering
 Digital Hate CCDH*.
 <https://counterhate.com/research/misinformation-on-bard-google-ai-chat/>.
+
+</div>
+
+<div id="ref-clark_ex-amazon_2024" class="csl-entry">
+
+Clark, Lindsay. 2024. “Ex-Amazon AI Exec Claims She Was Asked to Ignore
+IP Law.” *The Register*.
+<https://www.theregister.com/2024/04/22/ghaderi_v_amazon/>.
 
 </div>
 
@@ -1830,6 +1943,14 @@ Online Dating.” *Forbes*.
 
 </div>
 
+<div id="ref-klein_trends_2016" class="csl-entry">
+
+Klein, Perry D., and Pietro Boscolo. 2016. “Trends in Research on
+Writing as a Learning Activity.” *Journal of Writing Research* 7 (3):
+311–50. <https://doi.org/10.17239/jowr-2016.07.03.01>.
+
+</div>
+
 <div id="ref-koebler__google_2024" class="csl-entry">
 
 Koebler ·, Jason. 2024. “Google Is Paying Reddit \$60 Million for
@@ -2039,6 +2160,14 @@ Class and Culture Online*, Noble, Safiya Umoja and Tynes, Brendesha M.
 
 </div>
 
+<div id="ref-robertson_axios_2024" class="csl-entry">
+
+Robertson, Katie. 2024. “Axios Sees Artificial Intelligence Coming, and
+Shifts Its Strategy.” *The Seattle Times*.
+<https://www.seattletimes.com/business/axios-sees-artificial-intelligence-coming-and-shifts-its-strategy/>.
+
+</div>
+
 <div id="ref-roose_brilliance_2023" class="csl-entry">
 
 Roose, Kevin. 2023. “The Brilliance and Weirdness of ChatGPT.” *The New
@@ -2235,6 +2364,14 @@ Inquiry* 14 (2): 267–83.
 
 </div>
 
+<div id="ref-vandehei_behind_2024" class="csl-entry">
+
+VandeHei, Jim, and Mike Allen. 2024. “Behind the Curtain: AI’s Ominous
+Scarcity Crisis.” *Axios*.
+<https://www.axios.com/2024/05/28/ai-power-energy-data-chips-talent>.
+
+</div>
+
 <div id="ref-verma_chatgpt_2023" class="csl-entry">
 
 Verma, Pranshu, and Will Oremus. 2023. “ChatGPT Invented a Sexual
@@ -2275,6 +2412,14 @@ Poisoning Attacks Against Vision-Language Models.” arXiv.
 
 Yachouh, Christine, Samarah Maqbool, and Surbhi Rao. 2024. “Student
 Perspectives on Generative AI in Teaching and Learning.”
+
+</div>
+
+<div id="ref-yuan_how_2023" class="csl-entry">
+
+Yuan, Zheng, Hongyi Yuan, Chuanqi Tan, Wei Wang, and Songfang Huang.
+2023. “How Well Do Large Language Models Perform in Arithmetic Tasks?”
+arXiv. <https://doi.org/10.48550/arXiv.2304.02015>.
 
 </div>
 
@@ -2345,11 +2490,12 @@ Perspectives on Generative AI in Teaching and Learning.”
 [^16]: Writing in 2022, Mr. Hié predicted that the metaverse would be a
     [revolution in higher
     education](https://www.linkedin.com/pulse/metaverse-dedicated-pedagogy-revolution-higher-education-anthony-hi%C3%A9).
-    On February, 2023, Microsoft
+    It did not take long for this prediction to turn sourer than beans
+    in August: on February, 2023, Microsoft
     [disbanded](https://www.theinformation.com/articles/microsoft-kills-its-industrial-metaverse-team-after-4-months)
     its Industrial Metaverse Core Team scantly four months after
-    launching it. Meta, the main cheerleader of the eponymous metaverse,
-    [slashed its own metaverse
+    launching it. Shortly after that, Meta, the main cheerleader of the
+    eponymous metaverse, [slashed its own metaverse
     team](https://www.reuters.com/technology/meta-lay-off-employees-metaverse-silicon-unit-wednesday-2023-10-03/)
     in October, 2023.
 
@@ -2376,7 +2522,7 @@ Perspectives on Generative AI in Teaching and Learning.”
     disinformation, flooding the zone at a rate that humans cannot hope
     to counteract (Maiberg 2024).
 
-[^20]: I have already spent more than 65 hours working on this essay,
+[^20]: I have already spent more than 70 hours working on this essay,
     and it is still nowhere in the vicinity of being an exhaustive
     apology or indictment of AI.
 
@@ -2393,21 +2539,23 @@ Perspectives on Generative AI in Teaching and Learning.”
     further AIs.” Therefore, “educators may want to consider before
     deciding whether to use these systems”. This disclaimer, all one
     third of a page in a 76-page document dedicated to extolling an
-    AI-enabled future in education, highligths the importance of
+    AI-enabled future in education, highlights the importance of
     institutions to provide the moral and ethical clarity that may elude
-    individual instructors.
+    individual instructors working under desperately under-resourced
+    conditions, or simply willing to win a race to the bottom.
 
 [^22]: The “typical error” here is the mean absolute deviation of the
     predictions.
 
 [^23]: According to reports (see Griffith 2023), GPT-1 had 117 million
     parameters, GPT-2 1.5 billion, and GPT-3 175 billion parameters.
-    OpenAI no longer reports the number of parameters, but in the latest
-    version this is estimated to be in the trillions.
+    OpenAI no longer reports the number of parameters of its newer
+    models, but in the latest version this is estimated to be in the
+    trillions.
 
 [^24]: Which is possibly why so-called hallucinations became less common
     as more and more data were used to train AIs. The increasingly large
-    datasets essentially expanded the space where the model could
+    datasets essentially expand the space where the model could
     interpolate.
 
 [^25]: “A tobacco and smoke-free campus is the next important step
@@ -2427,8 +2575,8 @@ Perspectives on Generative AI in Teaching and Learning.”
 [^27]: Average class sizes at McMaster (with a full time under-graduate
     student population of 30,400) are 127.8 in first/second year, and
     52.3 in third/fourth year; this places McMaster dead last among all
-    Canadian institutions in class sizes in first/second year, and
-    second to last after UBC in third/fourth year (Maclean’s 2022).
+    Canadian institutions in terms of class sizes in first/second year,
+    and second to last after UBC in third/fourth year (Maclean’s 2022).
 
 [^28]: [Automation bias](https://en.wikipedia.org/wiki/Automation_bias),
     the human inclination to favor suggestions made by automated
@@ -2444,13 +2592,36 @@ Perspectives on Generative AI in Teaching and Learning.”
     to help you level up your learning! (Discounts of up to 50% are
     available to alumni) (Kelner 2022).
 
-[^30]: Labeling data is an essential, yet extremely expensive aspect of
-    training GenAIs. **NOTE** expand on this.
+[^30]: The title of the paper is “Instructors as Innovators: A
+    future-focused approach to new AI learning opportunities, with
+    prompts”.
 
-[^31]: As it should, according to McMaster’s guidelines for
+[^31]: My own unpublished experiments with grading written reflections
+    were underwhelming, missing the human-assigned grade over 30% of the
+    time
+
+[^32]: Labeling data is an essential, yet extremely expensive aspect of
+    training GenAIs. The algorithm needs a “dependent” variable for
+    training, in this case a grade assigned to a piece of work: this is
+    called a label. Grading assignments manually is the process of
+    labeling. Given all the possible variations of assignments (by year,
+    by subject, by instructor), a general grading machine would require
+    vast volumes of *labelled* training data, and even so there is no
+    guarantee that the results will be adequate, let alone appropriate.
+
+[^33]: As it should, according to McMaster’s guidelines for
     acknowledging the use of AI.
 
-[^32]: Reports of people getting their fingers crushed by Tesla’s
+[^34]: Prompt engineering is a pompous name for a task that amounts to
+    trying to read the entrails of a Large Language Model: something
+    that cannot possibly be performed in a systematic way, and that
+    offers no guarantees that it will work in the same way again,
+    especially after a model is updated. No genuine engineer would do
+    their work in such fashion, and calling the activity of writing
+    prompts “engineering” is a blatant attempt to steal the competence
+    and reputation of actual engineering.
+
+[^35]: Reports of people getting their fingers crushed by Tesla’s
     cybertruck could be a result of 1) people trusting the technology
     more than they should; and 2) not understanding the technology:
     apparently the algorithm uses increasing force to close the trunk if
@@ -2458,7 +2629,7 @@ Perspectives on Generative AI in Teaching and Learning.”
     slash a banana on its first attemt to latch, but will crush a finger
     on the second attempt (Lambert 2024).
 
-[^33]: Sometimes said interest may be relatively benign, like avoiding
+[^36]: Sometimes said interest may be relatively benign, like avoiding
     reputational damage [by correcting a
     wrong](https://www.bbc.com/news/technology-65202597), but there is
     no guarantee that corporate interests will always align with those
@@ -2466,7 +2637,7 @@ Perspectives on Generative AI in Teaching and Learning.”
     only a handful of American companies that offer an “essential”
     service.
 
-[^34]: And this refers not only to individuals whose skills are yoked to
+[^37]: And this refers not only to individuals whose skills are yoked to
     ChatGPT and MidJourney. In 2022, McMaster University operated on
     revenues of less than [\$843
     million](https://financial-affairs.mcmaster.ca/app/uploads/2023/06/2023-24-Consolidated-Budget-FINAL.pdf)
@@ -2478,21 +2649,30 @@ Perspectives on Generative AI in Teaching and Learning.”
     Microsoft, that would leave McMaster with zero money and still
     account for less than *one third of one percent point* of
     Microsoft’s revenue. A mid-sized Canadian university is like an ant
-    compared to the economic boot of Microsoft.
+    compared to the economic boot of Microsoft. In truth, as the case of
+    Solar Winds shows, Microsoft can refuse to fix a security flaw that
+    leaves even the US Government vulnerable(for instance, to a Russian
+    hack), and do so with little fear of ever facing accountability
+    (Burke 2024).
 
-[^35]: The headline of the 404 Media report was “Google Is Paying Reddit
+[^38]: This rush is perhaps more frenetic than gold rushes in the past.
+    And, while the gold rushes of the 19th century were relatively
+    democratic due to the low cost of immigration, the rush for data is
+    largely dominated by a few, already ultra-wealthy players.
+
+[^39]: The headline of the 404 Media report was “Google Is Paying Reddit
     \$60 Million for Fucksmith to Tell Its Users to Eat Glue”.
 
-[^36]: Including AI overviews with misinformation about depression
+[^40]: Including AI overviews with misinformation about depression
     (Tenbarge 2024).
 
-[^37]: Altman’s denials that OpenAI had not used Ms. Johansson’s voice
+[^41]: Altman’s denials that OpenAI had not used Ms. Johansson’s voice
     sounded hollow, after he
     [posted](https://x.com/sama/status/1790075827666796666) on social
     media the word “her” at the time the new version of ChatGPT was
     announced.
 
-[^38]: A group that author Charles Stross colorfully
+[^42]: A group that author Charles Stross colorfully
     [characterizes](https://www.antipope.org/charlie/blog-static/2024/04/the-radiant-future-of-1995.html)
     as “fascist-adjacent straight white males with an unadmitted
     political agenda”. This characterization is somewhat unfair: both
@@ -2504,79 +2684,99 @@ Perspectives on Generative AI in Teaching and Learning.”
     plain sight. Thiel (2009) has written about how he “no longer
     believe\[s\] that freedom and democracy are compatible”. Elon Musk,
     well, Elon Musk once shared a meme comparing Canada’s PM Justin
-    Trudeau to Hitler, when defending the vandals who [terrorized
+    Trudeau to Hitler, while defending the vandals who [terrorized
     Ottawa](https://fortune.com/2022/01/27/elon-musk-twitter-freedom-convoy-canadian-truckers-rule-covid-vaccine/)
     in 2022.
 
-[^39]: A quick summary of these beliefs is that humans (or at lest some
+[^43]: A quick summary of these beliefs is that humans (or at lest some
     of them, those who can afford to do so) are destined to use
-    technology to indefinitely extend life and conquer the stars…just
-    not before super-intelligent AIs destroy humanity.
+    technology to indefinitely extend life and conquer the stars…but
+    maybe not before super-intelligent AIs destroy humanity. Just in
+    case, wealthy tech barons like Peter Thiel and Sam Altman, have made
+    suitable [escape
+    plans](https://www.theguardian.com/news/2018/feb/15/why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand).
 
-[^40]: A movement exposed to the harsh light of public opinion for being
+[^44]: A movement exposed to the harsh light of public opinion for being
     the philosophy espoused by convicted fraudster and money launderer
     Sam Bankman-Fried (Crook 2023).
 
-[^41]: A drastic form of utilitarianism convinced that the wellbeing of
+[^45]: A drastic form of utilitarianism convinced that the well-being of
     trillions of humans in the future is well worth the sacrifices of a
     few billions of humans today. Curiously, the contribution of the
     titans of technology promoting AI is not to sacrifice themselves: as
     evidence of the abuses inflicted in the name of innovation continues
     to pile up, it is clear that some of us will suffer and die–but that
-    is a sacrifice that wealthy and well connected longtermists are
-    willing to make.
+    is a sacrifice that those wealthy and well connected longtermists
+    are willing to make.
 
-[^42]: Accusing the critics of being conspiracy theorists, as Sennesh
+[^46]: Accusing the critics of being conspiracy theorists, as Sennesh
     and Hughes (2023) do, distracts from the fact that there is no
     dearth of leftist ideas for a more just future; intellectual poverty
-    is not what is at stake, instead a key difference is that these
-    ideas seldom have the power of money behind them, in contrast to,
-    say, effective altruism (Matthews 2022).
+    is not what is at stake, instead a key difference is that
+    progressive and humanistic ideas seldom have the power of money
+    behind them. This is in contrast to, say, effective altruism
+    (Matthews 2022).
 
-[^43]: After Meta disbanded its Responsible AI Division, the company
+[^47]: After Meta disbanded its Responsible AI Division, the company
     formed an AI advisory council composed of four very wealthy white
     men (Davis, Silberling, and Wiggers 2024; Goel 2024).
 
-[^44]: Online Russian disinformation has had a wide reach (Treyger,
-    Cheravitch, and Cohen 2022) and furthermore is known to seed
-    distrust between ethnic communities (Švedkauskas, Sirikupt, and
-    Salzer 2020). A U.S. Department of State report notes that Russian
-    intelligence is known to exploit “all kinds of separatism and
-    ethnic, social and racial conflicts, actively supporting all
-    dissident movements–extremist, racist, and sectarian groups” to
-    destabilize internal U.S. politics (U.S. Department of State 2024,
-    51).
+[^48]: Online Russian disinformation has already had a wide reach
+    (Treyger, Cheravitch, and Cohen 2022) and furthermore is known to
+    operate by seeding distrust between ethnic communities (Švedkauskas,
+    Sirikupt, and Salzer 2020). A U.S. Department of State report notes
+    that Russian intelligence is known to exploit “all kinds of
+    separatism and ethnic, social and racial conflicts, actively
+    supporting all dissident movements–extremist, racist, and sectarian
+    groups” to destabilize internal U.S. politics (U.S. Department of
+    State 2024, 51).
 
-[^45]: According to the Center for Countering Digital Hate, platforms
+[^49]: this is part of the Unfathomable Data problem discussed by Bender
+    et al. (2021). In this way, AIs, rather than contributing to online
+    safety, may end up amplifying the legacy of Russian interference
+    (Švedkauskas, Sirikupt, and Salzer 2020).
+
+[^50]: According to the Center for Countering Digital Hate, platforms
     like facebook, Instagram, Tiktok, Twitter, and YouTube, failed to
     act 84% of the time on hundreds of posts that had millions of views,
     with facebook being the worst performer (Center for Countering
     Digital Hate 2021).
 
-[^46]: A report by the Center for Countering Digital Hate found that
+[^51]: A report by the Center for Countering Digital Hate found that
     Google’s Bard generated wrong and/or hateful outputs in 78 out of
     100 tests (Center for Countering Digital Hate 2023). In addition to
     being misleading to the unadvised, AI is also a fantastic tool ripe
     for abuse by those who are advised *and* have an agenda. Google’s
     own researchers have come to the inevitable conclusion that it is
     easier to produce disinformation with AI, than it is to use AI to
-    combat misinformation (Maiberg 2024).
+    combat it (Maiberg 2024).
 
-[^47]: Like in the case of [Google’s
+[^52]: Like in the case of [Google’s
     response](https://blog.google/products/search/ai-overviews-update-may-2024/)
     to the poor quality of its recently launched AI overviews.
 
-[^48]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
+[^53]: VandeHei and Allen (2024) write in Axios about an “ominous
+    scarcity” of inputs that threatens America’s AI superiority over
+    China. These authors, whose one true expertise is access journalism,
+    never stop to consider why an authoritarian regime might want to
+    have powerful pattern recognition machines. To compound things, they
+    neglect to disclose the stake that Axios, the website they founded,
+    has on AI. VandeHei has not been timid to express himself otherwise,
+    and is on record stating that AI “will eviscerate the weak, the
+    ordinary, the unprepared in media” (Robertson 2024). Who should be
+    concerned about maintaining an edge?
+
+[^54]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
     but it is difficult to see what else writing like Roose’s (2024)
     could be called, besides hagiography.
 
-[^49]: Entities like Google and Amazon could not care less about their
+[^55]: Entities like Google and Amazon could not care less about their
     reputation. They are [too
     big](https://www.businessinsider.com/ex-amazon-ghaderi-exec-suing-ai-race-copyright-allegations-2024)
     [to
     care](https://pluralistic.net/2024/04/04/teach-me-how-to-shruggie/).
 
-[^50]: Like a B.C. lawyer who was
+[^56]: Like a B.C. lawyer who was
     [reprimanded](https://www.cbc.ca/news/canada/british-columbia/lawyer-chatgpt-fake-precedent-1.7126393)
     for using AI hallucinations in a legal filing. This was not even the
     first time that supposedly highly skilled professionals were
@@ -2584,6 +2784,6 @@ Perspectives on Generative AI in Teaching and Learning.”
     [using](https://www.washingtonpost.com/technology/2023/11/16/chatgpt-lawyer-fired-ai/)
     [chatbots](https://www.reuters.com/legal/new-york-lawyers-sanctioned-using-fake-chatgpt-cases-legal-brief-2023-06-22/).
 
-[^51]: Like rival geopolitical powers that are relatively impervious to
+[^57]: Like rival geopolitical powers that are relatively impervious to
     propaganda themselves for reason of being [authoritarian
     countries](https://www.theatlantic.com/magazine/archive/2024/06/china-russia-republican-party-relations/678271/).

@@ -9,6 +9,16 @@
     ]
   },
   "Packages": {
+    "Deriv": {
+      "Package": "Deriv",
+      "Version": "4.1.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "methods"
+      ],
+      "Hash": "bc727aba82bcda74db0bbe188ec6757c"
+    },
     "MASS": {
       "Package": "MASS",
       "Version": "7.3-60.2",
@@ -507,6 +517,22 @@
       ],
       "Hash": "4fd8900853b746af55b81fda99da7695"
     },
+    "neuralnet": {
+      "Package": "neuralnet",
+      "Version": "1.44.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "Deriv",
+        "MASS",
+        "R",
+        "grDevices",
+        "grid",
+        "stats",
+        "utils"
+      ],
+      "Hash": "645dfddf82e231bd334f916ede114128"
+    },
     "nlme": {
       "Package": "nlme",
       "Version": "3.1-164",
@@ -562,7 +588,7 @@
       "Package": "renv",
       "Version": "1.0.7",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "utils"
       ],
