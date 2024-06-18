@@ -1,9 +1,23 @@
 ---
-output: github_document
-bibliography: bibliography/bibliography.bib
+title: "An AI is haunting campus"
+subtitle: "Some considerations about the use of AI for teaching and learning in post-secondary education"
+author: Antonio Páez (McMaster University)
+date: "`r Sys.Date()`"
+format:
+    pdf: 
+      fontsize: 7pt
+    html: 
+      self-contained: true
+      grid: 
+        margin-width: 350px
+execute: 
+  echo: fenced
+  freeze: auto
+reference-location: margin
+#citation-location: margin
+bibliography:
+  - "`r system('kpsewhich ../bibliography/bibliography.bib', intern=TRUE)`"
 ---
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
@@ -18,54 +32,27 @@ knitr::opts_chunk$set(
 library(cowplot) # Streamlined Plot Theme and Plot Annotations for 'ggplot2'
 library(dplyr) # A Grammar of Data Manipulation
 library(ggplot2) # Create Elegant Data Visualisations Using the Grammar of Graphics
-library(glue)
-library(here)
 library(knitr)
 library(magick) # Advanced Graphics and Image-Processing in R
 library(neuralnet) # Training of Neural Networks
 ```
 
-# An AI is haunting campus^[Karl Marx wrote about a "spectre...haunting Europe--the spectre of communism"; GenAI looks awfully like the shade of the spectre of unregulated surveillance capitalism.]: Some considerations about the use of AI for teaching and learning in post-secondary education
-
-<!-- badges: start -->
-
-<!-- badges: end -->
-
-Antonio Páez (paezha@mcmaster.ca)
+::: {.column-margin}
+Karl Marx wrote about a "spectre...haunting Europe--the spectre of communism"; GenAI looks awfully like the spectre of unregulated surveillance capitalism.
+:::
 
 Disclaimer: _All opinions expressed here are mine and any resemblance to those of my employer(s) is purely coincidental_. _No generative AI tool was used to research or write this essay, only good old-fashioned library and internet search skills_.
 
 Note: _This essay was written as an open research project, and it can be found in the following repository:_ https://github.com/paezha/University-AI-Panel
 
----  
-
-
-## Contents
-
-- [Background](#background)  
-- [The university's mission](#the-mission)  
-- [What do AIs do?](#what-do-ais-do)  
-- [A note on the terms of the conversation](#terms-of-debate)  
-- [But really, what do AIs do?](#really-what-do-they-do)  
-- [AI in teaching and learning](#ai-in-teaching-and-learning)  
-- [What do GenAIs do for students?](#what-do-ais-do-for-students)  
-- [What do GenAIs do to students?](#what-can-ais-do-to-students)  
-- [What do GenAIs do for the mega-corporations pushing these tools?](#what-do-ais-to-corporations)  
-- [What do GenAIs do to everyone else?](#what-do-ais-do-to-everyone-else)  
-
-
----  
-
-
-
-## Background {#background}
+## Background
 
 > _Mission Statement: Our organization seeks to level up on all matters related._  
 > -- An Organization Run by its Marketing Department
 
 On November 30, 2022, OpenAI released what became its flagship product, [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT), a chatbot based on [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs) designed and trained to mimic natural language. The launch of the chatbot was an impressive feat of marketing [@cowen_chatgpt_2023], and it took less than two weeks for the hype to reach stratospheric levels: by early December, ChatGPT was being panned as "the best artificial intelligence chatbot ever released to the general public" [@roose_brilliance_2023], and a tool able to generate "impressively detailed" and "human-like" text, leading some to wonder whether it could "replace humans" [@lock_what_2022]. 
 
-Universities, much like every other organization dealing with information, had to respond in a compressed span of time to the rapid release of generative AI (GenAI) tools like ChatGPT, most of them created and unleashed in the wild by a handful of large American corporations including [Meta](https://en.wikipedia.org/wiki/Meta_Platforms) (or were we to deadname it, facebook), [OpenAI](https://en.wikipedia.org/wiki/OpenAI), [Google](https://en.wikipedia.org/wiki/Alphabet_Inc.), and [Microsoft](https://en.wikipedia.org/wiki/Microsoft). 
+Universities, much like every other organization dealing with information, had to respond in a compressed span of time to the rapid release of generative AI (GenAI) tools like ChatGPT, most of them created and unleashed in the wild by a handful of large American corporations including [Meta](https://en.wikipedia.org/wiki/Meta_Platforms) (or were we to deadname it, facebook), [OpenAI](https://en.wikipedia.org/wiki/OpenAI), [Google](https://en.wikipedia.org/wiki/Alphabet_Inc.), and [Microsoft](https://en.wikipedia.org/wiki/Microsoft).
 
 GenAI was hailed as nothing short of revolutionary. McMaster, for example, [stated](https://provost.mcmaster.ca/office-of-the-provost-2/generative-artificial-intelligence-2/generative-ai-for-staff/provisional-guidelines-on-the-use-of-generative-ai-in-operational-excellence/) that:
 
@@ -104,7 +91,7 @@ We also need to understand the goals of the organization that considers using th
 
 Let us begin with the mission of McMaster as an institution of higher education.
 
-## The university's mission {#the-mission}
+# The university's mission {#the-mission}
 
 McMaster's [mission](https://president.mcmaster.ca/mission-vision/) is "the discovery, communication and preservation of knowledge," accomplished with a commitment to "creativity, innovation and excellence". These aspirations must respond to some underlying values, and indeed, the university explicitly values "integrity, quality, inclusiveness and teamwork". Ultimately, the university aims to "inspire critical thinking, personal growth, and a passion for lifelong learning" and to serve "the social, cultural, and economic needs of our community and our society."
 
@@ -130,13 +117,13 @@ In mental health care, chatbots could complement human therapists "via comprehen
 
 AIs will even write code, perhaps helping themselves to some self-programming along the way: AIs that write themselves, or AI self-help?
 
-```{r ai-writing-code, out.width="50%", fig.cap="\\label{fig:ai-bug-fix}Figure 1. An example of Atlassian AI writing code"}
+```{r ai-writing-code, out.width="70%", fig.cap="\\label{fig:ai-bug-fix}An example of Atlassian AI writing code"}
 knitr::include_graphics(glue::glue(here::here(), "/images/ai-bug-fix.png"))
 ```
 
 The list of promises about what AI _can_ do has grown to encompass pretty much everything, from saving the planet from ourselves, all the way down to micromanaging intimate facets of individual lives, for example by revolutionizing dating through the use of chatbots to help "people connect and find potential partners" (who presumably also use chatbots to do the same) [@khalatian_matchmaking_2023]. Not even the [bowel movements of our pets](https://finance.yahoo.com/news/next-generation-ai-powered-cat-140000795.html) are beyond the revolutionary all-seeing eye of AI.
 
-```{r ai-litter-box, out.width="50%", fig.cap="\\label{fig:ai-bug-fix}Figure 2. Revolutionizing pet health"}
+```{r ai-litter-box, out.width="70%", fig.cap="\\label{fig:ai-bug-fix}Revolutionizing pet health"}
 knitr::include_graphics(glue::glue(here::here(), "/images/ai-litter-box.png"))
 ```
 
@@ -151,6 +138,8 @@ Mr. Power's message to the higher-education sector? It is time for institutions 
 In another instance, @hie_how_2023^[Anthony Hié is Chief Innovation and Digital officer at [Excelia](https://www.excelia-group.com/about-excelia/our-schools/excelia-business-school), a top business school in France. Claire Thouary is the founder of [QACE UP](http://qace-up.fr), a consulting firm that supports higher-education institutions in their quest for "quality excellence", whatever that means.] argue that AIs will likely be the primary way to access information in the future. For this reason, institutions must equip students with the skills needed to use AI competently, in particular train them to perfect the art of _prompt engineering_ (the ability to craft effective queries that prompt a GenAI to provide the most useful outputs). Universities will use AIs to improve learning and challenge the critical thinking of students. Faculty will also benefit from AI: it will be used to evaluate their students^[A task of dubious legality, and clearly a way to cheat students of a learning experience.], and will handle repetitive tasks like writing course syllabi^[In my 20+ years of experience as an educator, writing syllabi has been an activity essential to understand my own courses, what I teach and how I teach it; automating the task of writing syllabi is another way of degrading the quality of instruction that students can expect to receive.].
 
 @hie_how_2023 warn that "AI is here to stay"^[Writing in 2022, Mr. Hié predicted that the metaverse would be a [revolution in higher education](https://www.linkedin.com/pulse/metaverse-dedicated-pedagogy-revolution-higher-education-anthony-hi%C3%A9). It did not take long for this prediction to turn sourer than beans in August: on February, 2023, Microsoft [disbanded](https://www.theinformation.com/articles/microsoft-kills-its-industrial-metaverse-team-after-4-months) its Industrial Metaverse Core Team scantly four months after launching it.  Shortly after that, Meta, the main cheerleader of the eponymous metaverse, [slashed its own metaverse team](https://www.reuters.com/technology/meta-lay-off-employees-metaverse-silicon-unit-wednesday-2023-10-03/) in October, 2023.], and that "[faculty] might not be able to stop the AI trend from growing" so they might as well get on with the program and try to shape it as best they can.
+
+\newpage
 
 Similarly hyperbolic claims about AI in higher education can be found peppered throughout the landscape, including by @johnson_ai_2023^[[Gridserve](https://www.gridserve.co.uk/about-us/) is a UK company "dedicated to enhancing the technological capabilities of the education sector through customised information and communication technology (ICT) services".] and @contact_north_five_2024^[teachonline.ca by [Contact North/Contact Nord](https://teachonline.ca), is "a resource for post-secondary faculty and instructors...to find the latest information on new technology and new developments in online learning, as well as practical tools and resources to help them integrate technology in their teaching in a way that improves the learning experience for their students". Contact North/Contact Nord is a not-for-profit corporation funded by the Government of Ontario, the province that has underfunded its post-secondary education sector for decades [@usher_state_2023].]. A fairly comprehensive list [from @johnson_ai_2023] is as follows (notice the use of "can" in the original, not "could", or "maybe will"):
 
@@ -206,7 +195,7 @@ mod <- lm(y ~ x,
           data = df)
 ```
 
-```{r plot-simulated-data, message=FALSE, out.width="50%", fig.cap="Figure 3. Simple Example of a Regression Model"}
+```{r plot-simulated-data, message=FALSE, out.width="70%", fig.cap="Simple Example of a Regression Model"}
 ggplot(df,
        aes(x = x,
            y = y)) +
@@ -215,7 +204,7 @@ ggplot(df,
   theme_minimal()
 ```
 
-```{r data-vs-predictions-comparison, out.width="50%", fig.cap="Figure 4. Training data and model output compared"}
+```{r data-vs-predictions-comparison, out.width="70%", fig.cap="Training data and model output compared"}
 
 df_pred <- data.frame(x = x)
 
@@ -274,7 +263,7 @@ nn1 <- neuralnet(f,
 plot(nn1)
 ```
 
-```{r plot-shallow-neural-network, out.width="50%", fig.cap="Figure 5. Simple Example of a Shallow Neural Network"}
+```{r plot-shallow-neural-network, out.width="70%", fig.cap="Simple Example of a Shallow Neural Network"}
 knitr::include_graphics(glue::glue(here::here(), "/images/nn1.png"))
 ```
 
@@ -294,7 +283,7 @@ df_pred_all <- rbind(df_pred_all |>
 
 The plot below illustrates the predictions of this neural network, where we can see that the model is not limited to a linear response. Neural networks are more flexible than linear regression, and they achieve this by being less parsimonious (they use more parameters).  
 
-```{r data-vs-predictions-comparison-2, out.width="50%", fig.cap="Figure 6. Training data and model outputs compared: linear regression and shallow neural network"}
+```{r data-vs-predictions-comparison-2, out.width="70%", fig.cap="Training data and model outputs compared: linear regression and shallow neural network"}
 ggplot() + 
   geom_point(data = df_pred_all,
   aes(x = x,
@@ -333,7 +322,7 @@ nn2 <- neuralnet(f,
 plot(nn2)
 ```
 
-```{r plot-deeper-neural-network, out.width="50%", fig.cap="Figure 7. Example of a Deeper Neural Network"}
+```{r plot-deeper-neural-network, out.width="70%", fig.cap="Example of a Deeper Neural Network"}
 knitr::include_graphics(glue::glue(here::here(), "/images/nn2.png"))
 ```
 
@@ -355,7 +344,7 @@ df_pred_all <- rbind(df_pred_all |>
 
 The increased complexity leads to greater flexibility, and we can see that the model's predictions resemble more closely the actual data.  
 
-```{r data-vs-predictions-comparison-3, out.width="50%", fig.cap="Figure 8. Training data and model outputs compared: shallow neural network and deeper neural network"}
+```{r data-vs-predictions-comparison-3, out.width="70%", fig.cap="Training data and model outputs compared: shallow neural network and deeper neural network"}
 ggplot() + 
   geom_point(data = df_pred_all |>
                filter(type != "regression output"),
@@ -440,15 +429,15 @@ According to McMaster's internal research:
 
 There are many traditional ways for students to get different perspectives on concepts. They can form study groups, attend office hours to engage with their instructors, ask their Teaching Assistants, ask relatives and friends, and so on. But even for a student who for whatever reason cannot or will not do any of these things, the fact remains that relatively common concepts have already been explained by humans in dozens if not hundreds of different ways, often in writing that is available through an excellent university library. A search of McMaster's library catalog, looking only for resources available online (for convenience), reveals that there are hundreds, thousands, and sometimes tens of thousands of resources available to explore the same concept from multiple perspectives.
 
-```{r mac-library-econometrics, out.width="50%", fig.cap="Figure 9. Result of a search for online 'econometrics' resources in McMaster's Library catalog"}
+```{r mac-library-econometrics, out.width="70%", fig.cap="Result of a search for online 'econometrics' resources in McMaster's Library catalog"}
 knitr::include_graphics(glue::glue(here::here(), "/images/mac-library-econometrics.png"))
 ```
 
-```{r mac-library-cell-biology, out.width="50%", fig.cap="Figure 10. Result of a search for online 'cell biology' resources in McMaster's Library catalog"}
+```{r mac-library-cell-biology, out.width="70%", fig.cap="Result of a search for online 'cell biology' resources in McMaster's Library catalog"}
 knitr::include_graphics(glue::glue(here::here(), "/images/mac-library-cell-biology.png"))
 ```
 
-```{r mac-library-euphemism, out.width="50%", fig.cap="Figure 11. Result of a search for online 'euphemism in history' resources in McMaster's Library catalogue"}
+```{r mac-library-euphemism, out.width="70%", fig.cap="Result of a search for online 'euphemism in history' resources in McMaster's Library catalogue"}
 knitr::include_graphics(glue::glue(here::here(), "/images/mac-library-euphemism.png"))
 ```
 
@@ -496,7 +485,7 @@ Equally troublesome is the need to input some personal data, so as to avoid gett
 
 Neural networks have been used for decades to do data analysis. There is nothing new here. But what is being promised is that we will be able to do data analysis without having to learn how to do data analysis. That somehow a chatbot will do it for us. The idea that a chatbot could be used to do data analysis betrays a profound misunderstanding of what chatbots do, and almost absolute ignorance of what data analysis entails. Ask a chatbot to do some arithmetic: it will produce something that is right on average. But average is not always right. And seeing how AIs are now being trained on the dregs of the internet, it should surprise approximately no one when an AI Overview responds to the prompt "2 + 2" with "potato".
 
-```{r flickr-potato, out.width="50%", fig.cap="Figure 12. Data analysis using a chatbot? Maybe not such a good idea"}
+```{r flickr-potato, out.width="70%", fig.cap="Data analysis using a chatbot? Maybe not such a good idea"}
 knitr::include_graphics(glue::glue(here::here(), "/images/potato.png"))
 ```
 
@@ -506,15 +495,16 @@ From a different perspective, even the average output of an AI should be treated
 
 But what about a task that involves logic instead of arithmetic? LLMs are good for it only if the goat knows how to swim.
 
-```{r puzzle-web-search, eval=FALSE, out.width="50%", fig.cap="\\label{fig:puzzle-web-search}Figure 15. A search using Duck Duck Go"}
+```{r puzzle-web-search, eval=FALSE, out.width="70%", fig.cap="A search using Duck Duck Go"}
 ggdraw() + 
   draw_image(image = glue::glue(here::here(), "/images/logical-puzzle-web-search.png"))
 ```
 
-```{r puzzle-chatgpt, out.width="50%", fig.cap="\\label{fig:puzzle-chatgpt}Figure 16. ChatGPT-4 makes the goat swim"}
+```{r puzzle-chatgpt, out.width="70%", fig.cap="ChatGPT-4 makes the goat swim"}
 puzzle_plot <- ggplot() +
   labs(caption = "https://assemblag.es/@hugo/112450401657084750") +
-  theme_void()
+  theme_void() +
+  theme(text = element_text(size = 8))
   
 ggdraw() + 
   draw_plot(puzzle_plot) +
@@ -547,6 +537,8 @@ Reliance on AI can short-circuit the learning process. Statements like "in the v
 
 It is important to note that, even if prompt "engineering" offered some value to students, the skill is inextricable tied to a singular technology, with little transferability potential. As @mollick_instructors_2024 demonstrate, prompt "engineering" is not even transferable _between_ different LLMs (see p. 5 and p. 36). Good skills transfer between contexts. Learning how to form an effective bibliographical query would work at retrieving relevant resources at McMaster, at the University of Toronto, and at the New York Public Library. Learning to identify relevant content would work while reading a novel, a book of history, or a text of econometrics. Writing, the slow and demanding process of converting thoughts into words, is essential to create a style of communication that is unique to each person. It might be argued, in fact, that writing _is_ learning [@klein_trends_2016].
 
+\newpage
+
 In a sense, an AI is like a crutch. It can help someone to accomplish a task more easily, but it will not help if used constantly. However, what the public is being promised is not a crutch: it is an All-Terrain Vehicle that the end user cannot hope to fully master^[Reports of people getting their fingers crushed by Tesla's cybertruck could be a result of 1) people trusting the technology more than they should; and 2) not understanding the technology: apparently the algorithm uses increasing force to close the trunk if it fails to latch on back-to-back cycles. Hence, the trunk will not slash a banana on its first attempt to latch, but will crush a finger on the second attempt [@lambert_tesla_2024].] due to its blackbox nature--in the sense that 1) neural networks are blackboxes; and 2) the development of AIs itself is a blackbox wherein things can more easily change based on the interests of their corporate owners^[Sometimes said interest may be relatively benign, like avoiding reputational damage [by correcting a wrong](https://www.bbc.com/news/technology-65202597), but there is no guarantee that corporate interests will always align with those of the public, and in fact, they seldom will as long as there are only a handful of American companies that offer an "essential" service.] than in response to the interests of their relatively small customers^[And this refers not only to individuals whose skills become yoked to ChatGPT and MidJourney. In 2022, McMaster University operated on revenues of less than [\$843 million](https://financial-affairs.mcmaster.ca/app/uploads/2023/06/2023-24-Consolidated-Budget-FINAL.pdf) (CAD). Microsoft, in contrast, operated on revenues of approximately [\$198,000 millions](https://www.microsoft.com/investor/reports/ar22/) (USD) in 2022. To put things in perspective (and using the average exchange rate of 2022), if McMaster used _all_ of its 2022 revenue to pay Microsoft, that would leave McMaster with zero dollars and still account for less than _one third of one percent point_ of Microsoft's revenue. A mid-sized Canadian university is like an ant scuttling under the economic boot of Microsoft. In truth, Microsoft is so incredibly large, that it feels like it can stand up to even the US Government. As revealed by the case of Solar Winds, Microsoft refused to fix a known security flaw that left the US Government vulnerable to a Russian hack, and probably did so with little fear of ever facing accountability [@burke_microsoft_2024].].
 
 <!--
@@ -576,15 +568,17 @@ OpenAI, a global leader in data grabbing, turned to Stack Overflow for more data
 
 Google, for its part, turned to Reddit for training data to the tune of \$60 million per year [@roth_google_2024]. As Reddit content begins to creep into Google's AI-assisted search, the results of this deal have turned grotesque, with reports of AI Overview failures that include a suggestion to put non-toxic glue to pizza sauce to keep the cheese from sliding [@koebler__google_2024]^[The headline of the 404 Media report was "Google Is Paying Reddit $60 Million for Fucksmith to Tell Its Users to Eat Glue".].
 
-```{r google-reddit, out.width="50%", fig.cap="Figure 13. Google's AI Overview result was traced back to a post by redditor Fucksmith"}
+```{r google-reddit, out.width="70%", fig.cap="Google's AI Overview result was traced back to a post by redditor Fucksmith"}
 knitr::include_graphics(glue::glue(here::here(), "/images/google-cheese-glue.png"))
 ```
 
 Other AI Overview results included a recommendation by geologists to eat at least one small rock a day, a piece of advice tracked back to an article published by the well-known satirical periodical [The Onion](https://www.theonion.com/geologists-recommend-eating-at-least-one-small-rock-per-1846655112).
 
-```{r google-the-onion, out.width="50%", fig.cap="Figure 14. Google's AI Overview result was traced back to an article in The Onion"}
+```{r google-the-onion, out.width="70%", fig.cap="Google's AI Overview result was traced back to an article in The Onion"}
 knitr::include_graphics(glue::glue(here::here(), "/images/google-the-rock.jpg"))
 ```
+
+\newpage 
 
 Mind you, these, and numerous other hapless results^[Including AI overviews with misinformation about depression [@tenbarge_glue_2024].] are produced by an AI that Google has already spent tens of billions of dollars developing [@vynck_after_2024]. To what extent can more money improve GenAIs? Probably not by much, since a key constraint is the amount of data available for training the deep neural networks behind the technology [@villalobos_position_2024]. And dismal as this is, the outlook may be even worse than simply a frantic race after more human-generated data^[A disturbing idea in and of itself, given the appetite for risky behaviors by corporate actors, and the potential for abuse of nominally private and confidential information. It would be too naive to expose even a morsel of juicy data to transmission over the internet, and expect Google et al., not to see it as fair game.]. As GenAIs become more widely used, they can produce data at a pace that humans cannot match, much of which is already finding its way into the internet in the form of text and images--and not only through clickbait websites^[A blog post on a website called _Ancient Rome_ by a certain Ellen Hunter (whose profile picture is likely the output of a generative AI and who does not seem to exist elsewhere) discusses the topic of windows in classical Rome and Greece [@hunter_did_2023]. Under subheading 4.1 (_What Existed Before Windows?_), the blog explains that "MS-DOS was a disk operating system that was developed by Microsoft. It was the predecessor to the Windows operating system and was used on IBM PC compatible computers. MS-DOS was first released in 1981 and was the most popular operating system for personal computers during the 1980s". Clearly, the text is the output of a chatbot, and was posted to the internet without regard to its accuracy; but why waste time on even a cursory check, when the objective of the blog is not to inform, but to attract clicks for monetizing ads?] and disinformation [@ruffo_studying_2023], but also in scientific writing, supposedly the most thoroughly vetted form of writing in the world [@maiberg_ai_2024]^[And let us not fool ourselves with the idea that this will be limited to smaller, scammy paper mills, when examples begin to crop up in publications by IEEE, Elsevier, and Springer, as evidenced by the telltale use of "tortured phrases" [@cabanac_tortured_2021] and chatbot stock expressions like "[a]s of my last knowledge update...", "[a]s of my knowledge cutoff...", "[c]ertainly! Here are...", and "[r]egenerate response" [e.g., @al-worafi_pharmacy_2023; @farag_exploring_2023; @li_revitalizing_2023; @shafiq_escrao_2023; @swain_deep_2023; @alsaif_nd2o3-_2024; @gatell_impact_2024; @remzan_ensemble_2024; @sumit_dynamic_2024; @zhang_retracted_2024]. One particularly egregious example straight out includes the phrase "[p]lease note that as an AI language model, I am unable to generate specific tables or conduct tests, so the actual results should be included in the table" [@yang_utilization_2023].].
 
@@ -599,7 +593,7 @@ df_pred_all |>
                        labels = c("Training data", "Linear regression", "Neural network 1", "Neural network 2"),
                        ordered = TRUE),
          Variance = round(variance, 2)) |>
-  kable(caption = "\\ref{tab:data-vs-prediction-variance}Table 1. Variance reduction in model outputs")
+  kable(caption = "Variance reduction in model outputs")
 ```
 
 The implication should be clear: training models with the output of models is a recipe for increasingly bland outputs. We may be witnessing _Peak ChatGPT_, and future versions of AIs, instead of improving, may begin to regress to duller versions of their own previous outputs. And this is before we even consider the possibility of AIs being deliberately "poisoned". As backlash against a data rush that is perceived as exploitative and abusive grows, new tools are being developed to generate data that are manipulated in ways that are too subtle to be detectable by a human, but that are deleterious to the training process of a GenAI [@salman_raising_2023]. One such tool is _PhotoGuard_, developed by a team at MIT to send signals to an AI that prevents it from manipulating images [@heikkila_this_2023]. Other examples include @shan_nightshade_2024's _Nightshade_, an algorithm that works to corrupt prompts used in text-to-image generation, and that notably bleeds through to poison related concepts. And more recently, @xu_shadowcast_2024 presented _Shadowcast_, an algorithm that poisons samples to trick an AI into misidentifying class labels, and that also can perform persuasion attacks, leveraging image-to-text generation capabilities to craft nonsensical narratives.
@@ -673,7 +667,7 @@ The solution?
 
 > [F]eed an AI with labeled examples of violence, hate speech, and sexual abuse, and that tool could learn to detect those forms of toxicity in the wild. That detector would be built into ChatGPT to check whether it was echoing the toxicity of its training data, and filter it out before it ever reached the user. It could also help scrub toxic text from the training datasets of future AI models.
 
-The key here is "labelled examples". What are those labels? Many machine algorithms do not learn by themselves...they learn from humans, and need what is called "labelled" data: a images that humans have labelled as "dog", "cats", etc. Or bits of text that have been labelled as...well...questionable. Labeling data is extremely time consuming and labor intensive. What's a corporation to do?
+The key here is "labelled examples". What are those labels? Many machine algorithms do not learn by themselves...they learn from humans, and need what is called "labelled" data: a images that humans have labelled as "dog", "cats", etc. Or bits of text that have been labelled as...well...questionable. Labeling data is extremely time consuming and labor intensive. What's a corporation to do? 
 
 > To get those labels, OpenAI sent tens of thousands of snippets of text to an outsourcing firm in Kenya, beginning in November 2021. Much of that text appeared to have been pulled from the darkest recesses of the internet. Some of it described situations in graphic detail like child sexual abuse, bestiality, murder, suicide, torture, self harm, and incest. "
 
@@ -754,23 +748,26 @@ But what when an AI replicates the both-sides perspective of much of the media w
 
 When using a Generative AI we must ask whose perspectives the tool will tend to reproduce and amplify. In this sense, numerous observers [e.g., @ahuja_we_2023; @stross_tech_2023; @gebru_tescreal_2024] have noted the ideological leanings of various actors in the AI scene, an elite world of tech investors^[A group that author Charles Stross colorfully [characterizes](https://www.antipope.org/charlie/blog-static/2024/04/the-radiant-future-of-1995.html) as "fascist-adjacent straight white males with an unadmitted political agenda". This characterization is somewhat unfair: both [Sam Altman](https://www.advocate.com/news/sam-altman-openai-exclusive) and [Peter Thiel](https://www.npr.org/2016/07/21/486966882/i-am-proud-to-be-gay-tech-investor-peter-thiel-tells-gop-convention) are openly gay. On the other hand, their political agenda hides in plain sight. @thiel_education_2009 has written about how he "no longer believe[s] that freedom and democracy are compatible". Sam Bankman-Fried's FTX donated millions to a group with racist ties [@wilson_sam_2024]. And Elon Musk? Well, Elon Musk once shared a meme comparing Canada's PM Justin Trudeau to Hitler while defending the vandals who terrorized Ottawa in 2022 [@henderson_and_elon_2022].] known for fringe ideologies that combine a peculiar mix of uber-techno-optimism and existential fright (including transhumanism, extropianism, singularitarianism, and cosmism)^[A quick summary of these beliefs is that humans (or at lest some of them, those who can afford to do so) are destined to use technology to indefinitely extend life and conquer the stars...but maybe not before super-intelligent AIs destroy humanity. Just in case, wealthy tech barons like Peter Thiel and Sam Altman, have made suitable [escape plans](https://www.theguardian.com/news/2018/feb/15/why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand).], paired with extreme theories of justice (including rationalism, effective altruism^[A movement exposed to the harsh light of public opinion for being the philosophy espoused by convicted fraudster and money launderer Sam Bankman-Fried [@crook_effective_2023].], and longtermism^[A drastic form of utilitarianism convinced that the well-being of trillions of humans in an imagined distant, star-faring future, is well worth the sacrifices of a few billions of humans today. Curiously, the contribution of the titans of technology promoting AI is not to sacrifice themselves: as evidence of the abuses inflicted in the name of innovation continues to pile up, it is clear that some of us will suffer and die--but that is a sacrifice that wealthy and well connected longtermists are willing to make.]). 
 
-One does not need to posit a conspiracy theory^[Accusing the critics of being conspiracy theorists, as @sennesh_conspiracy_2023 do, distracts from the fact that there is no dearth of leftist ideas for a more just future; intellectual poverty is not what is at stake, instead a key difference is that progressive and humanistic ideas seldom have the power of money behind them. This is in contrast to, say, effective altruism [@matthews_how_2022].] to worry about the influence (whether coordinated or not) of a small group of men (they are almost all of them men^[After Meta disbanded its Responsible AI Division, the company formed an AI advisory council composed of four very wealthy white men [@davis_metas_2024;@goel_meta_2024].]) who collectively can muster more than _half a trillion dollars_ as they try to turn their individual convictions into a reality for all [@stross_tech_2023]. 
-
-But leaving aside the question of a potential "unadmitted political agenda" by an ultra-wealthy elite, there is the much more immediate problem that training data, much like technology, are not politically neutral. Several processes have been identified that contribute to reproduce malignant biases, including that of _platformed racism_ [@matamoros-fernandez_platformed_2017]. Platformed racism results when the functionalities of platforms  (e.g., liking and sharing) are exploited to create and spread racist ideology, often in a grass-roots fashion, but more ominously with the assist of bad-faith actors^[Online Russian disinformation has already had a wide reach [@treyger_russian_2022] and furthermore is known to operate by seeding distrust between ethnic communities [@svedkauskas_analysis_2020]. A U.S. Department of State report notes that Russian intelligence is known to exploit "all kinds of separatism and ethnic, social and racial conflicts, actively supporting all dissident movements--extremist, racist, and sectarian groups" to destabilize internal U.S. politics [@us_department_of_state_gec_2024, p. 51].]. Given how cagey corporations are about the data they use to train their models, it is anyone's guess how much dis- and misinformation has been passed to their AIs^[This is part of the Unfathomable Data problem discussed by @bender_dangers_2021. In this way, AIs, rather than contributing to online safety, may end up amplifying the legacy of Russian interference [@svedkauskas_analysis_2020].]. The second aspect of platformed racism is the implicit endorsement of racist ideology through vague standards and arbitrary moderation practices^[According to the Center for Countering Digital Hate, platforms like facebook, Instagram, Tiktok, Twitter, and YouTube, failed to act 84% of the time on hundreds of posts that had millions of views, with facebook being the worst performer [@center_for_countering_digital_hate_failure_2021]. This is not a bug of the system, but rather a feature, as Meta's supression of information about Gaza in 2024 shows [@paul_former_2024].] that exclude some views while allowing others to thrive [@myers_west_censored_2018; @hawkins_race_2023].
-
-Search engines were already known to reinforce racism [@noble_algorithms_2018]; given the above, it really is too much to expect that AI-augmented search engines will do any better^[A report by the Center for Countering Digital Hate found that Google's Bard generated wrong and/or hateful outputs in 78 out of 100 tests [@center_for_countering_digital_hate_googles_2023]. In addition to being misleading to the unadvised, AI is also a fantastic tool ripe for abuse by those who are advised _and_ have an agenda. Google's own researchers have come to the inevitable conclusion that it is easier to produce disinformation with AI, than it is to use AI to combat it [@maiberg__google_2024].]. In another wretched incident, Google's AI Overview stated that Barack Obama was the first Muslim president of the US, a regrettable piece of misinformation that fails to surprise given the years-long Russian-assisted right-wing propaganda campaign to otherize Mr. Obama [@tenbarge_glue_2024]. Mishaps like this, and others, are dismissed by Google as attempts "to trip up the technology with uncommon questions" [@tenbarge_glue_2024]. This dismissal, arrogant as it is, only reinforces the notion that AIs are only ever useful when [regressing to the mean](#really-what-do-they-do). Responses like fiddling with the model (fine tuning it) to provide more palatable outputs^[Like in the case of [Google's response](https://blog.google/products/search/ai-overviews-update-may-2024/) to the poor quality of its recently launched AI overviews.] are not reassuring. Who is to say what a handful of unaccountable corporations will find unpalatable tomorrow given their insatiable quest for profits, let alone in the face of demands by powerful authoritarian regimes^[@vandehei_behind_2024 write in Axios about an "ominous scarcity" of inputs that threatens America's AI superiority over China. These authors, whose one true expertise is access journalism, never stop to consider why an authoritarian regime might want to have powerful pattern recognition machines. To compound things, they neglect to disclose the stake that Axios, the website they founded, has on AI. VandeHei has not been timid to express himself otherwise, and is on record stating that AI "will eviscerate the weak, the ordinary, the unprepared in media" [@robertson_axios_2024]. Who is concerned about maintaining an edge?]?
-
-```{r google-obama, out.width="50%", fig.cap="\\label{fig:google-ai-overview-of-obama}Figure 17. Google's AI Overview of Muslim US presidents"}
+```{r google-obama, out.width="90%", fig.cap="\\label{fig:google-ai-overview-of-obama}Google's AI Overview of Muslim US presidents"}
 google_plot <- ggplot() +
   labs(caption = "Source: https://www.nbcnews.com/tech/tech-news/google-ai-im-feeling-depressed-cheese-not-sticking-to-pizza-error-rcna153301") +
   theme_void() +
   theme(text = element_text(size = 8))
   
-
 ggdraw() + 
   draw_plot(google_plot) +
   draw_image(image = glue::glue(here::here(), "/images/google-obama.png"))
 ```
+
+One does not need to posit a conspiracy theory^[Accusing the critics of being conspiracy theorists, as @sennesh_conspiracy_2023 do, distracts from the fact that there is no dearth of leftist ideas for a more just future; intellectual poverty is not what is at stake, instead a key difference is that progressive and humanistic ideas seldom have the power of money behind them. This is in contrast to, say, effective altruism [@matthews_how_2022].] to worry about the influence (whether coordinated or not) of a small group of men (they are almost all of them men^[After Meta disbanded its Responsible AI Division, the company formed an AI advisory council composed of four very wealthy white men [@davis_metas_2024;@goel_meta_2024].]) who collectively can muster more than _half a trillion dollars_ as they try to turn their individual convictions into a reality for all [@stross_tech_2023]. 
+
+But leaving aside the question of a potential "unadmitted political agenda" by an ultra-wealthy elite, there is the much more immediate problem that training data, much like technology, are not politically neutral. Several processes have been identified that contribute to reproduce malignant biases, including that of _platformed racism_ [@matamoros-fernandez_platformed_2017]. Platformed racism results when the functionalities of platforms  (e.g., liking and sharing) are exploited to create and spread racist ideology, often in a grass-roots fashion, but more ominously with the assist of bad-faith actors^[Online Russian disinformation has already had a wide reach [@treyger_russian_2022] and furthermore is known to operate by seeding distrust between ethnic communities [@svedkauskas_analysis_2020]. A U.S. Department of State report notes that Russian intelligence is known to exploit "all kinds of separatism and ethnic, social and racial conflicts, actively supporting all dissident movements--extremist, racist, and sectarian groups" to destabilize internal U.S. politics [@us_department_of_state_gec_2024, p. 51].]. Given how cagey corporations are about the data they use to train their models, it is anyone's guess how much dis- and misinformation has been passed to their AIs^[This is part of the Unfathomable Data problem discussed by @bender_dangers_2021. In this way, AIs, rather than contributing to online safety, may end up amplifying the legacy of Russian interference [@svedkauskas_analysis_2020].]. The second aspect of platformed racism is the implicit endorsement of racist ideology through vague standards and arbitrary moderation practices^[According to the Center for Countering Digital Hate, platforms like facebook, Instagram, Tiktok, Twitter, and YouTube, failed to act 84% of the time on hundreds of posts that had millions of views, with facebook being the worst performer [@center_for_countering_digital_hate_failure_2021]. This is not a bug of the system, but rather a feature, as Meta's supression of information about Gaza in 2024 shows [@paul_former_2024].] that exclude some views while allowing others to thrive [@myers_west_censored_2018; @hawkins_race_2023].
+
+Search engines were already known to reinforce racism [@noble_algorithms_2018]; given the above, it really is too much to expect that AI-augmented search engines will do any better^[A report by the Center for Countering Digital Hate found that Google's Bard generated wrong and/or hateful outputs in 78 out of 100 tests [@center_for_countering_digital_hate_googles_2023]. In addition to being misleading to the unadvised, AI is also a fantastic tool ripe for abuse by those who are advised _and_ have an agenda. Google's own researchers have come to the inevitable conclusion that it is easier to produce disinformation with AI, than it is to use AI to combat it [@maiberg__google_2024].]. In another wretched incident, Google's AI Overview stated that Barack Obama was the first Muslim president of the US, a regrettable piece of misinformation that fails to surprise given the years-long Russian-assisted right-wing propaganda campaign to otherize Mr. Obama [@tenbarge_glue_2024]. Mishaps like this, and others, are dismissed by Google as attempts "to trip up the technology with uncommon questions" [@tenbarge_glue_2024]. This dismissal, arrogant as it is, only reinforces the notion that AIs are only ever useful when [regressing to the mean](#really-what-do-they-do). Responses like fiddling with the model (fine tuning it) to provide more palatable outputs^[Like in the case of [Google's response](https://blog.google/products/search/ai-overviews-update-may-2024/) to the poor quality of its recently launched AI overviews.] are not reassuring. 
+
+\newpage
+
+Who is to say what a handful of unaccountable corporations will find unpalatable tomorrow given their insatiable quest for profits, let alone in the face of demands by powerful authoritarian regimes^[@vandehei_behind_2024 write in Axios about an "ominous scarcity" of inputs that threatens America's AI superiority over China. These authors, whose one true expertise is access journalism, never stop to consider why an authoritarian regime might want to have powerful pattern recognition machines. To compound things, they neglect to disclose the stake that Axios, the website they founded, has on AI. VandeHei has not been timid to express himself otherwise, and is on record stating that AI "will eviscerate the weak, the ordinary, the unprepared in media" [@robertson_axios_2024]. Who is concerned about maintaining an edge?]?
 
 ## Concluding remarks
 
@@ -805,9 +802,6 @@ Why? The reputational risk...universities are under siege from unsympathetic or 
 ![](images/trail-blazing-ai-bundle.png)
 -->
 
-What do AIs do? For the province, the main patron and effectively the boss of McMaster, it provides a rationale (an excuse even) to force the institution to find "efficiencies". 
-
-
 ## As an aside {#as-an-aside}
 
 On antropomorphizing GenAI tools. This happens mostly in ways that are barely liminal. For example, in the document "Overview of AI at McMaster" we read that GenAI's somehow have an "ability to engage in nuanced conversation". This phrasing could be simply a literary device, but even so it is indicative of a tendency to ascribe human attributes to a statistical model. Doing this risks amplifying existing biases. But in other cases, the effort is more blatant. Wrapping a statistical model in a human-like skin may actually be more devious, as in the new, sexy ChatGPT interface:
@@ -835,18 +829,18 @@ AI industry and the military: @haskins_im_2024
 
 ## Bonus
 
-```{r googly-eyes, out.width="50%", fig.cap="\\label{fig:googly-ai-eyes}Figure 18. In conclusion"}
+```{r googly-eyes, out.width="70%", fig.cap="\\label{fig:googly-ai-eyes}In conclusion"}
 google_plot <- ggplot() +
   labs(caption = "Source: https://godforsaken.website/@alex/112541393417513370") +
-  theme_void()
-  
+  theme_void()  +
+  theme(text = element_text(size = 8))
 
 ggdraw() + 
   draw_plot(google_plot) +
   draw_image(image = glue::glue(here::here(), "/images/ai-googly-eyes.png", width = 0.8))
 ```
 
-## Notes
+## Appendices
 
 ### AI Committee announcement {#ai-committee-announced}
 
@@ -885,7 +879,3 @@ The [Terms of Reference](https://provost.mcmaster.ca/office-of-the-provost-2/gen
 - Advocate for student involvement in the design and critique of AI-enabled teaching tools.  
 
 ## References
-
-
-
-

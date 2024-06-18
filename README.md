@@ -6,12 +6,16 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-By: Antonio Páez (<paezha@mcmaster.ca>)
+Antonio Páez (<paezha@mcmaster.ca>)
 
 Disclaimer: *All opinions expressed here are mine and any resemblance to
 those of my employer(s) is purely coincidental*. *No generative AI tool
 was used to research or write this essay, only good old-fashioned
 library and internet search skills*.
+
+Note: *This essay was written as an open research project, and it can be
+found in the following repository:*
+<https://github.com/paezha/University-AI-Panel>
 
 ------------------------------------------------------------------------
 
@@ -1025,14 +1029,16 @@ deliberately “poisoned”. As backlash against a data rush that is
 perceived as exploitative and abusive grows, new tools are being
 developed to generate data that are manipulated in ways that are too
 subtle to be detectable by a human, but that are deleterious to the
-training process of a GenAI (Salman et al. 2023). One such tool is Shan
-et al. (2024)’s *Nightshade*, an algorithm that works to corrupt prompts
-used in text-to-image generation, and that notably bleeds through to
-poison related concepts. Another tool is Y. Xu et al. (2024)’s
-*Shadowcast*, an algorithm that poisons samples to trick an AI into
-misidentifying class labels, and that also can perform persuasion
-attacks, leveraging image-to-text generation capabilities to craft
-nonsensical narratives.
+training process of a GenAI (Salman et al. 2023). One such tool is
+*PhotoGuard*, developed by a team at MIT to send signals to an AI that
+prevents it from manipulating images (Heikkilä 2023). Other examples
+include Shan et al. (2024)’s *Nightshade*, an algorithm that works to
+corrupt prompts used in text-to-image generation, and that notably
+bleeds through to poison related concepts. And more recently, Y. Xu et
+al. (2024) presented *Shadowcast*, an algorithm that poisons samples to
+trick an AI into misidentifying class labels, and that also can perform
+persuasion attacks, leveraging image-to-text generation capabilities to
+craft nonsensical narratives.
 
 All in all, the evidence suggests that, as fresh data for training
 future GenAIs dries up, the performance of these machines may not
@@ -1062,6 +1068,21 @@ Develop a garbage skill
 &#10;But there is the following implication: , de-duplication becomes increasingly challenging.
 -->
 
+## What do GenAIs do for the Province
+
+As I argue above, AIs do not seem to do much for students or
+instructors, other than distract them from learning and developing
+genuinely transferable skills. It is almost a certainty that the
+provincial government is hoping to use GenAIs to further reduce the need
+to fund higher education. But AIs must do something for someone,
+otherwise why would they be everywhere? For Ontario, the main patron and
+effectively the boss of McMaster, it provides a rationale (an excuse
+even) to force the institution to find “efficiencies”. Tom Goldstein, a
+computer science professor at the University of Maryland, thinks that
+the lure of GenAI will be hard to resist for many, irrespective of their
+flaws…after all, “\[e\]ven though \[GenAI is\] expensive…it’s still far
+less expensive than human labor” (Oremus 2023).
+
 ## What do GenAIs do for the mega-corporations pushing them?
 
 > *Teach a person to use ChatGPT, and they will be in thrall to a
@@ -1069,21 +1090,18 @@ Develop a garbage skill
 > and they will be free for life.*  
 > – Anonymous
 
-As I argue above, AIs do not do much for students or instructors, other
-than distract them from learning and developing genuinely transferable
-skills.
-
-But AIs must do something for someone, otherwise why would they be
-everywhere? What do AIs do for the likes of OpenAI, Microsoft, and
-Google? So far, the breakneck race to develop AI has soaked immense
-amounts of venture capital and other speculative money, in addition to
-incalculable resources by many other entities, such as those spent by
-universities to support an AI-dedicated committee[^46]. Between 2012 and
-2020, venture capital investments in AI grew twenty five-fold, from \$3
-billion (USD) to \$75 billion (USD)[^47], much of it poured into
-autonomous vehicles and related mobility tech, followed by healthcare,
-biotechnologies and drugs, with business processes and support services
-in third place (Tricot 2021).
+But neither the province nor the university are developing the AIs that
+they hope will make them cheaper to operate. So what do AIs do for the
+the entities that develop them, namely OpenAI et al.? So far, the
+breakneck race to develop AI has soaked immense amounts of venture
+capital and other speculative money, in addition to incalculable
+resources by many other entities, such as those spent by universities to
+support an AI-dedicated committee[^46]. Between 2012 and 2020, venture
+capital investments in AI grew twenty five-fold, from \$3 billion (USD)
+to \$75 billion (USD)[^47], much of it poured into autonomous vehicles
+and related mobility tech, followed by healthcare, biotechnologies and
+drugs, with business processes and support services in third place
+(Tricot 2021).
 
 <!--
 Ministry of Colleges and Universities: 163,482,281 CAD
@@ -1103,7 +1121,7 @@ LLMs into search would lead to a loss of \$30 billion (USD) in profit
 for Google. At a guess, the industry is running at a loss in almost
 every respect: in the same report, D. Patel (2023) calculated the cost
 of running a query in ChatGPT at about \$0.36–so it would take just
-about 57 queries per user with a “Plus” subscription
+about 57 monthly queries per user with a “Plus” subscription
 ([\$20/month](https://openai.com/chatgpt/pricing/)) for OpenAI to begin
 losing money on that one customer. And a large number of users are not
 even paying subscribers: based on revenue reports (see Perez 2024) there
@@ -1179,11 +1197,11 @@ The solution?
 > filter it out before it ever reached the user. It could also help
 > scrub toxic text from the training datasets of future AI models.
 
-The key here is “labeled examples”. What are those labels? Many machine
+The key here is “labelled examples”. What are those labels? Many machine
 algorithms do not learn by themselves…they learn from humans, and need
 what is called “labelled” data: a images that humans have labelled as
 “dog”, “cats”, etc. Or bits of text that have been labelled
-as…well…questionable. Labelling data is extremely time consuming and
+as…well…questionable. Labeling data is extremely time consuming and
 labor intensive. What’s a corporation to do?
 
 > To get those labels, OpenAI sent tens of thousands of snippets of text
@@ -1401,16 +1419,29 @@ Figure 17. Google’s AI Overview of Muslim US presidents
 
 <!-- AI is a way to cheapen university education; it compromises the ideals of quality, integrity, and excellence. -->
 
-Neural networks and machine learning are not new, and they have their
-uses. But those uses have been drown, and to some extent discredited, by
-the current hype around AI.
+Neural networks and machine learning are nothing new, and they have
+their uses. But those uses have been suffocated, and to some extent
+discredited, by the current hype around Generative AI. This hype has
+been carefully manufactured (Morrone 2024), and has been amplified by
+media tools that have been more than willing to believe in magic beans
+(Burneko 2024)[^64]. There are now calls to press pause on the hype
+(Angwin 2024) but they are barely audible above the reverberating echos
+inside the AI hype chamber.
 
-Morrone (2024) Carefully manufactured and well funded hype.
+Universities and colleges would be wise to heed the advice to press the
+pause button on the AI hype, as there is a real risk of them falling
+prey to a confidence trick. Higher education is often driven by a deeply
+ingrained belief in innovation (even, or perhaps particularly, for its
+own sake), and this impulse is compounded by the way AI adoption has
+been drawn as a false dilemma, thus triggering a fear of missing out.
+There are other pressures at work, including a decades-long history of
+manufactured crises in education, in Canada as elsewhere (Cizek 1999;
+Usher 2023).
 
-ChatGPT was a colossal feat of marketing (Cowen 2023), but much coverage
-of AI in the media has been stretched beyond the breaking point of
-credulity (Burneko 2024)[^64]. There are now calls to press pause on the
-hype (Angwin 2024) but these are still drown by the uncritical coverage.
+In this essay I have tried to describe the many problems with AI as an
+*everything tool*. Tall in my mind are the moral and ethical concerns
+around an extractive and exploitative technology that promises democracy
+but delivers further concentration of wealth and power.
 
 > An end to “batch” teaching. Instead of working with cohorts of
 > learners in grades or classes, individual learning agendas are
@@ -1502,9 +1533,9 @@ in a principled way. “This university uses ChatGPT” is a way to say that
 the university is redundant…an organization as expensive as an
 institution of higher-education is not needed when there are cheaper
 alternatives for such an education (“act in the next four days to proof
-yourself against layoffs!”):
-
+yourself against layoffs!”): <!--
 ![](images/trail-blazing-ai-bundle.png)
+-->
 
 What do AIs do? For the province, the main patron and effectively the
 boss of McMaster, it provides a rationale (an excuse even) to force the
@@ -1803,6 +1834,14 @@ Digital Hate CCDH*.
 
 </div>
 
+<div id="ref-cizek_give_1999" class="csl-entry">
+
+Cizek, Gregory J. 1999. “Give Us This Day Our Daily Dread: Manufacturing
+Crises in Education.” *The Phi Delta Kappan* 80 (10): 737–43.
+<https://www.jstor.org/stable/20439557>.
+
+</div>
+
 <div id="ref-clark_ex-amazon_2024" class="csl-entry">
 
 Clark, Lindsay. 2024. “Ex-Amazon AI Exec Claims She Was Asked to Ignore
@@ -2007,6 +2046,14 @@ Hawkins, Ian, Jessica Roden, Miriam Attal, and Haleemah Aqel. 2023.
 Perceptions of Incivility and Content Moderation on Social Media.”
 *Journal of Communication* 73 (6): 539–51.
 <https://doi.org/10.1093/joc/jqad023>.
+
+</div>
+
+<div id="ref-heikkila_this_2023" class="csl-entry">
+
+Heikkilä, Melissa. 2023. “This New Tool Could Protect Your Pictures from
+AI Manipulation.” *MIT Technology Review*.
+<https://www.technologyreview.com/2023/07/26/1076764/this-new-tool-could-protect-your-pictures-from-ai-manipulation/>.
 
 </div>
 
@@ -2344,6 +2391,14 @@ Ontario.ca.”
 
 </div>
 
+<div id="ref-oremus_chatgpt_2023" class="csl-entry">
+
+Oremus, Will. 2023. “ChatGPT Has a Problem No One Wants to Talk About.”
+*The Washington Post*, June, NA–.
+<https://go.gale.com/ps/i.do?p=AONE&sw=w&issn=01908286&v=2.1&it=r&id=GALE%7CA751811902&sid=googleScholar&linkaccess=abs>.
+
+</div>
+
 <div id="ref-patel_inference_2023" class="csl-entry">
 
 Patel, Dylan. 2023. “The Inference Cost Of Search Disruption – Large
@@ -2357,6 +2412,15 @@ Language Model Cost Analysis.” *SemiAnalysis*.
 Patel, Nilay. 2024. “Google CEO Sundar Pichai on AI-Powered Search and
 the Future of the Web.” *The Verge*.
 <https://www.theverge.com/24158374/google-ceo-sundar-pichai-ai-search-gemini-future-of-the-internet-web-openai-decoder-interview>.
+
+</div>
+
+<div id="ref-paul_former_2024" class="csl-entry">
+
+Paul, Katie, Jessica DiNapoli, and Jessica DiNapoli. 2024. “Former Meta
+Engineer Sues Company Saying He Was Fired over Handling of Gaza
+Content.” *Reuters*, June.
+<https://www.reuters.com/technology/former-meta-engineer-sues-company-saying-he-was-fired-over-handling-gaza-content-2024-06-05/>.
 
 </div>
 
@@ -3143,15 +3207,16 @@ and Interfaces* 46 (March): 104081.
 
 [^48]: As if any other signs were needed of the scammy environment in
     which GenAI tech thrives, Berber (2024) also reports how Cognition,
-    a startup backed by Peter Thiel, pivoted from cryptocurrencyto AI,
+    a startup backed by Peter Thiel, pivoted from cryptocurrency to AI,
     coincidentally as cryptocurrency was going sour after the frauds at
     FTX were revealed. Barely disguised grift has grown abundant in the
     vicinity of AI at almost every level (Cook 2024).
 
-[^49]: And, with profitability becoming a more distant possibility,
-    there is always the option for large investors to cosmically inflate
-    the hype (Salmon 2024) to convince bigger suckers to give them money
-    (Reuters 2024) and/or to fleece retail investors (Temkin 2024).
+[^49]: And, with profitability increasingly looking like a distant
+    possibility, there is always the option for large investors to
+    cosmically inflate the hype (Salmon 2024) in order to convince
+    bigger suckers to give them money (Reuters 2024) and/or to fleece
+    retail investors (Temkin 2024).
 
 [^50]: Universities, rather than being innovators, have increasingly
     become renters in the land of the platform economy (Komljenovic
@@ -3232,7 +3297,9 @@ and Interfaces* 46 (March): 104081.
     like facebook, Instagram, Tiktok, Twitter, and YouTube, failed to
     act 84% of the time on hundreds of posts that had millions of views,
     with facebook being the worst performer (Center for Countering
-    Digital Hate 2021).
+    Digital Hate 2021). This is not a bug of the system, but rather a
+    feature, as Meta’s supression of information about Gaza in 2024
+    shows (Paul, DiNapoli, and DiNapoli 2024).
 
 [^61]: A report by the Center for Countering Digital Hate found that
     Google’s Bard generated wrong and/or hateful outputs in 78 out of
@@ -3255,7 +3322,7 @@ and Interfaces* 46 (March): 104081.
     neglect to disclose the stake that Axios, the website they founded,
     has on AI. VandeHei has not been timid to express himself otherwise,
     and is on record stating that AI “will eviscerate the weak, the
-    ordinary, the unprepared in media” (Robertson 2024). Who should be
+    ordinary, the unprepared in media” (Robertson 2024). Who is
     concerned about maintaining an edge?
 
 [^64]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
