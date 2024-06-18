@@ -518,7 +518,7 @@ ggdraw() +
 
 ```
 
-As research by @nezhurina_alice_2024 demonstrates, relatively simple natural language puzzles that are easily solved by humans, often result in confidently expressed nonsense when used to prompt an AI. Wrong answers, furthermore, are frequently backed up by confabulations, that is, reasoning-like or plausible sounding explanations that are illogical. If anything, mathematics should be easy: after all, computers have been doing mathematics since at least the [Antikythera mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism) (ca. 178 BC), which preceded other mechanical machines by centuries--including Babbage's [Analytical Engine](https://en.wikipedia.org/wiki/Analytical_engine), the machine that [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) used to code an algorithm to write Bernoulli numbers. Electronic computers have been doing mathematics reliably for decades now. Computers can do mathematics well because they are implemented using a crisp, unambiguous language. Natural language is full of nuances that are not easily captured using the medium of text alone. The stochastic connections between words that LLMs produce are simply probabilistic word salads that only sound plausible thanks to the billions of data points used to train them and the billions of parameters that the models use. But if the objective of qualitative research is to identify interesting aspects of the human experience, it is certainly not the case that they will be found in a regression to the mean.
+As research by @nezhurina_alice_2024 demonstrates, relatively simple natural language puzzles that are easily solved by humans, often result in confidently expressed nonsense when used to prompt an AI. Wrong answers, furthermore, are frequently backed up by confabulations, that is, reasoning-like or plausible sounding explanations that are illogical. If anything, mathematics should be easy: after all, computers have been doing mathematics since at least the [Antikythera mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism) (ca. 178 BC), which preceded other mechanical machines by centuries--including Babbage's [Analytical Engine](https://en.wikipedia.org/wiki/Analytical_engine), the machine that [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) used to code an algorithm to write Bernoulli numbers. Electronic computers have been doing mathematics reliably for decades now. Computers can do mathematics well because they are implemented using a crisp, unambiguous language. Natural language is full of nuances that are not easily captured using the medium of text alone. The stochastic connections between words that LLMs produce are simply probabilistic word salads^[@xu_hallucination_2024 use a formal approach to show that LLMs are inherently incapable of mapping outputs to a ground truth, and thus their results will only ever resemble a ground truth purely by chance. Recent reporting strongly hints that industry leaders like  Sundar Pichai and Tim Cook understand this well [@patel_google_2024; @tyrangiel_opinion_2024]] that only sound plausible thanks to the billions of data points used to train them and the billions of parameters that the models use. But if the objective of qualitative research is to identify interesting aspects of the human experience, it is certainly not the case that they will be found in a regression to the mean.
 
 - Identify early signs of learning difficulties.  
 
@@ -625,7 +625,7 @@ But there is the following implication: , de-duplication becomes increasingly ch
 
 As I argue above, AIs do not do much for students or instructors, other than distract them from learning and developing genuinely transferable skills.
 
-But AIs must do something for someone, otherwise why would they be everywhere? What do AIs do for the likes of OpenAI, Microsoft, and Google? So far, the breakneck race to develop AI has soaked immense amounts of venture capital and other speculative money, in addition to incalculable resources by many other entities, such as the resources needed to have a University Committee to advise on AI^[Some observers have even wondered whether the AI fever is not actually becoming detrimental to innovation [@siegel_ai_2023; @vinsel_dont_2023].]. Between 2012 and 2020, venture capital investments in AI grew twenty five-fold, from \$3 billion (USD) to \$75 billion (USD)^[For perspective, Ontario's Ministry of Colleges and Universities, whose mission includes supporting "research and innovation to help the province compete and thrive in the global economy", spent $163,482,281 (CAD) on its research program in 2021-2022 [@ontario_ministry_of_colleges_and_universities_expenditure_2023], a mere blip (~0.0017\%) that barely registers compared to venture capital investments in AI in 2020 alone.], much of it poured into autonomous vehicles and related mobility tech, followed by healthcare, biotechnologies and drugs, with business processes and support services in third place [@tricot_venture_2021]. 
+But AIs must do something for someone, otherwise why would they be everywhere? What do AIs do for the likes of OpenAI, Microsoft, and Google? So far, the breakneck race to develop AI has soaked immense amounts of venture capital and other speculative money, in addition to incalculable resources by many other entities, such as those spent by universities to support an AI-dedicated committee^[Some observers have even wondered whether the AI fever is not actually becoming detrimental to innovation [@siegel_ai_2023; @vinsel_dont_2023].]. Between 2012 and 2020, venture capital investments in AI grew twenty five-fold, from \$3 billion (USD) to \$75 billion (USD)^[For perspective, Ontario's Ministry of Colleges and Universities, whose mission includes supporting "research and innovation to help the province compete and thrive in the global economy", spent $163,482,281 (CAD) on its research program in 2021-2022 [@ontario_ministry_of_colleges_and_universities_expenditure_2023], a mere blip (~0.0017\%) that barely registers compared to venture capital investments in AI in 2020 alone.], much of it poured into autonomous vehicles and related mobility tech, followed by healthcare, biotechnologies and drugs, with business processes and support services in third place [@tricot_venture_2021]. 
 
 <!--
 Ministry of Colleges and Universities: 163,482,281 CAD
@@ -638,29 +638,26 @@ This is how much bigger venture capital in AI is compared to research in Ontario
 163482281/(75000000000 * 1.3019)
 --->
 
-Alas, the industry has not necessarily made money for investors yet. For example, @berber_peter_2024 reports that the AI industry spent \$50 billion (USD) in 2023 on chips alone, while bringing in only $3 billion in revenue. @patel_inference_2023 estimated that incorporating ChatGPT-like LLMs into search would lead to a loss of \$30 billion (USD) in profit for Google. At a guess, the industry is running at a loss: in the same report, @patel_inference_2023 calculated the cost of running a query in ChatGPT at about \$0.36--so it would take just about 57 queries per user with a "Plus" subscription ([\$20/month](https://openai.com/chatgpt/pricing/)) for OpenAI to begin losing money on that one customer. And a large number of users are not even paying subscribers: based on revenue reports [see @perez_chatgpts_2024] there were at most 210,000 subscribers to the "Plus" plan in 2024, out of a user base estimated at tens of millions [@tong_exclusive_2023]. The profitability of AI would look even worse if not for the fact that the cost of labor is suppressed by outsourcing the most intensive, disturbing, degrading, and damaging aspects of training AIs to the Global South [@nix_analysis_2024]. The fact that the industry is not profitable has not prevented start-ups from pivoting to GenAI, in a shift  of focus to this much hyped technology from whatever they were doing in the first place^[As if any other signs  were needed of the scammy environment in which GenAI tech thrives, @berber_peter_2024 also reports how Cognition, a startup backed by Peter Thiel, pivoted to AI from cryptocurrency, after cryptocurrency went sour with the frauds at FTX.]. 
+Alas, the industry has not necessarily made money for investors yet. 
 
-Venture capital is not known for its charitable aims, though, and at some point investors will want their money back with a heap of profit on top [@sriram_ai_2023]. Who will pay to make investors whole? And how much will those who end up paying need to pay? Or, in the worst case, _have_ to pay, if their skills are inexorable tied to this one technology? Deskilling, both of individuals and of organizations, appears to be one of the few pathways to AI profitability: once people have failed to learn a skill, and therefore become dependent on the tool, it becomes possible for the maker of the tool to turn into a digital rentier [@sadowski_internet_2020]. From this perspective, what is on offer by the AI industry is SaaS--Skill as a Service^[Universities, instead of being innovators, have increasingly become renters in the land of the platform economy [@komljenovic_rise_2021].].
+@berber_peter_2024, for instance, reports that the AI industry spent \$50 billion (USD) in 2023 on chips alone, while bringing in only $3 billion in revenue. @patel_inference_2023 estimated that incorporating ChatGPT-like LLMs into search would lead to a loss of \$30 billion (USD) in profit for Google. At a guess, the industry is running at a loss in almost every respect: in the same report, @patel_inference_2023 calculated the cost of running a query in ChatGPT at about \$0.36--so it would take just about 57 queries per user with a "Plus" subscription ([\$20/month](https://openai.com/chatgpt/pricing/)) for OpenAI to begin losing money on that one customer. And a large number of users are not even paying subscribers: based on revenue reports [see @perez_chatgpts_2024] there were at most 210,000 subscribers to the "Plus" plan in 2024, out of a user base estimated at tens of millions [@tong_exclusive_2023]. The profitability of AI would look even worse if not for the fact that the cost of labor is suppressed by outsourcing the most intensive, disturbing, degrading, and damaging aspects of training AIs to the Global South [@nix_analysis_2024]. The fact that the industry is not profitable has not prevented start-ups from hurriedly pivoting to GenAI, in a shift  of focus to this much hyped technology from whatever they were doing in the first place^[As if any other signs  were needed of the scammy environment in which GenAI tech thrives, @berber_peter_2024 also reports how Cognition, a startup backed by Peter Thiel, pivoted from cryptocurrencyto AI, coincidentally as cryptocurrency was going sour after the frauds at FTX were revealed. Barely disguised grift has grown abundant in the vicinity of AI at almost every level [@cook_5_2024].]. 
+
+Venture capital is not known for its charitable aims, though, and at some point investors will want their money back with a heap of profit on top [@sriram_ai_2023]. Who will pay to make investors whole? And how much those who end up paying will need to pay? Or, in the worst case, _have_ to pay, if their skills become inexorably tied to this one technology? Deskilling, both of individuals and of organizations, appears to be one of the few pathways to AI profitability^[And, with profitability becoming a more distant possibility, there is always the option for large investors to cosmically inflate the hype [@salmon_what_2024] to convince bigger suckers to give them money [@reuters_openais_2024] and/or to fleece retail investors [@temkin_vcs_2024].]: once people have failed to learn a skill, and therefore become dependent on the tool, it becomes possible for the maker of the tool to turn into a digital rentier [@sadowski_internet_2020]. From this perspective, what is on offer by the AI industry is SaaS--Skill as a Service^[Universities, rather than being innovators, have increasingly become renters in the land of the platform economy [@komljenovic_rise_2021].].
 
 ## What do GenAIs do to everyone and everything else? {#what-do-ais-do-to-everyone-else}
 
-### Extractive
+### AI is an eminently extractive and exploitative industry
 
-In relation to the points above (GenAIs require vast amounts of _human-generated_ data to ensure that there is sufficient variability for the model to train) - (Models trained )
+ChatGPT 4.o was announced on May 13, 2024, with fanfare and a flashy display of the model's new capabilities, which included the ability to respond vocally to prompts, and to identify images via a mobile device's camera. 4.o's voice, in particular, caused some titillation in the nether parts of even its creators [@roose_is_2024]. The voice was modeled after the digital personal assistant of the movie _Her_, played by Scarlett Johannson. This film (to approximately no one's surprise) is, by his own account, one of OpenAI's Altman's favorites. The background story of 4.o's voice is somewhat sordid: Altman reportedly tried to hire Ms. Johannson to be the voice of ChatGPT 4.o [@kastrenakes_scarlett_2024], but when Ms. Johannson declined, OpenAI went and used a mimicry of [her voice](@as-an-aside) anyways. This voice was retired (probably to the profound sadness of many an AI engineer) after Ms. Johansson threatened legal action^[Altman's denials that OpenAI had not used Ms. Johansson's voice sounded hollow, after he [posted](https://x.com/sama/status/1790075827666796666) on social media the word "her" at the time the new version of ChatGPT was announced.] [@allyn_scarlett_2024]. 
+
+Alas, very few have the social standing of Scarlett Johansson to challenge OpenAI. Most people in the world lack that power. In relation to the points above (GenAIs require vast amounts of _human-generated_ data to ensure that there is sufficient variability for the model to train) - (Models trained )
 
 @germain_google_2023
 @norem_intels_2023
 
-### Exploitative
-
-ChatGPT 4.o was announced on May 13, 2024, with a flashy display of the model's new capabilities, which included the ability to respond vocally to prompts, and to identify images via a mobile device's camera. 4.o's voice, in particular, caused some titillation in the pants of even its creators [@roose_is_2024]. The voice was modeled after the digital personal assistant of the movie _Her_, played by Scarlett Johannson. This film (to approximately no one's surprise) is, by his own account, one of OpenAI's Altman's favorites. The background story of 4.o's voice is somewhat sordid: Altman reportedly tried to hire Ms. Johannson to be the voice of ChatGPT 4.o [@kastrenakes_scarlett_2024], but when Ms. Johannson declined, OpenAI went and used a mimicry of [her voice](@as-an-aside) anyways. This voice was retired (probably to the profound sadness of many an AI engineer) after Ms. Johansson threatened legal action^[Altman's denials that OpenAI had not used Ms. Johansson's voice sounded hollow, after he [posted](https://x.com/sama/status/1790075827666796666) on social media the word "her" at the time the new version of ChatGPT was announced.] [@allyn_scarlett_2024]. 
-
-Alas, very few have the social standing of Scarlett Johansson to challenge OpenAI. Most people in the world lack that power.  
-
-The ways in which GenAI is exploitative of people all over the world, but particularly in the Global South were highlighted. But AI companies do not spare the rich either. 
+The ways in which GenAI is exploitative of people all over the world, but particularly in the Global South were highlighted.
 
 @williams_exploited_2022 (Summary needed)
-
 
 @perrigo_2_2023 (Follows summary)
 
@@ -687,8 +684,6 @@ Quotes from Hao's podcast:
 > Annie Minoff: At least it won't do it in English. If Alex wanted to use ChatGPT in his native language, Swahili, would he be able to do that?
 
 > Karen Hao: You can interact with ChatGPT in Swahili, but ChatGPT was developed primarily to work in English. So a lot of the scrubbing, the content moderation, the important safety measures within the chatbot were done in English. So when you prompt it in Swahili, you'll get more misinformation. You'll get more confusing sentences that don't make sense, and you will potentially get more of this content that they worked so hard to filter out because they were only filtering it in English.
-
-Think about linguistic hegemony, and how the models are only as good (or as bad) as their inputs.
 
 @roberts_commercial_2016 Commercial {Content} {Moderation}: {Digital} {Laborers}' {Dirty} {Work}
 
@@ -723,9 +718,6 @@ US Congress bans use of ChatGPT and Copilot for staff [@singh_after_2024]. This 
 ### Environmental impacts
 
 I struggle a bit with this one. For example, I fly more often than the [typical Canadian](https://ourworldindata.org/grapher/air-trips-per-capita?tab=table&time=earliest..latest&country=~CAN) and a little bit less often than the [typical world traveller](https://www.news24.com/news24/around-the-world-in-50-hours-average-person-takes-65-flights-per-year-20180828) (but I have not owned a car in decades). Who am I to dictate how much damage _other people_ have a right to inflict (or not) to the environment.
-
-
-
 
 Microsoft: Here's how burning the planet will help to save it.
 
@@ -773,26 +765,16 @@ ggdraw() +
   draw_image(image = "images/google-obama.png")
 ```
 
-
-## As an aside {#as-an-aside}
-
-On antropomorphizing GenAI tools. This happens mostly in ways that are barely liminal. For example, in the document "Overview of AI at McMaster" we read that GenAI's somehow have an "ability to engage in nuanced conversation". This phrasing could be simply a literary device, but even so it is indicative of a tendency to ascribe human attributes to a statistical model. Doing this risks amplifying existing biases. But in other cases, the effort is more blatant. Wrapping a statistical model in a human-like skin may actually be more devious, as in the new, sexy ChatGPT interface:
-
-<video width="320" height="240" controls>
-<source src="video/open-ai-commercial.mp4" type="video/mp4">
-</video>
-
-**NOTES:** Need to research more the argument that the interface is so important in the case of these tools because what they do well is trivial and what they do poorly is what is being hyped. Found the article [@farrugia_known_2024]; see here: https://fasterandworse.com/known-purpose-and-trusted-potential/ 
-
 ## Concluding remarks
 
 <!-- AI is a way to cheapen university education; it compromises the ideals of quality, integrity, and excellence. -->
 
 Neural networks and machine learning are not new, and they have their uses. But those uses have been drown, and to some extent discredited, by the current hype around AI. 
 
+
+@morrone_signals_2024 Carefully manufactured and well funded hype.
+
 ChatGPT was a colossal feat of marketing [@cowen_chatgpt_2023], but much coverage of AI in the media has been stretched beyond the breaking point of credulity [@burneko_if_2024]^[Bob Woodward said "journalism is not stenography" [@hiskes_woodward_2007], but it is difficult to see what else writing like Roose's [-@roose_is_2024] could be called, besides hagiography.]. There are now calls to press pause on the hype [@angwin_press_2024] but these are still drown by the uncritical coverage.
-
-
 
 
 > An end to “batch” teaching. Instead of working with cohorts of learners in grades or classes, individual learning agendas are developed based on an assessment of the skills, competencies and capabilities the learner already has as well as ongoing conversations about the purpose of the learning. Where does the student want the learning to take them? AI systems, coupled with coaching, mentoring and some instruction and peer support networks then ensure the learner is supported on the carefully mapped learning journey. Teaching can still take place: Students challenged with a set of related issues can be brought together for a boot camp or focused period of instruction before returning to their individualized study activities.
@@ -804,8 +786,6 @@ ChatGPT was a colossal feat of marketing [@cowen_chatgpt_2023], but much coverag
 >Increased feedback and advising. AI systems do not have “office hours.” They are available 24x7 and never tire of finding new ways of responding to student queries and needs.Subject focused chatbots which have been “fed” all necessary information about a subject will do an excellent job of subject-matter advising and teaching.  Analytics suggest that some students need to be supported by teachers or others with special skills, such as writing coaches, statistical support workers and numeracy advisors. The aim will be to ensure every learner follows and is successful in the learning journey they have contracted to complete.
 
 > Greater accessibility. Higher education systems are organized around blocks of time: semesters or terms. There is no longer good reason for this. Students should be able to begin their learning at any time and be assessed when they are ready. A four-year undergraduate degree could easily be completed in 16 months by a diligent student, for example, or in even less time by someone arriving in the program with substantial life and work experience. AI systems can also leverage technologies to ensure the resources and supports for learners reflect who they are (culture, language, experience and skill) and what challenges they face (disabilities, learning styles, etc.).
-
-
 
 It has now been 55 years since Howard S. Barrows and Robyn M. Tamblyn [pioneered](https://en.wikipedia.org/wiki/Problem-based_learning#History) problem-based learning at McMaster, an accomplishment that the university [still touts today](https://provost.mcmaster.ca/teaching-learning/). Problem-based learning was not and is still not high tech, and yet remains a great pedagogical approach, influential to the date. Developing problem-based learning took human ingenuity and insight, not getting hooked on an expensive technology of questionable value today, of dubious longevity, and that in the here and now is unarguably extractive, abusive, and exploitative, and that advances an agenda that can only be squared with "integrity, quality, and excellence" via fabulous contortions of the imagination.
 
@@ -820,8 +800,17 @@ Why? The reputational risk...universities are under siege from unsympathetic or 
 What do AIs do? For the province, the main patron and effectively the boss of McMaster, it provides a rationale (an excuse even) to force the institution to find "efficiencies". 
 
 
+## As an aside {#as-an-aside}
 
-## Loose thoughts
+On antropomorphizing GenAI tools. This happens mostly in ways that are barely liminal. For example, in the document "Overview of AI at McMaster" we read that GenAI's somehow have an "ability to engage in nuanced conversation". This phrasing could be simply a literary device, but even so it is indicative of a tendency to ascribe human attributes to a statistical model. Doing this risks amplifying existing biases. But in other cases, the effort is more blatant. Wrapping a statistical model in a human-like skin may actually be more devious, as in the new, sexy ChatGPT interface:
+
+<video width="320" height="240" controls>
+<source src="video/open-ai-commercial.mp4" type="video/mp4">
+</video>
+
+**NOTES:** Need to research more the argument that the interface is so important in the case of these tools because what they do well is trivial and what they do poorly is what is being hyped. Found the article [@farrugia_known_2024]; see here: https://fasterandworse.com/known-purpose-and-trusted-potential/ 
+
+
 
 Are GenAI reality-warping machines? Think about the small and large ways in which these tools can be used to rewrite history, for relatively banal commercial objectives (monetizing clicks) or worse, for malicious propaganda campaigns. 
 
@@ -834,7 +823,7 @@ Potential for weaponization of GenAI. **Farfetched (?) idea** Could it be that G
 
 Peter Thiel on "AI is a military technology" https://www.businessinsider.com/peter-thiel-claim-ai-primarily-military-technology-experts-disagree-2019-8
 
-Crypto-currency to AI: https://en.wikipedia.org/wiki/Cognition_AI
+AI industry and the military: @haskins_im_2024
 
 ## Bonus
 
