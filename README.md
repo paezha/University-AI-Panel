@@ -1068,20 +1068,35 @@ Develop a garbage skill
 &#10;But there is the following implication: , de-duplication becomes increasingly challenging.
 -->
 
-## What do GenAIs do for the Province
+## What do GenAIs do for the Province?
 
 As I argue above, AIs do not seem to do much for students or
 instructors, other than distract them from learning and developing
-genuinely transferable skills. It is almost a certainty that the
+genuinely transferable skills.
+
+But AIs must do something for someone, otherwise why would they be
+everywhere? Given history, one could be forgiven to think that the
 provincial government is hoping to use GenAIs to further reduce the need
-to fund higher education. But AIs must do something for someone,
-otherwise why would they be everywhere? For Ontario, the main patron and
-effectively the boss of McMaster, it provides a rationale (an excuse
-even) to force the institution to find “efficiencies”. Tom Goldstein, a
-computer science professor at the University of Maryland, thinks that
-the lure of GenAI will be hard to resist for many, irrespective of their
-flaws…after all, “\[e\]ven though \[GenAI is\] expensive…it’s still far
-less expensive than human labor” (Oremus 2023).
+to fund higher education. GenAIs appear on the horizon as an
+innovation-sounding rationale (a mandate even!) for the province to
+force institutions of higher education to find “efficiencies”. Tom
+Goldstein, a computer science professor at the University of Maryland,
+thinks that the lure of GenAI will be hard to resist for many,
+irrespective of the technology’s flaws…after all, “\[e\]ven though
+\[GenAI is\] expensive…it’s still far less expensive than human labor”
+(Oremus 2023). Without adjudicating the merits of the argument that
+human labor is expensive[^46], one would hav to be blind not to see the
+glamour that GenAI will cast on governments that do not seem to believe
+in higher education in the first place.
+
+<div class="figure">
+
+<img src="README_files/figure-gfm/googly-eyes-1.png" alt="\label{fig:googly-ai-eyes}'I like the look of his cuts'" width="70%" />
+<p class="caption">
+‘I like the look of his cuts’
+</p>
+
+</div>
 
 ## What do GenAIs do for the mega-corporations pushing them?
 
@@ -1096,9 +1111,9 @@ the entities that develop them, namely OpenAI et al.? So far, the
 breakneck race to develop AI has soaked immense amounts of venture
 capital and other speculative money, in addition to incalculable
 resources by many other entities, such as those spent by universities to
-support an AI-dedicated committee[^46]. Between 2012 and 2020, venture
+support an AI-dedicated committee[^47]. Between 2012 and 2020, venture
 capital investments in AI grew twenty five-fold, from \$3 billion (USD)
-to \$75 billion (USD)[^47], much of it poured into autonomous vehicles
+to \$75 billion (USD)[^48], much of it poured into autonomous vehicles
 and related mobility tech, followed by healthcare, biotechnologies and
 drugs, with business processes and support services in third place
 (Tricot 2021).
@@ -1132,7 +1147,7 @@ is suppressed by outsourcing the most intensive, disturbing, degrading,
 and damaging aspects of training AIs to the Global South (Nix 2024). The
 fact that the industry is not profitable has not prevented start-ups
 from hurriedly pivoting to GenAI, in a shift of focus to this much hyped
-technology from whatever they were doing in the first place[^48].
+technology from whatever they were doing in the first place[^49].
 
 Venture capital is not known for its charitable aims, though, and at
 some point investors will want their money back with a heap of profit on
@@ -1141,115 +1156,83 @@ whole? And how much those who end up paying will need to pay? Or, in the
 worst case, *have* to pay, if their skills become inexorably tied to
 this one technology? Deskilling, both of individuals and of
 organizations, appears to be one of the few pathways to AI
-profitability[^49]: once people have failed to learn a skill, and
+profitability[^50]: once people have failed to learn a skill, and
 therefore become dependent on the tool, it becomes possible for the
 maker of the tool to turn into a digital rentier (Sadowski 2020). From
 this perspective, what is on offer by the AI industry is SaaS–Skill as a
-Service[^50].
+Service[^51].
 
 ## What do GenAIs do to everyone and everything else?
 
 ### AI is an eminently extractive and exploitative industry
 
-ChatGPT 4.o was announced on May 13, 2024, with fanfare and a flashy
-display of the model’s new capabilities, which included the ability to
-respond vocally to prompts, and to identify images via a mobile device’s
-camera. 4.o’s voice, in particular, caused some titillation in the
-nether parts of even its creators (Roose 2024). The voice was modeled
-after the digital personal assistant of the movie *Her*, played by
-Scarlett Johannson. This film (to approximately no one’s surprise) is,
-by his own account, one of OpenAI’s Altman’s favorites. The background
-story of 4.o’s voice is somewhat sordid: Altman reportedly tried to hire
-Ms. Johannson to be the voice of ChatGPT 4.o (Kastrenakes 2024), but
-when Ms. Johannson declined, OpenAI went and used a mimicry of [her
-voice](@as-an-aside) anyways. This voice was retired (probably to the
-profound sadness of many an AI engineer) after Ms. Johansson threatened
-legal action[^51] (Allyn 2024).
+ChatGPT 4.o was announced on May 13, 2024, with great fanfare and a
+flashy display of the model’s new capabilities. These included the
+chatbot’s ability to respond vocally to prompts, and to identify images
+via a mobile device’s camera. 4.o’s voice, in particular, caused some
+titillation in the nether parts of even its creators (Roose 2024). The
+voice was modeled after the digital personal assistant of the movie
+*Her*, played by Scarlett Johannson. By Sam Altman’s own account, this
+is one of his favorite movies. The background story of 4.o’s voice is
+somewhat sordid: Altman reportedly tried to hire Ms. Johannson to be the
+voice of ChatGPT 4.o (Kastrenakes 2024), but when she declined, OpenAI
+went and used a mimicry of [her voice](@as-an-aside) anyways. This voice
+was retired (probably to the profound sadness of many an AI engineer)
+after Ms. Johansson threatened legal action[^52] (Allyn 2024).
 
-Alas, very few have the social standing of Scarlett Johansson to
-challenge OpenAI. Most people in the world lack that power. In relation
-to the points above (GenAIs require vast amounts of *human-generated*
-data to ensure that there is sufficient variability for the model to
-train) - (Models trained )
+Alas, very few have the social standing and wealth of Scarlett Johansson
+to challenge OpenAI. Most people in the world lack that power and the AI
+industry has not been shy to exploit that imbalance (Roberts 2016), with
+Google’s privacy policy for using the whole internet as the source of
+data for its AI efforts (Germain 2023), and Adobe landing in hot water
+by adopting terms of use widely thought to be confiscatory (Weatherbed
+2024).
 
-Germain (2023) Norem (2023)
+Besides being extractive, the AI industry is exploitative in darker
+ways. ChatGPT was trained on vast amounts of data scooped from the
+internet, where many societal problems are amplified. Trained on
+horrible content, it was hard to sell ChatGPT when it was prone to
+racist, sexist, obscene outbursts. Fortunately (or unfortunately,
+depending on perspective) companies like facebook, who did not want to
+pay for moderation, had already hit on a solution of sorts, which was
+basically to train AIs to detect content that was unpalatable. Indeed,
+they had found that feeding an AI with labeled examples of all the worst
+that exists on the internet (e.g., violence, hate speech, child sexual
+abuse) could produce tools that learned to detect various manifestations
+of such toxicity in the wild, to filter it out before it reached users.
+However, to obtain the essential labeled inputs, OpenAI sent tens of
+thousands of samples to Kenya, with text that described murder, suicide,
+bestiality, self-harm, incest, torture, and child sexual abuse
+situations in graphic detail.
 
-The ways in which GenAI is exploitative of people all over the world,
-but particularly in the Global South were highlighted.
-
-Williams, Miceli, and Gebru (2022) (Summary needed)
-
-Perrigo (2023) (Follows summary)
-
-ChatGPT was trained on vast amounts of data scooped from the internet,
-where many societal problems are amplified. Trained on horrible content,
-it was hard to sell ChatGPT when it was prone to racist, sexist, obscene
-outbursts. But companies like facebook, who did not want to pay for
-moderation, had hit on a solution of sorts
-<!--: train an AI to detect content that was unpalatable.-->
-
-The solution?
-
-> \[F\]eed an AI with labeled examples of violence, hate speech, and
-> sexual abuse, and that tool could learn to detect those forms of
-> toxicity in the wild. That detector would be built into ChatGPT to
-> check whether it was echoing the toxicity of its training data, and
-> filter it out before it ever reached the user. It could also help
-> scrub toxic text from the training datasets of future AI models.
-
-The key here is “labelled examples”. What are those labels? Many machine
-algorithms do not learn by themselves…they learn from humans, and need
-what is called “labelled” data: a images that humans have labelled as
-“dog”, “cats”, etc. Or bits of text that have been labelled
-as…well…questionable. Labeling data is extremely time consuming and
-labor intensive. What’s a corporation to do?
-
-> To get those labels, OpenAI sent tens of thousands of snippets of text
-> to an outsourcing firm in Kenya, beginning in November 2021. Much of
-> that text appeared to have been pulled from the darkest recesses of
-> the internet. Some of it described situations in graphic detail like
-> child sexual abuse, bestiality, murder, suicide, torture, self harm,
-> and incest. ”
-
-What did this mean to the people doing all this labeling in one of the
+What did this mean to the people doing all the labeling in one of the
 poorest regions in the world? First of all, an income: “data labelers
 employed…on behalf of OpenAI were paid a take-home wage of between
 around \$1.32 and \$2 per hour depending on seniority and performance.”
-But at what cost?
+But at what cost? As one worker tasked with reading and labeling text
+for OpenAI told TIME, “he suffered from recurring visions after reading
+a graphic description of a man having sex with a dog in the presence of
+a young child. ‘That was torture,’ he said. ‘You will read a number of
+statements like that all through the week. By the time it gets to
+Friday, you are disturbed from thinking through that picture’” (Perrigo
+2023).
 
-> One Sama worker tasked with reading and labeling text for OpenAI told
-> TIME he suffered from recurring visions after reading a graphic
-> description of a man having sex with a dog in the presence of a young
-> child. “That was torture,” he said. “You will read a number of
-> statements like that all through the week. By the time it gets to
-> Friday, you are disturbed from thinking through that picture.”
-
-Hao (2023)
-
-Quotes from Hao’s podcast:
-
-> Karen Hao: One of the reasons why ChatGPT was able to become so
-> virally popular and continued to sustain popularity is because it is
-> largely not spewing really awful things. People feel comfortable using
-> the product knowing that it’s not going to do that.
-
-> Annie Minoff: At least it won’t do it in English. If Alex wanted to
-> use ChatGPT in his native language, Swahili, would he be able to do
-> that?
-
-> Karen Hao: You can interact with ChatGPT in Swahili, but ChatGPT was
-> developed primarily to work in English. So a lot of the scrubbing, the
-> content moderation, the important safety measures within the chatbot
-> were done in English. So when you prompt it in Swahili, you’ll get
-> more misinformation. You’ll get more confusing sentences that don’t
-> make sense, and you will potentially get more of this content that
-> they worked so hard to filter out because they were only filtering it
-> in English.
-
-Roberts (2016) Commercial {Content} {Moderation}: {Digital} {Laborers}’
-{Dirty} {Work}
+<!--
+&#10;In relation to the points above (GenAIs require vast amounts of _human-generated_ data to ensure that there is sufficient variability for the model to train) - (Models trained )
+&#10;
+@norem_intels_2023
+&#10;The ways in which GenAI is exploitative of people all over the world, but particularly in the Global South were highlighted.
+&#10;@williams_exploited_2022 (Summary needed)
+&#10;@hao_hidden_2023
+&#10;Quotes from Hao's podcast:
+&#10;> Karen Hao: One of the reasons why ChatGPT was able to become so virally popular and continued to sustain popularity is because it is largely not spewing really awful things. People feel comfortable using the product knowing that it's not going to do that.
+&#10;> Annie Minoff: At least it won't do it in English. If Alex wanted to use ChatGPT in his native language, Swahili, would he be able to do that?
+&#10;> Karen Hao: You can interact with ChatGPT in Swahili, but ChatGPT was developed primarily to work in English. So a lot of the scrubbing, the content moderation, the important safety measures within the chatbot were done in English. So when you prompt it in Swahili, you'll get more misinformation. You'll get more confusing sentences that don't make sense, and you will potentially get more of this content that they worked so hard to filter out because they were only filtering it in English.
+-->
 
 ### Copyright (and privacy) issues
+
+### Privacy issues
 
 LLM are known to regurgitate verbatim chunks of the training datasets.
 This is called *memorization*, a word that contributes to
@@ -1266,94 +1249,62 @@ memorization–the verbatim or quasi-verbatim output of training data–can
 be as high as 7% in the case of some LLMs (Peng, Wang, and Deng 2023,
 8).
 
-Where will new data come from? (Murgia 2023)
-
-Note how several organizations have responded to the AIfication of all
-the things: by banning it. The concerns cited are seldom ethical or
-moral, but mostly about the risk of sensitive information leaking. As
-LLMs begin to be increasingly trained on model-produce data, overfitting
-(or memorization) can become a larger risk.
-
-And this is just a result of using an overfitted model. What about data
-leaks? Some stories regarding Microsoft’s security track record:
-
-<https://www.theregister.com/2024/04/12/microsoft_cisa_order/>
-
-<https://techreport.com/news/microsoft-azure-hit-with-the-largest-data-breach-in-its-history-hundreds-of-executive-accounts-compromised/>
-
-Also, how confident can the public be about assurances that a big tech
-corporation will not data mine and commercialize data by the companies
-that sell the services of LLMs? Microsoft is so big that it can stand up
-to the US government:
-
-<https://www.theregister.com/2024/04/05/microsoft_government_contracts/>
-
-<!-- "Nice operation you have there...be a shame if your systems stopped working all of a sudden."-->
-
-Organization ranging from Free Open Source projects to elements of the
-federal government in the United States have limited/restricted the use
-of AI.
+This means that data cannot be presumed to be private once that it has
+been used to train an AI. In response organizations such as the National
+Archives and Records Administration in the US (Koebler 2024a), and the
+US Congress (Singh 2024) have banned the use of ChatGPT and Copilot.
+Singh (2024) also notes how companies like Samsung and Apple have
+restricted their use of chatbots.
 
 NetBSD (a project that produces a free, Unix-like Open Source operating
 system) states in its commit guidelines (contributions to code) that
 “\[c\]ode generated by a large language model or similar technology…is
 presumed to be tainted code, and must not be committed without prior
-written approval by core.” (NetBSD n.d.).
+written approval by core.” (NetBSD n.d.). The concerns cited are seldom
+ethical or moral, but mostly about the risk of sensitive information
+leaking. As LLMs begin to be trained on model-produced data (Murgia
+2023), overfitting (or memorization) will likely become a larger risk.
 
-The National Archives and Records Administration (USA) bans use of
-ChatGPT (Koebler 2024a)
-
-US Congress bans use of ChatGPT and Copilot for staff (Singh 2024). This
-article also note how companies like Samsung and Apple have restricted
-the use of chatbots citing concerns with data security.
+And this is just a result of using an overfitted model. What about data
+leaks? Microsoft’s data security
+[track](https://www.theregister.com/2024/04/12/microsoft_cisa_order/)
+[record](https://techreport.com/news/microsoft-azure-hit-with-the-largest-data-breach-in-its-history-hundreds-of-executive-accounts-compromised/)
+does not inspire confidence.
 
 ### Environmental impacts
 
-I struggle a bit with this one. For example, I fly more often than the
-[typical
-Canadian](https://ourworldindata.org/grapher/air-trips-per-capita?tab=table&time=earliest..latest&country=~CAN)
-and a little bit less often than the [typical world
-traveller](https://www.news24.com/news24/around-the-world-in-50-hours-average-person-takes-65-flights-per-year-20180828)
-(but I have not owned a car in decades). Who am I to dictate how much
-damage *other people* have a right to inflict (or not) to the
-environment.
+<!--
+I struggle a bit with this one. For example, I fly more often than the [typical Canadian](https://ourworldindata.org/grapher/air-trips-per-capita?tab=table&time=earliest..latest&country=~CAN) and a little bit less often than the [typical world traveller](https://www.news24.com/news24/around-the-world-in-50-hours-average-person-takes-65-flights-per-year-20180828) (but I have not owned a car in decades). Who am I to dictate how much damage _other people_ have a right to inflict (or not) to the environment.
+-->
 
-Microsoft: Here’s how burning the planet will help to save it.
+Every human activity has an environmental impact, and at a time when we
+face unprecedented challenges with climate change, we must be discerning
+in how we consume resources. The choice is so clear that Microsoft has
+basically told us: we need to burn the planet (Smith and Nagagawa 2024)
+to create the AIs that will help us save the planet (Nakagawa 2023).
 
-<https://blogs.microsoft.com/on-the-issues/2024/05/15/microsoft-environmental-sustainability-report-2024/>
-(Smith and Nagagawa 2024)
-
-<https://blogs.microsoft.com/on-the-issues/2023/11/16/accelerating-sustainability-ai-playbook/>
-(Nakagawa 2023)
-
-<https://www.theguardian.com/commentisfree/article/2024/may/30/ugly-truth-ai-chatgpt-guzzling-resources-environment>
-
-“Environmental costs of AI are soaring” (Crawford 2024)
-
-<https://www.wired.com/story/the-generative-ai-search-race-has-a-dirty-secret/>
-
-ChatGPT consumes substantially more energy than a regular web search, up
-to 25 times more, and according to some estimates, the whole of AI may
-consume twice as much energy as the whole of France by 2030 (Newsroom
+Crawford (2024) has already sounded the alarm: the environmental costs
+of AI are soaring, and doing so mostly in secret (Luccioni, Jernite, and
+Strubell 2024). It has been estimated that ChatGPT consumes
+substantially more energy than a regular web search, up to 25 times
+more, and according to some estimates, the whole of AI may consume twice
+as much energy as the whole of France by 2030 (Newsroom 2024). As the
+examples in the preceding sections illustrate, this is in exchange for
+results that are not better than a simple search, and often are worse.
+Widespread AI deployment may in fact make the climate crisis worse, not
+only by guzzling resources, but also by spreading misinformation (Gordon
 2024).
 
-…are the results better?
-
-Compare the results:
-
-The example above may seem like an amusement, but a GenAI is not a toy,
-as Air Canada discover when the company was found liable for “negligent
-misrepresentation”, after a court denied claims by the airline that the
-chatbot was somehow responsible for its own actions as an effectively
-separate legal entity (Garcia 2024).
-
-Similar GenAI-generated mishaps abound.
-
-But what when an AI replicates the both-sides perspective of much of the
-media when trying to learn about an existential crisis like climate
-changes? (Gordon 2024). Or when trying to obtain accurate voting
-information in the context of voter supression? (Angwin, Nelson, and
-Palta 2024).
+<!--
+https://www.theguardian.com/commentisfree/article/2024/may/30/ugly-truth-ai-chatgpt-guzzling-resources-environment
+&#10;https://www.wired.com/story/the-generative-ai-search-race-has-a-dirty-secret/
+&#10;
+...are the results better?
+&#10;Compare the results:
+&#10;The example above may seem like an amusement, but a . 
+&#10;Similar GenAI-generated mishaps abound. 
+&#10;But what when an AI replicates the both-sides perspective of much of the media when trying to learn about an existential crisis like climate changes? [@gordon_multiple_2024]. Or when trying to obtain accurate voting information in the context of voter supression? [@angwin_seeking_2024].
+-->
 
 ### Reproduction of unjust structures of power
 
@@ -1361,15 +1312,15 @@ When using a Generative AI we must ask whose perspectives the tool will
 tend to reproduce and amplify. In this sense, numerous observers (e.g.,
 Ahuja 2023; Stross 2023; Gebru and Torres 2024) have noted the
 ideological leanings of various actors in the AI scene, an elite world
-of tech investors[^52] known for fringe ideologies that combine a
+of tech investors[^53] known for fringe ideologies that combine a
 peculiar mix of uber-techno-optimism and existential fright (including
-transhumanism, extropianism, singularitarianism, and cosmism)[^53],
+transhumanism, extropianism, singularitarianism, and cosmism)[^54],
 paired with extreme theories of justice (including rationalism,
-effective altruism[^54], and longtermism[^55]).
+effective altruism[^55], and longtermism[^56]).
 
-One does not need to posit a conspiracy theory[^56] to worry about the
+One does not need to posit a conspiracy theory[^57] to worry about the
 influence (whether coordinated or not) of a small group of men (they are
-almost all of them men[^57]) who collectively can muster more than *half
+almost all of them men[^58]) who collectively can muster more than *half
 a trillion dollars* as they try to turn their individual convictions
 into a reality for all (Stross 2023).
 
@@ -1381,17 +1332,17 @@ reproduce malignant biases, including that of *platformed racism*
 (Matamoros-Fernández 2017). Platformed racism results when the
 functionalities of platforms (e.g., liking and sharing) are exploited to
 create and spread racist ideology, often in a grass-roots fashion, but
-more ominously with the assist of bad-faith actors[^58]. Given how cagey
+more ominously with the assist of bad-faith actors[^59]. Given how cagey
 corporations are about the data they use to train their models, it is
 anyone’s guess how much dis- and misinformation has been passed to their
-AIs[^59]. The second aspect of platformed racism is the implicit
+AIs[^60]. The second aspect of platformed racism is the implicit
 endorsement of racist ideology through vague standards and arbitrary
-moderation practices[^60] that exclude some views while allowing others
+moderation practices[^61] that exclude some views while allowing others
 to thrive (Myers West 2018; Hawkins et al. 2023).
 
 Search engines were already known to reinforce racism (Noble 2018);
 given the above, it really is too much to expect that AI-augmented
-search engines will do any better[^61]. In another wretched incident,
+search engines will do any better[^62]. In another wretched incident,
 Google’s AI Overview stated that Barack Obama was the first Muslim
 president of the US, a regrettable piece of misinformation that fails to
 surprise given the years-long Russian-assisted right-wing propaganda
@@ -1401,10 +1352,10 @@ with uncommon questions” (Tenbarge 2024). This dismissal, arrogant as it
 is, only reinforces the notion that AIs are only ever useful when
 [regressing to the mean](#really-what-do-they-do). Responses like
 fiddling with the model (fine tuning it) to provide more palatable
-outputs[^62] are not reassuring. Who is to say what a handful of
+outputs[^63] are not reassuring. Who is to say what a handful of
 unaccountable corporations will find unpalatable tomorrow given their
 insatiable quest for profits, let alone in the face of demands by
-powerful authoritarian regimes[^63]?
+powerful authoritarian regimes[^64]?
 
 <div class="figure">
 
@@ -1424,7 +1375,7 @@ their uses. But those uses have been suffocated, and to some extent
 discredited, by the current hype around Generative AI. This hype has
 been carefully manufactured (Morrone 2024), and has been amplified by
 media tools that have been more than willing to believe in magic beans
-(Burneko 2024)[^64]. There are now calls to press pause on the hype
+(Burneko 2024)[^65]. There are now calls to press pause on the hype
 (Angwin 2024) but they are barely audible above the reverberating echos
 inside the AI hype chamber.
 
@@ -1441,167 +1392,105 @@ Usher 2023).
 In this essay I have tried to describe the many problems with AI as an
 *everything tool*. Tall in my mind are the moral and ethical concerns
 around an extractive and exploitative technology that promises democracy
-but delivers further concentration of wealth and power.
+but delivers further concentration of wealth and power. GenAI is
+environmentally damaging for what it delivers: confidently stated
+confabulations. I have little illusion that these arguments will prove
+persuasive, since the university is already aware of them because they
+usually appear in the last slides of every presentation about–and yet
+here we are, asking not whether, but where it makes sense to adopt AI.
 
-> An end to “batch” teaching. Instead of working with cohorts of
-> learners in grades or classes, individual learning agendas are
-> developed based on an assessment of the skills, competencies and
-> capabilities the learner already has as well as ongoing conversations
-> about the purpose of the learning. Where does the student want the
-> learning to take them? AI systems, coupled with coaching, mentoring
-> and some instruction and peer support networks then ensure the learner
-> is supported on the carefully mapped learning journey. Teaching can
-> still take place: Students challenged with a set of related issues can
-> be brought together for a boot camp or focused period of instruction
-> before returning to their individualized study activities.
-
-> An end to “time” as a learning metric. Currently, undergraduate
-> courses are described in terms of credit hours. Learning and
-> assessment on demand, fast-tracking or slow-tracking using adaptive
-> assessment, and modular learning when the student is ready liberates
-> learners from the time-based metric.
-
-> An end to exams as we know them. Exams are an efficient way to judge
-> the output of batch teaching but are not good indicators of learner
-> knowledge, skills and capabilities. With AI-enabled assessment
-> generation, automated marking and assessment on demand, exams are no
-> longer needed. More authentic assessments that are project-based, team
-> challenges, work-based learning activities, and student self-directed
-> projects can become the norm.
-
-> Increased feedback and advising. AI systems do not have “office
-> hours.” They are available 24x7 and never tire of finding new ways of
-> responding to student queries and needs.Subject focused chatbots which
-> have been “fed” all necessary information about a subject will do an
-> excellent job of subject-matter advising and teaching. Analytics
-> suggest that some students need to be supported by teachers or others
-> with special skills, such as writing coaches, statistical support
-> workers and numeracy advisors. The aim will be to ensure every learner
-> follows and is successful in the learning journey they have contracted
-> to complete.
-
-> Greater accessibility. Higher education systems are organized around
-> blocks of time: semesters or terms. There is no longer good reason for
-> this. Students should be able to begin their learning at any time and
-> be assessed when they are ready. A four-year undergraduate degree
-> could easily be completed in 16 months by a diligent student, for
-> example, or in even less time by someone arriving in the program with
-> substantial life and work experience. AI systems can also leverage
-> technologies to ensure the resources and supports for learners reflect
-> who they are (culture, language, experience and skill) and what
-> challenges they face (disabilities, learning styles, etc.).
+I would still appeal, though, to the university’s self-regard and sense
+of self-preservation.
 
 It has now been 55 years since Howard S. Barrows and Robyn M. Tamblyn
-[pioneered](https://en.wikipedia.org/wiki/Problem-based_learning#History)
-problem-based learning at McMaster, an accomplishment that the
-university [still touts
+pioneered [problem-based
+learning](https://en.wikipedia.org/wiki/Problem-based_learning#History)
+at McMaster, an accomplishment that the university [still touts
 today](https://provost.mcmaster.ca/teaching-learning/). Problem-based
-learning was not and is still not high tech, and yet remains a great
-pedagogical approach, influential to the date. Developing problem-based
-learning took human ingenuity and insight, not getting hooked on an
-expensive technology of questionable value today, of dubious longevity,
-and that in the here and now is unarguably extractive, abusive, and
-exploitative, and that advances an agenda that can only be squared with
+learning was not and is still not high tech, and yet remains a
+remarkable pedagogical breakthrough, an approach that has stayed
+influential for decades. Developing problem-based learning took human
+ingenuity and insight. What the university is considering today is which
+of our core missions can we hitch to an expensive technology of
+questionable value today, of dubious longevity, and that in the here and
+now advances an agenda in education that can only be squared with
 “integrity, quality, and excellence” via fabulous contortions of the
 imagination.
 
 Does the university imagine that it will be best known in half a century
 as “McMaster, the institution that pioneered the use of ChatGPT”? Is
-that what it really wants? [Regression to the
-mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean), after
-all, is also called a “reversion to mediocrity” (Barnett 2017), and that
-is what an AI campus has to offer.
-
-I suggest that universities should avoid the mistakes of the media, an
-industry that has innovated itself [out of the trust of the
-public](https://reutersinstitute.politics.ox.ac.uk/news/julia-angwin-fears-public-sphere-about-get-worse-ai-makes-it-easier-flood-zone-misinformation)
-(also see the “pivot-to-video” and how tech companies suckered many
-media companies, including ). Tech corporations (or least ways some of
-them), can still hope to recoup some of their investment in AI. But a
-university gambles its most important asset when betting on AI: its
-reputation as a place were knowledge is created, and as a custodian of
-knowledge. AIs already have a reputation for producing mis- and
-disinformation–from the very titans of the field[^65] to the
-unaware[^66], and beyond, to bad-faith actors[^67]. In my view, there
-are no efficiencies, no promises of future excellence, that can
-compensate the risk of ruining an institutions reputation.
-
-Why? The reputational risk…universities are under siege from
-unsympathetic or actively hostile actors. Universities main source of
-power is their reputation as places that preserve and expand knowledge
-in a principled way. “This university uses ChatGPT” is a way to say that
-the university is redundant…an organization as expensive as an
-institution of higher-education is not needed when there are cheaper
-alternatives for such an education (“act in the next four days to proof
-yourself against layoffs!”): <!--
-![](images/trail-blazing-ai-bundle.png)
--->
-
-What do AIs do? For the province, the main patron and effectively the
-boss of McMaster, it provides a rationale (an excuse even) to force the
-institution to find “efficiencies”.
-
-## As an aside
-
-On antropomorphizing GenAI tools. This happens mostly in ways that are
-barely liminal. For example, in the document “Overview of AI at
-McMaster” we read that GenAI’s somehow have an “ability to engage in
-nuanced conversation”. This phrasing could be simply a literary device,
-but even so it is indicative of a tendency to ascribe human attributes
-to a statistical model. Doing this risks amplifying existing biases. But
-in other cases, the effort is more blatant. Wrapping a statistical model
-in a human-like skin may actually be more devious, as in the new, sexy
-ChatGPT interface:
-
-<video width="320" height="240" controls>
-<source src="video/open-ai-commercial.mp4" type="video/mp4">
-</video>
-
-**NOTES:** Need to research more the argument that the interface is so
-important in the case of these tools because what they do well is
-trivial and what they do poorly is what is being hyped. Found the
-article (Farrugia 2024); see here:
-<https://fasterandworse.com/known-purpose-and-trusted-potential/>
-
-Are GenAI reality-warping machines? Think about the small and large ways
-in which these tools can be used to rewrite history, for relatively
-banal commercial objectives (monetizing clicks) or worse, for malicious
-propaganda campaigns.
-
-**NOTE** Russia copied millions of articles from wikipedia wholesale, to
-replace the open encyclopedia with a home-grown version without all the
-bits that the current regime finds objectionable (Corfield 2023;
-Jankowicz 2023).
-
-> The first step in liquidating a people,’ said Hubl, ’is to erase its
-> memory. Destroy its books, its culture, its history. Then have
-> somebody write new books, manufacture a new culture, invent a new
-> history. Before long the nation will begin to forget what it is and
-> what it was. The world around it will forget even faster.  
-> -― Milan Kundera, The Book of Laughter and Forgetting
-
-Potential for weaponization of GenAI. **Farfetched (?) idea** Could it
-be that GenAI will be at some point declared a military-grade technology
-with restricted applications? (see
-<https://www.defenseone.com/technology/2024/05/ai-and-other-tech-creating-special-operations-renaissance/396388/>)
-
-Peter Thiel on “AI is a military technology”
-<https://www.businessinsider.com/peter-thiel-claim-ai-primarily-military-technology-experts-disagree-2019-8>
-
-AI industry and the military: Haskins (2024)
-
-## Bonus
+that what it really wants? All that AIs offer, after all, is a very
+sophisticated [regression to the
+mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean), which
+not by coincidence is also called a “reversion to mediocrity” (Barnett
+2017). We would do our students an unforgivable disservice by offering a
+skill that reversed them to mediocrity. “This university uses ChatGPT to
+teach” is simply a way of saying that we are too cheap to offer a
+human-centered education. But in truth, a university is too expensive an
+institution to be attractive under such conditions, when there are far
+cheaper alternatives for an AI-based education (“for only \$9.99 proof
+yourself against layoffs”).
 
 <div class="figure">
 
-<img src="README_files/figure-gfm/googly-eyes-1.png" alt="\label{fig:googly-ai-eyes}Figure 18. In conclusion" width="50%" />
+<img src="README_files/figure-gfm/ai-bundle-1.png" alt="\label{fig:trail-blazing-bundle}A trail-blazing bundle: ChatGPT for data science and data analysis in Python" width="110%" />
 <p class="caption">
-Figure 18. In conclusion
+A trail-blazing bundle: ChatGPT for data science and data analysis in
+Python
 </p>
 
 </div>
 
-## Notes
+Going down this path would be a regrettable mistake at a time when
+universities are under siege from unsympathetic or actively hostile
+actors, a university’s main source of authority is its reputation as a
+place that preserves and expands knowledge in a principled way.
+
+I suggest that universities would do well to avoid the mistakes of other
+sectors, including those in the media that have contributed to hype AI.
+The media is an industry that has innovated itself [out of the trust of
+the
+public](https://reutersinstitute.politics.ox.ac.uk/news/julia-angwin-fears-public-sphere-about-get-worse-ai-makes-it-easier-flood-zone-misinformation)
+\[also see the “pivot-to-video” and how tech companies suckered many
+media companies into giving them money in exchange for fake engagement
+statistics (Hazard Owen 2021).\]. Tech corporations (or at least some of
+them), can still hope to recoup some of the fabulous ammounts they have
+poured into AI. But a university gambles its most important asset when
+betting on AI: its reputation as a place were knowledge is created, and
+as a custodian of knowledge. AIs already have a reputation for producing
+mis- and disinformation–from the very titans of the field[^66] to the
+unaware[^67], and beyond, to bad-faith actors[^68].
+
+In my view, there are no efficiencies, no questionable promises of
+future excellence, that can compensate the one thing that makes a
+university stand tall among other institutions–its pursuit of
+innovation, yes, but above all of the truth, because what else is worth
+discovering, preserving, and communicating?
+
+<!--
+> Instead of working with cohorts of learners in grades or classes, individual learning agendas are developed based on an assessment of the skills, competencies and capabilities the learner already has as well as ongoing conversations about the purpose of the learning. Where does the student want the learning to take them? AI systems, coupled with coaching, mentoring and some instruction and peer support networks then ensure the learner is supported on the carefully mapped learning journey. Teaching can still take place: Students challenged with a set of related issues can be brought together for a boot camp or focused period of instruction before returning to their individualized study activities.
+&#10;>An end to “time” as a learning metric. Currently, undergraduate courses are described in terms of credit hours. Learning and assessment on demand, fast-tracking or slow-tracking using adaptive assessment, and modular learning when the student is ready liberates learners from the time-based metric.
+&#10;> An end to exams as we know them. Exams are an efficient way to judge the output of batch teaching but are not good indicators of learner knowledge, skills and capabilities. With AI-enabled assessment generation, automated marking and assessment on demand, exams are no longer needed. More authentic assessments that are project-based, team challenges, work-based learning activities, and student self-directed projects can become the norm.
+&#10;>Increased feedback and advising. AI systems do not have “office hours.” They are available 24x7 and never tire of finding new ways of responding to student queries and needs.Subject focused chatbots which have been “fed” all necessary information about a subject will do an excellent job of subject-matter advising and teaching.  Analytics suggest that some students need to be supported by teachers or others with special skills, such as writing coaches, statistical support workers and numeracy advisors. The aim will be to ensure every learner follows and is successful in the learning journey they have contracted to complete.
+&#10;> Greater accessibility. Higher education systems are organized around blocks of time: semesters or terms. There is no longer good reason for this. Students should be able to begin their learning at any time and be assessed when they are ready. A four-year undergraduate degree could easily be completed in 16 months by a diligent student, for example, or in even less time by someone arriving in the program with substantial life and work experience. AI systems can also leverage technologies to ensure the resources and supports for learners reflect who they are (culture, language, experience and skill) and what challenges they face (disabilities, learning styles, etc.).
+&#10;
+&#10;## As an aside {#as-an-aside}
+&#10;On antropomorphizing GenAI tools. This happens mostly in ways that are barely liminal. For example, in the document "Overview of AI at McMaster" we read that GenAI's somehow have an "ability to engage in nuanced conversation". This phrasing could be simply a literary device, but even so it is indicative of a tendency to ascribe human attributes to a statistical model. Doing this risks amplifying existing biases. But in other cases, the effort is more blatant. Wrapping a statistical model in a human-like skin may actually be more devious, as in the new, sexy ChatGPT interface:
+&#10;<video width="320" height="240" controls>
+<source src="video/open-ai-commercial.mp4" type="video/mp4">
+</video>
+&#10;**NOTES:** Need to research more the argument that the interface is so important in the case of these tools because what they do well is trivial and what they do poorly is what is being hyped. Found the article [@farrugia_known_2024]; see here: https://fasterandworse.com/known-purpose-and-trusted-potential/ 
+&#10;
+&#10;Are GenAI reality-warping machines? Think about the small and large ways in which these tools can be used to rewrite history, for relatively banal commercial objectives (monetizing clicks) or worse, for malicious propaganda campaigns. 
+&#10;**NOTE** Russia copied millions of articles from wikipedia wholesale, to replace the open encyclopedia with a home-grown version without all the bits that the current regime finds objectionable [@corfield_russia_2023; @jankowicz_russia_2023].
+&#10;>The first step in liquidating a people,' said Hubl, 'is to erase its memory. Destroy its books, its culture, its history. Then have somebody write new books, manufacture a new culture, invent a new history. Before long the nation will begin to forget what it is and what it was. The world around it will forget even faster.  
+>-― Milan Kundera, The Book of Laughter and Forgetting
+&#10;Potential for weaponization of GenAI. **Farfetched (?) idea** Could it be that GenAI will be at some point declared a military-grade technology with restricted applications? (see https://www.defenseone.com/technology/2024/05/ai-and-other-tech-creating-special-operations-renaissance/396388/)
+&#10;Peter Thiel on "AI is a military technology" https://www.businessinsider.com/peter-thiel-claim-ai-primarily-military-technology-experts-disagree-2019-8
+&#10;AI industry and the military: @haskins_im_2024
+-->
+
+## Appendices
 
 ### AI Committee announcement
 
@@ -1726,14 +1615,6 @@ Yaser Mohammed Al-Worafi, 1–48. Cham: Springer International Publishing.
 Angwin, Julia. 2024. “Press Pause on the Silicon Valley Hype Machine.”
 *The New York Times*, May.
 <https://www.nytimes.com/2024/05/15/opinion/artificial-intelligence-ai-openai-chatgpt-overrated-hype.html>.
-
-</div>
-
-<div id="ref-angwin_seeking_2024" class="csl-entry">
-
-Angwin, Julia, Alondra Nelson, and Rina Palta. 2024. “Seeking Reliable
-Election Information? Don’t Trust AI.” *Proof*.
-<https://www.proofnews.org/seeking-election-information-dont-trust-ai/>.
 
 </div>
 
@@ -1866,14 +1747,6 @@ Script).” *Forbes*.
 
 </div>
 
-<div id="ref-corfield_russia_2023" class="csl-entry">
-
-Corfield, Gareth. 2023. “Russia Launches Wikipedia Rival in New
-Censorship Crackdown.” *The Telegraph*, July.
-<https://www.telegraph.co.uk/business/2023/07/12/russia-rival-wikipedia-censorship-crackdown-ruwiki/>.
-
-</div>
-
 <div id="ref-cowen_chatgpt_2023" class="csl-entry">
 
 Cowen, Tyler. 2023. “ChatGPT Is Also an Impressive Feat of Marketing.”
@@ -1921,14 +1794,6 @@ Structure, Properties, Production, and Oil & Gas Applications of
 Graphene and Its Nanoribbons − A Comprehensive Review.” *Geoenergy
 Science and Engineering* 231 (December): 212416.
 <https://doi.org/10.1016/j.geoen.2023.212416>.
-
-</div>
-
-<div id="ref-farrugia_known_2024" class="csl-entry">
-
-Farrugia, Stephen. 2024. “Known Purpose and Trusted Potential.” *Faster
-and Worse*.
-<https://fasterandworse.com/known-purpose-and-trusted-potential/>.
 
 </div>
 
@@ -2022,23 +1887,6 @@ Prevent Them Being Used to Train ChatGPT.” *Tom’s Hardware*.
 
 </div>
 
-<div id="ref-hao_hidden_2023" class="csl-entry">
-
-Hao, Karen. 2023. “The Hidden Workforce That Helped Filter Violence and
-Abuse Out of ChatGPT - The Journal. - WSJ Podcasts.” *WSJ*.
-<https://www.wsj.com/podcasts/the-journal/the-hidden-workforce-that-helped-filter-violence-and-abuse-out-of-chatgpt/ffc2427f-bdd8-47b7-9a4b-27e7267cf413>.
-
-</div>
-
-<div id="ref-haskins_im_2024" class="csl-entry">
-
-Haskins, Caroline. 2024. “‘I’m the New Oppenheimer!’: My Soul-Destroying
-Day at Palantir’s First-Ever AI Warfare Conference.” *The Guardian*,
-May.
-<https://www.theguardian.com/technology/article/2024/may/17/ai-weapons-palantir-war-technology>.
-
-</div>
-
 <div id="ref-hawkins_race_2023" class="csl-entry">
 
 Hawkins, Ian, Jessica Roden, Miriam Attal, and Haleemah Aqel. 2023.
@@ -2046,6 +1894,14 @@ Hawkins, Ian, Jessica Roden, Miriam Attal, and Haleemah Aqel. 2023.
 Perceptions of Incivility and Content Moderation on Social Media.”
 *Journal of Communication* 73 (6): 539–51.
 <https://doi.org/10.1093/joc/jqad023>.
+
+</div>
+
+<div id="ref-hazard_owen_facebooks_2021" class="csl-entry">
+
+Hazard Owen, Laura. 2021. “Facebook’s Pivot to Video Didn’t Just Burn
+Publishers. It Didn’t Even Work for Facebook.” *Nieman Lab*.
+<https://www.niemanlab.org/2021/09/well-this-puts-a-nail-in-the-news-video-on-facebook-coffin/>.
 
 </div>
 
@@ -2116,15 +1972,6 @@ IBM. 2021a. “Automatic AI Code Development with the CodeNet Dataset.”
 
 ———. 2023. “What Are Large Language Models (LLMs)?”
 <https://www.ibm.com/topics/large-language-models>.
-
-</div>
-
-<div id="ref-jankowicz_russia_2023" class="csl-entry">
-
-Jankowicz, Mia. 2023. “Russia Has Launched Its Own Version of Wikipedia,
-Called Ruwiki, Which Is Notably More Sympathetic to Putin.” *Business
-Insider*.
-<https://www.businessinsider.com/ruwiki-putin-friendly-version-of-wikipedia-launched-in-russia-2023-7>.
 
 </div>
 
@@ -2229,6 +2076,16 @@ Power of Green Energy in Soil Remediation for a Sustainable Future.”
 Lock, Samantha. 2022. “What Is AI Chatbot Phenomenon ChatGPT and Could
 It Replace Humans?” *The Guardian*.
 <https://web.archive.org/web/20230116100346/https://www.theguardian.com/technology/2022/dec/05/what-is-ai-chatbot-phenomenon-chatgpt-and-could-it-replace-humans>.
+
+</div>
+
+<div id="ref-luccioni_power_2024" class="csl-entry">
+
+Luccioni, Sasha, Yacine Jernite, and Emma Strubell. 2024. “Power Hungry
+Processing: Watts Driving the Cost of AI Deployment?” In *Proceedings of
+the 2024 ACM Conference on Fairness, Accountability, and Transparency*,
+85–99. FAccT ’24. New York, NY, USA: Association for Computing
+Machinery. <https://doi.org/10.1145/3630106.3658542>.
 
 </div>
 
@@ -2351,14 +2208,6 @@ for Labor Protections.” *Washington Post*, May.
 Noble, Safiya Umoja. 2018. “Algorithms of Oppression: How Search Engines
 Reinforce Racism.” In *Algorithms of Oppression*. New York University
 Press. <https://doi.org/10.18574/nyu/9781479833641.001.0001>.
-
-</div>
-
-<div id="ref-norem_intels_2023" class="csl-entry">
-
-Norem, Josh. 2023. “Intel’s GPU Drivers Now Collect Telemetry, Including
-’How You Use Your Computer’.” *ExtremeTech*.
-<https://www.extremetech.com/gaming/intels-gpu-drivers-now-collect-telemetry-including-how-you-use-your-computer>.
 
 </div>
 
@@ -2828,12 +2677,11 @@ April, A13.
 
 </div>
 
-<div id="ref-williams_exploited_2022" class="csl-entry">
+<div id="ref-weatherbed_adobes_2024" class="csl-entry">
 
-Williams, Adrienne, Milagros Miceli, and Timnit Gebru. 2022. “The
-Exploited Labor Behind Artificial Intelligence.” *Noema Magazine*,
-October.
-<https://www.noemamag.com/the-exploited-labor-behind-artificial-intelligence>.
+Weatherbed, Jess. 2024. “Adobe’s TOS ‘Update’ Isn’t the Problem — It’s
+Trust.” *The Verge*.
+<https://www.theverge.com/2024/6/7/24173838/adobe-tos-update-firefly-generative-ai-trust>.
 
 </div>
 
@@ -2998,7 +2846,7 @@ and Interfaces* 46 (March): 104081.
     disinformation, flooding the zone at a rate that humans cannot hope
     to counteract (Maiberg 2024b).
 
-[^20]: I have already spent more than 80 hours working on this essay,
+[^20]: I have already spent more than 90 hours working on this essay,
     and it is still nowhere in the vicinity of being an exhaustive
     apology or indictment of AI.
 
@@ -3059,9 +2907,9 @@ and Interfaces* 46 (March): 104081.
     the human inclination to favor suggestions made by automated
     decision-making systems, means that even when a human takes
     responsibility for decisions, AI companies remain unaccountable for
-    their role in influencing outcomes. A poignant example involving
-    AI-based face recognition and online proctoring is related by Hill
-    (2022).
+    their role in influencing outcomes[^69]. A poignant example
+    involving AI-based face recognition and online proctoring is related
+    by Hill (2022).
 
 [^29]: Drs. Eric Mollick and Lilach Mollick are members of Wharton
     Interactive in the business school of the University of
@@ -3193,11 +3041,14 @@ and Interfaces* 46 (March): 104081.
     speech intended to persuade without regards to the truth (Frankfurt
     2005). AIs, lacking intent, do not lie–but they do bullshit.
 
-[^46]: Some observers have even wondered whether the AI fever is not
-    actually becoming detrimental to innovation (Siegel 2023; Vinsel
+[^46]: When the alternative is substandard quality of life for many of
+    our fellow citizens, and/or higher unemployment.
+
+[^47]: Some observers have even wondered whether the AI fever has not
+    actually become detrimental to innovation (Siegel 2023; Vinsel
     2023).
 
-[^47]: For perspective, Ontario’s Ministry of Colleges and Universities,
+[^48]: For perspective, Ontario’s Ministry of Colleges and Universities,
     whose mission includes supporting “research and innovation to help
     the province compete and thrive in the global economy”, spent
     \$163,482,281 (CAD) on its research program in 2021-2022 (Ontario
@@ -3205,30 +3056,30 @@ and Interfaces* 46 (March): 104081.
     that barely registers compared to venture capital investments in AI
     in 2020 alone.
 
-[^48]: As if any other signs were needed of the scammy environment in
+[^49]: As if any other signs were needed of the scammy environment in
     which GenAI tech thrives, Berber (2024) also reports how Cognition,
     a startup backed by Peter Thiel, pivoted from cryptocurrency to AI,
     coincidentally as cryptocurrency was going sour after the frauds at
     FTX were revealed. Barely disguised grift has grown abundant in the
     vicinity of AI at almost every level (Cook 2024).
 
-[^49]: And, with profitability increasingly looking like a distant
+[^50]: And, with profitability increasingly looking like a distant
     possibility, there is always the option for large investors to
     cosmically inflate the hype (Salmon 2024) in order to convince
     bigger suckers to give them money (Reuters 2024) and/or to fleece
     retail investors (Temkin 2024).
 
-[^50]: Universities, rather than being innovators, have increasingly
+[^51]: Universities, rather than being innovators, have increasingly
     become renters in the land of the platform economy (Komljenovic
     2021).
 
-[^51]: Altman’s denials that OpenAI had not used Ms. Johansson’s voice
+[^52]: Altman’s denials that OpenAI had not used Ms. Johansson’s voice
     sounded hollow, after he
     [posted](https://x.com/sama/status/1790075827666796666) on social
     media the word “her” at the time the new version of ChatGPT was
     announced.
 
-[^52]: A group that author Charles Stross colorfully
+[^53]: A group that author Charles Stross colorfully
     [characterizes](https://www.antipope.org/charlie/blog-static/2024/04/the-radiant-future-of-1995.html)
     as “fascist-adjacent straight white males with an unadmitted
     political agenda”. This characterization is somewhat unfair: both
@@ -3245,7 +3096,7 @@ and Interfaces* 46 (March): 104081.
     defending the vandals who terrorized Ottawa in 2022 (Henderson,
     Klayman, and Scherer 2022).
 
-[^53]: A quick summary of these beliefs is that humans (or at lest some
+[^54]: A quick summary of these beliefs is that humans (or at lest some
     of them, those who can afford to do so) are destined to use
     technology to indefinitely extend life and conquer the stars…but
     maybe not before super-intelligent AIs destroy humanity. Just in
@@ -3253,11 +3104,11 @@ and Interfaces* 46 (March): 104081.
     suitable [escape
     plans](https://www.theguardian.com/news/2018/feb/15/why-silicon-valley-billionaires-are-prepping-for-the-apocalypse-in-new-zealand).
 
-[^54]: A movement exposed to the harsh light of public opinion for being
+[^55]: A movement exposed to the harsh light of public opinion for being
     the philosophy espoused by convicted fraudster and money launderer
     Sam Bankman-Fried (Crook 2023).
 
-[^55]: A drastic form of utilitarianism convinced that the well-being of
+[^56]: A drastic form of utilitarianism convinced that the well-being of
     trillions of humans in an imagined distant, star-faring future, is
     well worth the sacrifices of a few billions of humans today.
     Curiously, the contribution of the titans of technology promoting AI
@@ -3266,7 +3117,7 @@ and Interfaces* 46 (March): 104081.
     some of us will suffer and die–but that is a sacrifice that wealthy
     and well connected longtermists are willing to make.
 
-[^56]: Accusing the critics of being conspiracy theorists, as Sennesh
+[^57]: Accusing the critics of being conspiracy theorists, as Sennesh
     and Hughes (2023) do, distracts from the fact that there is no
     dearth of leftist ideas for a more just future; intellectual poverty
     is not what is at stake, instead a key difference is that
@@ -3274,11 +3125,11 @@ and Interfaces* 46 (March): 104081.
     behind them. This is in contrast to, say, effective altruism
     (Matthews 2022).
 
-[^57]: After Meta disbanded its Responsible AI Division, the company
+[^58]: After Meta disbanded its Responsible AI Division, the company
     formed an AI advisory council composed of four very wealthy white
     men (Davis, Silberling, and Wiggers 2024; Goel 2024).
 
-[^58]: Online Russian disinformation has already had a wide reach
+[^59]: Online Russian disinformation has already had a wide reach
     (Treyger, Cheravitch, and Cohen 2022) and furthermore is known to
     operate by seeding distrust between ethnic communities (Švedkauskas,
     Sirikupt, and Salzer 2020). A U.S. Department of State report notes
@@ -3288,12 +3139,12 @@ and Interfaces* 46 (March): 104081.
     groups” to destabilize internal U.S. politics (U.S. Department of
     State 2024, 51).
 
-[^59]: This is part of the Unfathomable Data problem discussed by Bender
+[^60]: This is part of the Unfathomable Data problem discussed by Bender
     et al. (2021). In this way, AIs, rather than contributing to online
     safety, may end up amplifying the legacy of Russian interference
     (Švedkauskas, Sirikupt, and Salzer 2020).
 
-[^60]: According to the Center for Countering Digital Hate, platforms
+[^61]: According to the Center for Countering Digital Hate, platforms
     like facebook, Instagram, Tiktok, Twitter, and YouTube, failed to
     act 84% of the time on hundreds of posts that had millions of views,
     with facebook being the worst performer (Center for Countering
@@ -3301,7 +3152,7 @@ and Interfaces* 46 (March): 104081.
     feature, as Meta’s supression of information about Gaza in 2024
     shows (Paul, DiNapoli, and DiNapoli 2024).
 
-[^61]: A report by the Center for Countering Digital Hate found that
+[^62]: A report by the Center for Countering Digital Hate found that
     Google’s Bard generated wrong and/or hateful outputs in 78 out of
     100 tests (Center for Countering Digital Hate 2023). In addition to
     being misleading to the unadvised, AI is also a fantastic tool ripe
@@ -3310,11 +3161,11 @@ and Interfaces* 46 (March): 104081.
     easier to produce disinformation with AI, than it is to use AI to
     combat it (Maiberg 2024b).
 
-[^62]: Like in the case of [Google’s
+[^63]: Like in the case of [Google’s
     response](https://blog.google/products/search/ai-overviews-update-may-2024/)
     to the poor quality of its recently launched AI overviews.
 
-[^63]: VandeHei and Allen (2024) write in Axios about an “ominous
+[^64]: VandeHei and Allen (2024) write in Axios about an “ominous
     scarcity” of inputs that threatens America’s AI superiority over
     China. These authors, whose one true expertise is access journalism,
     never stop to consider why an authoritarian regime might want to
@@ -3325,17 +3176,17 @@ and Interfaces* 46 (March): 104081.
     ordinary, the unprepared in media” (Robertson 2024). Who is
     concerned about maintaining an edge?
 
-[^64]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
+[^65]: Bob Woodward said “journalism is not stenography” (Hiskes 2007),
     but it is difficult to see what else writing like Roose’s (2024)
     could be called, besides hagiography.
 
-[^65]: Entities like Google and Amazon could not care less about their
+[^66]: Entities like Google and Amazon could not care less about their
     reputation. They are [too
     big](https://www.businessinsider.com/ex-amazon-ghaderi-exec-suing-ai-race-copyright-allegations-2024)
     [to
     care](https://pluralistic.net/2024/04/04/teach-me-how-to-shruggie/).
 
-[^66]: Like a B.C. lawyer who was
+[^67]: Like a B.C. lawyer who was
     [reprimanded](https://www.cbc.ca/news/canada/british-columbia/lawyer-chatgpt-fake-precedent-1.7126393)
     for using AI hallucinations in a legal filing. This was not even the
     first time that supposedly highly skilled professionals were
@@ -3343,6 +3194,6 @@ and Interfaces* 46 (March): 104081.
     [using](https://www.washingtonpost.com/technology/2023/11/16/chatgpt-lawyer-fired-ai/)
     [chatbots](https://www.reuters.com/legal/new-york-lawyers-sanctioned-using-fake-chatgpt-cases-legal-brief-2023-06-22/).
 
-[^67]: Like rival geopolitical powers that are relatively impervious to
+[^68]: Like rival geopolitical powers that are relatively impervious to
     propaganda themselves for reason of being [authoritarian
     countries](https://www.theatlantic.com/magazine/archive/2024/06/china-russia-republican-party-relations/678271/).
