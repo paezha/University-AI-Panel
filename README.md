@@ -663,7 +663,9 @@ aspect about getting feedback from an AI…who, actually, provides the
 feedback in this case? Whose data are used to train the machine that
 provides the feedback? Who fine-tunes the machine that provides the
 feedback? Whose perspectives and views are used to provide the feedback,
-and can they ever be accountable for the feedback provided[^28]?
+and can they ever be accountable for the feedback provided[^28]? A
+poignant example involving AI-based face recognition and online
+proctoring is related by Hill (2022).
 
 - Personalized learning
 
@@ -1376,8 +1378,8 @@ discredited, by the current hype around Generative AI. This hype has
 been carefully manufactured (Morrone 2024), and has been amplified by
 media tools that have been more than willing to believe in magic beans
 (Burneko 2024)[^65]. There are now calls to press pause on the hype
-(Angwin 2024) but they are barely audible above the reverberating echos
-inside the AI hype chamber.
+(Angwin 2024) but these voices are barely audible above the thundering
+echos inside the AI hype chamber.
 
 Universities and colleges would be wise to heed the advice to press the
 pause button on the AI hype, as there is a real risk of them falling
@@ -2907,9 +2909,11 @@ and Interfaces* 46 (March): 104081.
     the human inclination to favor suggestions made by automated
     decision-making systems, means that even when a human takes
     responsibility for decisions, AI companies remain unaccountable for
-    their role in influencing outcomes[^69]. A poignant example
-    involving AI-based face recognition and online proctoring is related
-    by Hill (2022).
+    their role in influencing outcomes. GenAI is not a toy, as Air
+    Canada discovered when the company was found liable for “negligent
+    misrepresentation”, after a court denied claims by the airline that
+    the chatbot it deployed was somehow responsible for its own actions
+    as an effectively separate legal entity (Garcia 2024).
 
 [^29]: Drs. Eric Mollick and Lilach Mollick are members of Wharton
     Interactive in the business school of the University of
