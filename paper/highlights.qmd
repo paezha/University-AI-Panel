@@ -1,0 +1,13 @@
+---
+title: "An AI is Haunting Campus: A Call for Human-Centered Higher Education"
+subtitle: "Highlights"
+format: docx
+---
+
+- AI has been presented as an _everything tool_ in higher education
+- AIs are regression models: they use inputs to regress to a probable output, i.e., a mean 
+- AIs cannot achieve the variety of tasks that are promised without compromising the values of universities
+- Students are poorly served by all the attention paid to AIs
+- AIs are poor complements to a human-centered education
+
+

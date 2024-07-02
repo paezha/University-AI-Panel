@@ -1,0 +1,17 @@
+---
+title: "An AI is Haunting Campus: A Call for Human-Centered Higher Education"
+author: Antonio Páez
+format: docx
+---
+
+- orcid: 0000-0001-6912-9919
+- email: paezha@mcmaster.ca
+- department: School of Earth, Environment and Society
+- university: McMaster University
+- address: 1280 Main St W, Hamilton, ON, L8S 4K1 Canada
+
+**Abstract**
+
+AIs have been deliberately presented as everything tools that can do a fabulous array of tasks in higher education. This presentation is misleading, and there is a need to examine the claims about what AIs can do and what they actually do in the context of teaching and learning.  In this paper I show how discussions about AI hinge on making a large number of unverified claims (Gish Gallop) while presenting the technology as inevitable (a False Dilemma). However, once we examine what the technology does, and particularly what it does to whom and for whom, widespread adoption of AI in teaching and learning is inimical to the principles that most institutions of higher education claim to hold dear.
+
+
