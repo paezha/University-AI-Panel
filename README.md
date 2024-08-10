@@ -47,12 +47,13 @@ On November 30, 2022, OpenAI released what became its flagship product,
 [Large Language
 Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs)
 designed and trained to mimic natural language. The launch of the
-chatbot was an impressive feat of marketing (Cowen 2023), and it took
-less than two weeks for the hype to reach stratospheric levels: by early
-December, ChatGPT was being panned as “the best artificial intelligence
-chatbot ever released to the general public” (Roose 2023), and a tool
-able to generate “impressively detailed” and “human-like” text, leading
-some to wonder whether it could “replace humans” (Lock 2022).
+chatbot was an impressive feat of marketing (Cowen 2023). It took less
+than two weeks for the hype to reach stratospheric levels, and by early
+December it had opinion-makers raving: not only was ChatGPT “the best
+artificial intelligence chatbot ever released to the general public”
+(Roose 2023), some wondered whether it could even “replace humans” with
+its “impressively detailed” and “human-like” text “replace humans” (Lock
+2022).
 
 Universities, much like every other organization dealing with
 information, had to respond in a compressed span of time to the rapid
@@ -1784,7 +1785,7 @@ Davis, Dominic-Madori, Amanda Silberling, and Kyle Wiggers. 2024.
 <div id="ref-dorey_driving_2023" class="csl-entry">
 
 Dorey, Jesse. 2023. “Driving Change: Rethinking Mobility to Build the
-Transportation System of the Future.”
+Transportation System of the Future.” *Brighter World*.
 <https://brighterworld.mcmaster.ca/articles/emadi-marc-cubic-partnership/>.
 
 </div>
@@ -2222,16 +2223,6 @@ Rory O’Connell, Colin Harvey, eds. Rochester, NY: Hart Publishing.
 
 </div>
 
-<div id="ref-office_of_teaching_and_learning_provisional_2023"
-class="csl-entry">
-
-Office of Teaching and Learning, University of Guelph. 2023.
-“Provisional Recommendations for the Use of Generative AI Office of
-Teaching and Learning.”
-<https://otl.uoguelph.ca/teaching-assessment-resources/teaching-context-ai/provisional-recommendations-use-generative-ai>.
-
-</div>
-
 <div id="ref-ontario_ministry_of_colleges_and_universities_expenditure_2023"
 class="csl-entry">
 
@@ -2608,6 +2599,16 @@ Phone? I Asked Tim Cook.” *Washington Post*, June.
 Tyton Partners. 2023. “Generative AI in Higher Education: Fall 2023
 Update of Time For Class Study.”
 <https://tytonpartners.com/app/uploads/2023/10/GenAI-IN-HIGHER-EDUCATION-FALL-2023-UPDATE-TIME-FOR-CLASS-STUDY.pdf>.
+
+</div>
+
+<div id="ref-office_of_teaching_and_learning_provisional_2023"
+class="csl-entry">
+
+University of Guelph, Office of Teaching and Learning. 2023.
+“Provisional Recommendations for the Use of Generative AI Office of
+Teaching and Learning.”
+<https://otl.uoguelph.ca/teaching-assessment-resources/teaching-context-ai/provisional-recommendations-use-generative-ai>.
 
 </div>
 
