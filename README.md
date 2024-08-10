@@ -51,9 +51,8 @@ chatbot was an impressive feat of marketing (Cowen 2023). It took less
 than two weeks for the hype to reach stratospheric levels, and by early
 December it had opinion-makers raving: not only was ChatGPT “the best
 artificial intelligence chatbot ever released to the general public”
-(Roose 2023), some wondered whether it could even “replace humans” with
-its “impressively detailed” and “human-like” text “replace humans” (Lock
-2022).
+(Roose 2023), some even wondered whether it could “replace humans” with
+its “impressively detailed” and “human-like” text (Lock 2022).
 
 Universities, much like every other organization dealing with
 information, had to respond in a compressed span of time to the rapid
