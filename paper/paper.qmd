@@ -23,6 +23,10 @@ library(magick) # Advanced Graphics and Image-Processing in R
 library(neuralnet) # Training of Neural Networks
 ```
 
+## Abstract
+
+The use of Generative Artificial Intelligence (AI) in higher education has been a sensational topic since the launch of ChatGPT and similar tools. AI has been presented as an everything tool that can do a fabulous array of tasks, from creating content to grading to providing feedback to students. This presentation of AI is misleading, and there is a need to examine the claims about what the technology can do and what it actually does in the context of teaching and learning. In this paper I scan the academic and gray literature, along with media reports regarding AI, to show how discussions about AI hinge on making a large number of unverified claims (Gish Gallop) while presenting the technology as inevitable (a False Dilemma). However, once we examine what AI does, and particularly what it does for whom and to whom, a picture emerges of a technology that is intrinsically inimical to the principles that most institutions of higher education claim to hold dear, including the best interest of their students.
+
 ## Introduction
 
 On November 30, 2022, OpenAI released what became its flagship product, [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT), a chatbot based on [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs) designed and trained to mimic natural language. The launch of the chatbot was an impressive feat of marketing [@cowen_chatgpt_2023], and it took less than two weeks for the hype to reach stratospheric levels [@roose_brilliance_2023; @lock_what_2022]. Soon after, seemingly everyone wanted in on the Generative AI (GenAI) craze^[The pattern of cyclical hypes around AI even has a name: [AI winters](https://en.wikipedia.org/wiki/AI_winter); the current one, with chatbots playing the loudest horn atop the bandwagon, is just the most recent cycle of hype [see @siegel_ai_2023].], and no surprise, given how the technology was hailed as nothing short of revolutionary. 
