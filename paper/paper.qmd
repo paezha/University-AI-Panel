@@ -1,5 +1,5 @@
 ---
-title: "An AI is Haunting Campus^[Karl Marx wrote about a \"spectre...haunting Europe--the spectre of communism\"; GenAI looks awfully like the spectre of unregulated surveillance capitalism.]: A Call for Human-Centered Higher Education"
+title: "An AI is Haunting Campus^[Karl Marx wrote about a \"spectre...haunting Europe--the spectre of communism\"; GenAI looks awfully like the spectre of unregulated surveillance capitalism.]: What Role for the Human in Higher Education?"
 format: docx
 bibliography:
   - "`r system('kpsewhich ../bibliography/bibliography.bib', intern=TRUE)`"
