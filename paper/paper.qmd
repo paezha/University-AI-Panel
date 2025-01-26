@@ -25,7 +25,7 @@ library(neuralnet) # Training of Neural Networks
 
 ## Abstract
 
-The use of Generative Artificial Intelligence (AI) in higher education has been a sensational topic since the launch of ChatGPT and similar tools. AI has been presented as an everything tool that can do a fabulous array of tasks, from creating content to grading to providing feedback to students. This presentation of AI is misleading, and there is a need to examine the claims about what the technology can do and what it actually does in the context of teaching and learning. In this essay I scan the academic and gray literature, along with media reports regarding AI, to show how discussions about AI hinge on making a large number of unverified claims (Gish Gallop) while presenting the technology as inevitable (a False Dilemma). However, once we examine what AI does, and particularly what it does for whom and to whom, a picture emerges of a technology that is intrinsically inimical to the principles that most institutions of higher education claim to hold dear, including the best interest of their students.
+The use of Generative Artificial Intelligence (AI) in higher education has become a sensational topic. AI has been presented as an everything tool that can do a fabulous array of tasks, from creating content to grading to providing feedback to students. This presentation of AI is misleading, and there is a need to examine the claims about what the technology can do and what it actually does in the context of teaching and learning. In this essay I scan the academic and gray literature, along with media reports regarding AI, to show how discussions about AI hinge on making a large number of unverified claims (Gish Gallop) while presenting the technology as inevitable (a False Dilemma). However, once we examine what AI does, and particularly what it does for whom and to whom, a picture emerges of a technology that is intrinsically inimical to the principles that most institutions of higher education claim to hold dear, including the best interest of their students.
 
 ## Introduction
 
@@ -213,7 +213,7 @@ df_pred_all <- rbind(df_pred_all |>
                    select(x, y, type))
 ```
 
-Unlike a linear regression model, the predictions of the neural network can be non-linear (@fig-data-vs-preds-02 ). This flexibility is achieved by being a less parsimonious model (it uses more parameters).  
+Unlike a linear regression model, the predictions of the neural network can be non-linear (@fig-data-vs-preds-02). This flexibility is achieved by being a less parsimonious model (it uses more parameters).  
 
 ```{r data-vs-predictions-comparison-2, out.width="70%", fig.cap="Training data and model outputs compared: linear regression and shallow neural network"}
 #| label: fig-data-vs-preds-02

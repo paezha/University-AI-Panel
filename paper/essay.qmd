@@ -1,0 +1,229 @@
+---
+title: "An AI is Haunting Campus^[Karl Marx wrote about a \"spectre...haunting Europe--the spectre of communism\"; GenAI looks awfully like the spectre of unregulated surveillance capitalism.]"
+format: docx
+bibliography:
+  - "`r system('kpsewhich ../bibliography/bibliography.bib', intern=TRUE)`"
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  cache = TRUE,
+  collapse = TRUE,
+  comment = "#>",
+  echo = FALSE
+)
+```
+
+```{r include=FALSE}
+library(cowplot) # Streamlined Plot Theme and Plot Annotations for 'ggplot2'
+library(dplyr) # A Grammar of Data Manipulation
+library(ggplot2) # Create Elegant Data Visualisations Using the Grammar of Graphics
+library(knitr)
+library(magick) # Advanced Graphics and Image-Processing in R
+library(neuralnet) # Training of Neural Networks
+```
+
+<!--
+ABSTRACT
+The use of Generative Artificial Intelligence (AI) in higher education has become a sensational topic. AI has been presented as an everything tool that can do a fabulous array of tasks, from creating content to grading to providing feedback to students. This presentation of AI is misleading, and there is a need to examine the claims about what the technology can do and what it actually does in the context of teaching and learning. In this essay I scan the academic and gray literature, along with media reports regarding AI, to show how discussions about AI hinge on making a large number of unverified claims (Gish Gallop) while presenting the technology as inevitable (a False Dilemma). However, once we examine what AI does, and particularly what it does for whom and to whom, a picture emerges of a technology that is intrinsically inimical to the principles that most institutions of higher education claim to hold dear, including the best interest of their students.
+-->
+
+## Introduction
+
+On November 30, 2022, OpenAI released what became its flagship product, [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT), a chatbot based on [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs) designed and trained to mimic natural language. The launch of the chatbot was an impressive feat of marketing [@cowen_chatgpt_2023], and it took less than two weeks for the hype to reach stratospheric levels [@roose_brilliance_2023; @lock_what_2022]. Soon after, everyone wanted in on the Generative AI (GenAI) craze^[The pattern of cyclical hypes around AI even has a name: [AI winters](https://en.wikipedia.org/wiki/AI_winter); the current one, with chatbots leading the parade, is just the most recent cycle of hype [see @siegel_ai_2023].]. 
+
+AI is painted as revolutionary in education: an _innovative_ and _exciting_ technology, that moreover can lead to juicy _efficiencies_^["Efficiencies" being an euphemism for cutting costs [@oconnell_let_2012, p. 64], usually by finding "redundancies" rather than better things for people to do.]. Higher education institutions were compelled to get in on the act, forming high-level advisory committees and drafting guidelines for university communities to leverage AI [e.g., @office_of_teaching_and_learning_provisional_2023; @mcmaster_university_provisional_2024; @trent_university_generative_2024; @university_of_toronto_ai_2024].
+
+Among the thousands of other tools used in universities, just what is it about AIs that requires pan-university consultations on how to use them? To understand why practically every institution of higher education has decided to spend considerable resources studying the adoption and responsible use of AI, one needs to understand what the technology claims to do that sets it apart from other tools--and then, also examine what it actually does. 
+
+In doing this, we must remain alert to the fact that technologies are never politically neutral, and two questions must be asked:
+
+- What does a specific technology do for whom?
+
+- And what does it do to whom?
+
+As well, we need to understand the character of the organization that considers the use of the technology.
+
+This essay examines claims about the uses of GenAIs in education, a sober assessment of what they actually do, while keeping in mind the mission of nominally principled organizations. I conclude that promises about GenAI are overstated and unlikely to be met, and that current AIs are antithetical to the values that universities claim to hold dear.
+
+# The mission {#the-mission}
+
+Universities pride themselves of serving "the social, cultural, and economic needs of [their] community and [their] society" [@office_of_the_president_mcmaster_university_mission_2024]; of striving "to make valued and socially responsible contributions to our local communities, to Canada, and to the world" [@trent_university_vision_2024]; and of "[serving] society and...[enhancing] the quality of life through scholarship" [@university_of_guelph_mission_2024]. 
+
+These goals are achieved through "the discovery, communication and preservation of knowledge" [@office_of_the_president_mcmaster_university_mission_2024]; a dedication "to fostering an academic community in which the learning and scholarship of every member may flourish" [@the_office_of_the_governing_council_secretariat_institutional_1992]; by "[encouraging] and [celebrating] excellence and innovation in teaching, learning, research and student development" [@trent_university_vision_2024]; and with a determination "to put the learner at the centre of all [the university] does" [@university_of_guelph_mission_2024].
+
+Unprincipled organizations need not question their choices of technology--as long as the technology advances whatever their goal might be at any moment. But universities aim to achieve their mission while adhering to "integrity, quality, inclusiveness and teamwork" [@office_of_the_president_mcmaster_university_mission_2024]; with "vigilant protection for individual human rights, and a resolute commitment to the principles of equal opportunity, equity and justice" [@the_office_of_the_governing_council_secretariat_institutional_1992]; and  as they "foster sustainability, in its environmental, social and economic dimensions" [@university_of_guelph_mission_2024].
+
+Universities must strike a careful balance between what they aim to achieve and how they achieve it. And so, what do AIs do that can advance the mission of universities without compromising their core values?
+
+## What do GenAIs do?{#what-do-ais-do}
+
+At this point, we might as well ask "what do AIs _not_ do"? 
+
+One reason many organizations have spent substantial resources on AIs is that they have been presented as _everything tools_: a technology capable of doing many things humans do, but faster and supposedly cheaper. While most tools are understood to have a limited range of uses, the release of GenAIs was accompanied by innumerable promises--most of them made by entities and individuals with a stake in the adoption of the technology^[Ranging from "AI is inevitable, and I will sell it to you" to "AI is inevitable, and for a consulting fee I will tell you how to level up with it".].
+
+The list of promises have grown to encompass pretty much everything, from saving the planet [by "accelerating sustainability"; @nakagawa_accelerating_2023] to "doubling human lifespans" within the decade [@novak_anthropic_2025]. Transforming health care, finance, human resources, insurance, "and beyond" [@ibm_what_2023] pales besides such momentous accomplishments.
+
+Colleges and universities have not been spared the onslaught of promises.
+
+For example, @power_3_2024, presents three "innovative" uses for AI in higher education. First, handing over manual tasks to AIs could improve the budget by "releasing" administrative staff. AI could assess traits like the "grit" and "empathy" in admission applications. AI could also personalize the experience of consumers [i.e., students] by predicting their final grade with 60-70\% accuracy, and by providing corrective and instructive feedback. 
+
+@hie_how_2023 argue that AIs will be the primary way to access information in the future. For this reason, institutions must equip students with skills like _prompt engineering_, the ability to craft effective queries for GenAIs. Universities will use AIs to improve learning and challenge students' critical thinking. Faculty will also benefit from AI by automating student evaluation and writing course syllabi. Moreover, @hie_how_2023 warn that "AI is here to stay"^[Writing in 2022, Mr. Hié predicted that the metaverse would be a [revolution in higher education](https://www.linkedin.com/pulse/metaverse-dedicated-pedagogy-revolution-higher-education-anthony-hi%C3%A9). This prediction aged poorly: on February, 2023, Microsoft [disbanded](https://www.theinformation.com/articles/microsoft-kills-its-industrial-metaverse-team-after-4-months) its Industrial Metaverse Core Team scantly four months after launching it. Shortly after that, Meta [slashed its own metaverse team](https://www.reuters.com/technology/meta-lay-off-employees-metaverse-silicon-unit-wednesday-2023-10-03/) in October, 2023.], and that "[faculty] might not be able to stop the AI trend from growing" so they should at least try to shape it as best they can.
+
+Similarly hyperbolic claims about AI in higher education can be found peppered throughout the landscape [e.g., @adiguzel_revolutionizing_2023; @contact_north_five_2024; @dwivedi_opinion_2023; @johnson_ai_2023; ]. A fairly comprehensive list [from @johnson_ai_2023] is as follows (notice the use of "can" in the original):
+
+- AI can provide personalized learning.  
+- AI-powered systems can provide smart tutoring.  
+- AI can automate grading.  
+- AI can enable virtual classrooms.  
+- AI can provide data insights for informed decisions.  
+- Natural Language Processing (NLP) can enhance language learning.  
+- AI can create interactive and adaptive learning materials.  
+- AI can identify early signs of learning difficulties.  
+- AI can aid in providing personalised professional development opportunities for teachers.
+- AI can streamline administrative tasks.
+
+Is it really possible for AIs to do all this?
+
+## A note on the terms of the conversation {#terms-of-debate}
+
+Presenting AI as an _everything tool_ is purposeful. This device makes debates around the technology quickly devolve into a [Gish Gallop](https://en.wikipedia.org/wiki/Gish_gallop), a rhetorical style where a party makes an overwhelming number of arguments with little regard to their accuracy or strength. To be sure, AIs can do _some_ things well, but critics are forced to counter every suspect promise with evidence, a more time consuming task than making unsubstantiated and/or misleading claims. Proponents of AI can always admit that AIs may not actually do _that one thing_, but what about the myriad of other things that people say they really do? A second discursive device deployed by proponents of AI is an informal fallacy known as [The False Dilemma](https://en.wikipedia.org/wiki/False_dilemma): adopt AI or fail to level up.
+
+It is not my intention to confront every single possible use of AI in teaching and learning, since doing so plays into the intent of the Gish Gallop. As well, I reject the false dilemma, and remain convinced that there are multiple ways to excel at teaching and learning that do not require AI, let alone submitting to the compromises demanded by AI.
+
+## But what do GenAIs really do? {#really-what-do-they-do}
+
+GenAIs are _deep learning models_ [@ibm_what_2021], so-called because they are neural networks with _depth_, meaning _many_ hidden layers. Large Language Models are models built with multiple layers of neural networks trained on _very_ large amounts of textual data [@ibm_what_2023].
+
+Behind all the jargon, though, the neural networks that underpin GenAI are models designed to produce "statistically probable outputs" when prompted [@ibm_what_2021]. In more conventional terms, neural networks are regression models--much more sophisticated and powerful than linear regression to be sure--but regression models nonetheless [@ripley_neural_1994]. Here, it is important to note that the term regression refers to [regression to the mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean)--regressing an input (e.g., a prompt) to a "statistically probable" outcome.
+
+A regression model uses as inputs a "dependent" variable $y$ (observations of an outcome of interest) and "independent" variables $x$ (observations of things thought to correlate with the dependent variable) to find a conditional mean that becomes the output of the model, or $\hat{y}$ (i.e., a mean value conditional on the values of the dependent variables). To regress the inputs to a conditional mean some criterion needs to be adopted, for example, that the conditional mean minimizes the error of the model).
+
+Neural networks do something similar but using a net-like architecture that allows the model to make non-linear predictions. This flexibility is achieved by using more parameters, but has limits: while each additional parameter makes the model more flexible, it requires one additional datum to train on, and when there are as many parameters as data inputs the model becomes overfit and predicts each value of the independent variable in the training dataset perfectly.
+
+In a neural network trained to work with natural language, the "predictors" are the words that come before and after a certain word. Several approaches exist to _embed_ a "bag" of words, which means using massive amounts of text to calculate how frequently words go together. These frequencies are then converted to numerical vectors that represent the "position" of a word in multidimensional space, and then the "distances" between words.
+
+Here are some key concepts to keep in mind when discussing AIs:
+
+- AIs are neural networks, which is to say, regression models.
+- Regression models generate outputs that are regressions to the mean.
+- AIs are _very_ flexible non-linear regression models thanks to the use of "deep" architectures, which means many layers with many parameters^[According to reports [see @griffith_gpt_4_2023], GPT-1 had 117 million parameters, GPT-2 1.5 billion, and GPT-3 175 billion parameters. OpenAI no longer reports the number of parameters of its newer models, but in the latest version this is estimated to be in the trillions.]. 
+- The large number of parameters makes these models _extremely_ data hungry. 
+- AIs are trained using an initial set of random values. The same training dataset can result in different models due to the randomness in the initial conditions.
+- The flexibility of AIs means that outputs will vary seemingly at random with relatively small changes in the prompt. 
+- Also, importantly, since regression models aim for the mean (i.e., a statistically probable output), they tend to be bad at _extrapolation_ (or thinking outside the box, if AIs could think). The further away an input (i.e., prompt) is from the space defined by the training dataset, the worse the output will tend to be^[Which is why so-called hallucinations became more subtle as bigger datasets were used to train AIs. The increasingly large datasets essentially expanded the space where models could interpolate.].
+- However, when data around a topic are sparse, the regression model can output exactly the training data, because the correlation is perfect.
+
+## GenAIs in teaching and learning {#ai-in-teaching-and-learning}
+
+Uses of AI in universities include writing text (e.g. reference letters, grant applications, job descriptions, report summaries), conducting qualitative and quantitative data analysis, translation, captioning, providing multiple formats for learning and engagement, and for personalized support. Anecdotally, students report wanting to use generative AI not to complete assignments for them, but to help enhance learning in their courses by having concepts explained differently, by working on practice questions or by getting immediate feedback on drafted work. In short, AIs are supposed to help both teachers and students.
+
+### Different explanations of concepts
+
+There are many ways for students to get different perspectives on concepts. They can form study groups, attend office hours to engage with their instructors, ask their Teaching Assistants, ask relatives and friends, and so on. But even for a student who for whatever reason cannot or will not do any of these things, the fact remains that relatively common concepts have already been explained by humans in dozens if not hundreds of different ways, often in writing that is available through their university library. Is an AI tool essential to find alternative explanations for common concepts? Only as a shortcut for a good library search (or to make up for the lack of an academic network, not taking advantage of office hours, etc.), and at the expense of research skills. As for more obscure concepts, given their paucity in training datasets, those would tend to be uncommon, and therefore improbable outputs (i.e. for reasons of lying far from the mean). This strongly suggests that any outputs about specialized queries should be treated with caution.
+
+### Practice questions 
+
+Most textbooks already include plenty of practice questions, especially for relatively common topics. For more specialized topics, asking interesting questions should be a skill in and of itself. An emphasis on practice questions, however, signals an underlying weakness of the process, namely, a focus on learning for the examination, as opposed to learning for its own sake. Posing interesting questions is an essential part of an instructor's job, but this part of the job becomes compromised when instructors are pushed to operate in massive classrooms. In this case, AI is a substitute, and demonstrably not a good one, for a qualified instructor. At issue, at well, is traditional evaluation approaches. A growing body of evidence points towards the effectiveness of alternative assessment schemes, such as continuous assessment through course work, and even seen examinations instead of the traditional unseen examinations [@turner_see_2018]. Alas, unseen examinations continue to dominate the evaluation landscape [@buckley_are_2023]. Ungrading, in particular, is increasingly recognized for its potential to help learners internalize the motivation to learn, and for fostering adaptability, creative thinking, and self-management [@gorichanaz_it_2024]. If studying for the examination often detracts from genuine learning, why are other assessment approaches seldom considered? Research by @vahed_continuous_2023 suggests that instructors need to develop assessment literacy, that is, an understanding of "the fundamental assessment concepts and procedures, and to engage in the ongoing process of adjusting instructional strategies to enrich students learning experiences". There is a indeed a dire need for innovative approaches in assessment, but it is unlikely that AI is the tool to develop them.
+
+### Immediate feedback on drafted work
+
+A conscientious instructor who is not overextended will invest time reading drafted work to provide quality feedback. There is, however, a more insidious aspect about getting feedback from an AI...who, actually, provides the feedback in this case? Whose data are used to train the machine that provides the feedback? Who fine-tunes the machine that provides the feedback? Whose perspectives and views are used to provide the feedback, and can they ever be accountable for the feedback provided? A poignant example of this dilemma involves AI-based face recognition and online proctoring, as related by @hill_accused_2022.
+
+### Creation of innovative learning materials
+
+@mollick_instructors_2024 envision a future in which educators are innovators thanks to their adroit use of prompts for AIs. According to these authors, GenAI stands alone among educational technologies in that it can be "'programmed' through prompts alone", which should allow even instructors "without extensive technology or coding experience" to more easily create classroom applications. 
+
+Leaving the technology fetish about classroom applications aside, Mollick and Mollick are well aware of the ethical concerns around using AI (see p. 6), including copyright violations, exploitation of low-wage workers, as well as the use of biased data. And yet, they choose to ignore every single one of these concerns for the sake of innovation. Exploitative, world-burning machine-washed plagiarism is innovative only in a way that offends "integrity" [@office_of_the_president_mcmaster_university_mission_2024], "individual human rights...equity and justice" [@the_office_of_the_governing_council_secretariat_institutional_1992], and "sustainability, in its environmental, social and economic dimensions" [@university_of_guelph_mission_2024].
+
+But what if the datasets and training processes used to develop GenAIs were unimpeachable, would the practice of generating learning materials using AIs then be "innovative"? Alas, no. As should be clear by now, AI-generated teaching materials can only aspire to be average given the prompts used, and no one should buy the delusion that the use of this technology makes them innovators. In any case, the list of remedial measures required to verify that the materials generated are not nonsense is so long, that it is hard to see what is being gained [see @mollick_instructors_2024, pp. 4-5].
+
+### Automated grading
+
+There is nothing new about automated grading: [Scantron](https://www.scantron.com/company/) sheets for multiple choice examinations have existed for over four decades. They work well because the algorithm needed for grading multiple choices is simple, and importantly, non-random. There is no reason to use a neural network to grade multiple choice examinations. But on the flip side, there is also no evidence that a neural network can perform well at grading anything more complex than a multiple choice examination, since 1) it will tend to consider things that are closer to the mean as "better"; and 2) the amount of training data required for a classification task of this nature is massive. Labeling data is an essential, yet extremely expensive aspect of training GenAIs. The algorithm needs a "dependent" variable for training, a "label", which in this case a grade that a human assigned to a piece of work. Given all the possible variations of assignments (by year, by subject, by instructor), a general grading machine would require vast volumes of _labelled_ training data, and even so there is no guarantee that the results would be adequate, let alone appropriate.
+
+### Writing reference letters
+
+Using a chatbot to write reference letters must be one of the most pointless uses of chatbots, or one of the most dishonest. Imagine that the reference letter honestly included a disclosure that ChatGPT was used to write it. If the objective of a reference letter is for someone to attest from the vantage point of some level of expertise as to the skills and qualities of a person, a chatbot-written letter is probably worse than useless: what message does the disclaimer send to the recipient of the letter? And how much stock will anyone place on the veracity of the letter? To avoid this catch, one would have to occult or obscure the use of AI, an act that lays bare the dishonesty of the activity.
+
+### Qualitative and quantitative data analysis
+
+Computers have been doing mathematics reliably since at least the [Antikythera mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism) (ca. 178 BC),. Electronic computers have been doing mathematics for decades now, and neural networks have been used for decades to do data analysis. There is nothing new about that.  But the promise rather is that we will be able to do data analysis without having to _learn_ how to do data analysis. The idea that a chatbot could be used to do data analysis betrays a profound misunderstanding of both what chatbots do and what data analysis entails. Ask a chatbot to do some arithmetic: it will produce something that is right on average. But average is not always right. And seeing how AIs are now being trained on the dregs of the internet, it should be no surprise when an AI Overview responds to the prompt "2 + 2" with "potato" (@fig-flickr-potate).
+
+```{r flickr-potato, out.width="70%", fig.cap="Data analysis using a chatbot? Maybe not such a good idea"}
+#| label: fig-flickr-potato
+
+knitr::include_graphics(glue::glue(here::here(), "/images/potato.png"))
+```
+
+An error like this is easy to spot. But we do not use computers to do calculations that can be done by hand, and checking the correctedness of an AI-generated response is as time consuming as doing the analysis without an AI [see @yuan_how_2023].
+
+But what about a task that involves logic instead of arithmetic? Research by @nezhurina_alice_2024 demonstrates that relatively simple natural language puzzles that are easily solved by humans often result in confidently expressed errors when used to prompt an AI. Wrong answers, furthermore, are frequently backed up by confabulations, that is, nonsense expressed in reasoning-like terms. The connections between words that LLMs deliver are but probabilistic word salads: @xu_hallucination_2024 use a formal approach to show that LLMs are inherently incapable of mapping outputs to truths, and thus their results will only ever resemble truth purely by chance. The outputs of a chatbot only sound plausible thanks to the vast amount of data points and parameters that the models use. But if the objective of qualitative research is to identify interesting aspects of the human experience, it is certainly not the case that they will be found in a regression to the mean.
+
+### Identify early signs of learning difficulties.  
+
+An AI should not be used to identify signs of learning difficulties for the same reasons that AIs cannot be trusted to identify text written by an AI. The false positive and negative rates are disproportionate compared to the benefits. A vigilant instructor will be aware of learning difficulties among their students. But were the process to become automated, who would decide when an intervention was warranted, and who qualified for it? Would the intervention be offered to everyone flagged by the system, including the false positives? And, could those denied an intervention complain? Importantly, who would fund an intervention, and who would deliver it? Another AI? 
+
+### Personalized learning
+
+Anyone receiving "personalized learning opportunities" from an AI can be sure that they will be treated as the machine-generated average of the dataset used to train the model, and not as a person.
+
+## What do GenAIs do to students and teachers? {#what-can-ais-do-to-students}
+
+The preceding section illustrates numerous AI tasks in higher education are in fact poor replacements for a human-centered education. But what about the things that GenAIs can do _to_ students?
+
+### Distract from learning and deskilling
+
+Reliance on AI short-circuits the learning process. Statements like "in the very near future AIs will likely be the primary way we access knowledge" [@hie_how_2023] imply that prompt engineering will become an essential skill, perhaps even the skill to end all skills^[Prompt engineering is a pompous name for a task that more closely resembles reading the entrails of a Large Language Model than actual engineering. It is a task that cannot be performed in a systematic way, and that offers no guarantees that it will work in the same way again, between models or versions. Calling the activity of writing prompts "engineering" is to steal the competence and reputation of actual engineering.].
+
+It is important to note that, even if prompt "engineering" offered some value, it is a skill that offers little transferability potential. @mollick_instructors_2024 demonstrate how prompt "engineering" is not transferable _between_ different LLMs (see p. 5 and p. 36). Learning to do effective bibliographical queries transfers between libraries. Learning to identify relevant content works for reading a novel, a book of history, or a text of econometrics. Writing, the slow and demanding process of converting thoughts into words, is essential to create a style of communication that is unique to each person. It might be argued, in fact, that writing _is_ learning [@klein_trends_2016].
+
+AIs are presented as all-terrain vehicles, but are more like a crutch, however one that the user will never own, and cannot hope to fully master due to its black-box nature [@judelson_restaging_2024]
+
+However, let us assume for a moment that using AIs in their current form does becomes an in-demand tool in the short term. What is the expected longevity of a skill like prompt "engineering"?
+
+Improvement in the performance of AIs has relied on using bigger datasets. This has led to a rush, as developers train their models using bigger datasets^[A rush that feels as frenetic as any gold rush in the past. However, while the gold rushes of the 19th century were relatively democratic due to their low entry costs, the current data rush has enormous entry costs and is dominated by large corporations and venture capital.]. But, despite the large number of text items and images available in digital form, the supply is finite and, like an overexploited river^[As of this writing, the few big players that can afford to grab the data, are mostly done with it, using morally dubious and possibly illegal means [@clark_ex-amazon_2024; @milmo_zuckerberg_2025; @smalley_linkedin_2025].], human-generated content has been reduced to a drip [q.v., @delacroix_sustainable_2024]. In response to this, there has been a turn towards what might be the last untapped drops of genuine human-generated information left on the internet, often to the disgust of humans there^[OpenAI resorted to data from Stack Overflow [@stack_overflow_stack_2024], a website that [bills itself](https://stackoverflow.com) as "[a] community-based space to find and contribute answers to technical challenges". Said community was [unhappy](https://favtutor.com/articles/stack-overflow-community-not-happy-openai/) with the deal, and has come to believe that the terms were abusive].
+
+Google, for example, appealed to Reddit for training data to the tune of \$60 million per year [@roth_google_2024]. As Reddit content begins to creep into Google's AI-assisted search, the results of this deal have turned grotesque, with reports of AI Overview failures that include a suggestion to put non-toxic glue to pizza sauce to keep the cheese from sliding [@koebler__google_2024].
+
+```{r google-reddit, out.width="70%", fig.cap="Google's AI Overview result was traced back to a post by redditor Fucksmith"}
+#| label: fig-google-reddit
+
+knitr::include_graphics(glue::glue(here::here(), "/images/google-cheese-glue.png"))
+```
+
+Other AI Overview results included a recommendation by geologists to eat at least one small rock a day, a piece of advice tracked back to an article published by the satirical periodical [The Onion](https://www.theonion.com/geologists-recommend-eating-at-least-one-small-rock-per-1846655112) (@fig-google-the-onion).
+
+```{r google-the-onion, out.width="70%", fig.cap="Google's AI Overview result was traced back to an article in The Onion"}
+#| label: fig-google-the-onion
+
+knitr::include_graphics(glue::glue(here::here(), "/images/google-the-rock.jpg"))
+```
+
+These results are produced by an AI that Google has already spent tens of billions of dollars developing [@vynck_after_2024]. To what extent can more money improve GenAIs? Probably not by much, since a key constraint is the amount of data available for model training [@villalobos_position_2024]. And dismal as this is, the outlook is even worse: as GenAIs become more widely used, they produce data at a pace that humans cannot match, much of which is already finding its way into the internet in the form of text and images--and not only through clickbait websites and disinformation [@ruffo_studying_2023], but also in scientific writing, supposedly the world's most thoroughly vetted form of writing [@cabanac_tortured_2021; @maiberg_ai_2024]. The result is predictable: future GenAI models will inevitably be trained using data that was generated by previous GenAIs, leading to outputs that will be less varied, less diverse, and more norm-conforming. In other words, we may be witnessing _Peak ChatGPT_, and future model versions, instead of improving, may begin to regress to duller versions of their own previous outputs. To compound things, as the backlash against an exploitative data rush is suuported by new tools to generate data that are deleterious to the training process of a GenAIs [@salman_raising_2023], including _PhotoGuard_ [@heikkila_this_2023], _Nightshade_ [@shan_nightshade_2024], and _Shadowcast_ [@xu_shadowcast_2024].
+
+All in all, the evidence suggests that the scarcity of fresh data, paired with more abundant model-generated and/or poisoned data, will make the performance of these machines stagnate or deteriorate.
+
+## What do GenAIs do for the corporations pushing them? {#what-do-ais-for-corporations}
+
+AIs do not offer much of value in teaching and learning: they are wasteful at best and harmful at worst. But the technology must do something for someone, otherwise it would not be ubiquitous. So far, the breakneck race to develop AI has soaked immense amounts of venture capital and other speculative money, in addition to incalculable resources by many other entities^[Some observers believe that the AI fever has become detrimental to actual innovation [@siegel_ai_2023; @vinsel_dont_2023].]. Between 2012 and 2020, venture capital investments in AI grew twenty five-fold, from \$3 billion (USD) to \$75 billion (USD) [@tricot_venture_2021]. But, the industry has not necessarily made money for investors yet. 
+
+@berber_peter_2024, for instance, reports that the AI industry spent \$50 billion (USD) in 2023 on chips alone, while bringing in only $3 billion in revenue. @patel_inference_2023 estimated that incorporating ChatGPT-like LLMs into search would lead to a loss of \$30 billion (USD) in profit for Google. At a guess, the industry is running at a loss in almost every respect: in the same report, @patel_inference_2023 calculated the cost of running a query in ChatGPT at about \$0.36--so it would take just about 57 monthly queries per user with a "Plus" subscription ([\$20/month](https://openai.com/chatgpt/pricing/)) before OpenAI stareted losing money on that one customer. The profitability of AI would look even worse if not for the fact that the cost of labor is contained by outsourcing  to the Global South the most disturbing, degrading, and damaging aspects of training AIs [@nix_analysis_2024].
+
+Venture capital is not known for its charitable nature, though, and at some point investors will want their money back with a heap of profit on top [@sriram_ai_2023]. Who will pay to make investors whole? And how much those who end up paying will need to pay? Or, in the worst case, will _have_ to pay, if their skills become tied to this one technology? Deskilling, both of individuals and of organizations, appears to be one of the few pathways to AI profitability: once people have failed to learn a skill, and therefore become dependent on the tool, it becomes possible for the maker of the tool to turn into a digital rentier [@sadowski_internet_2020; @komljenovic_rise_2021]. From this perspective, what is on offer by the AI industry is SaaS--Skill as a Service.
+
+## Concluding remarks
+
+Neural networks are nothing new and they have their uses. But those uses have been suffocated, and to some extent discredited, by the current, carefully manufactured hype around Generative AI [@morrone_signals_2024]. There are now calls to press pause on the hype [e.g., @angwin_press_2024] and universities and colleges would be wise to heed this advice. Higher education is often driven by a deeply ingrained belief in innovation (even, or perhaps particularly, for its own sake), and this impulse is compounded by how AIs have been presented as _everything tools_ and their adoption drawn as a false dilemma. Other pressures at work include a decades-long history of manufactured crises in education [@cizek_give_1999; @usher_state_2023].
+
+This essay argues that current AI technologies, far from being _everything tools_, are simply exceptionally complex regressions to the mean. They cannot be used reliably to retrieve or generate information [@hanlon_llm_2024], and their adoption is inconsistent with values like integrity [@vee_moral_2024], respect for human rights [@nix_analysis_2024], and environmental sustainability [@hogan_fumes_2024]. We would do our students an unforgivable disservice by teaching them to use a crutch while leading them to believe that they are driving an all-terrain. In truth, a university is too expensive to be attractive for learning to depend on Skill-as-a-Service, when there are far cheaper alternatives (@fig-trail-blazing-bundle). As well, following the hype would be a regrettable mistake at a time when universities are under siege from unsympathetic or actively hostile actors. A university’s main source of authority is its reputation as a place that preserves and expands knowledge in a principled way: AIs do not and cannot do this. If we trade the reputation of universities for expediency, what would be left to sustain them as institutions valuable to societies?
+
+```{r ai-bundle, out.width="150%", fig.cap="A trail-blazing bundle: ChatGPT for data science and data analysis in Python"}
+#| label: fig-trail-blazing-bundle
+
+ggdraw() + 
+  draw_image(image = glue::glue(here::here(), "/images/trail-blazing-ai-bundle.png", width = 0.8))
+```
+
+
+## References
